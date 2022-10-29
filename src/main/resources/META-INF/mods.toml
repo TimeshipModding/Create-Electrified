@@ -59,7 +59,7 @@ Work in progress!
 [[dependencies.modid]]
     modId="create"
     mandatory=true
-    versionRange="[0.5.0.e,)"
+    versionRange="[0.5.0.f,)"
     ordering="NONE"
     side="BOTH"
 # Minecraft version range
