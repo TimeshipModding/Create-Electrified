@@ -1,4 +1,4 @@
-C:\Users\wyatt\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.47_mapped_official_1.19.2\forge-1.19.2-43.1.47_mapped_official_1.19.2.jar
+C:\Users\wyatt\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.47_mapped_official_1.19.2\forge-1.19.2-43.1.47_mapped_official_1.19.2-recomp.jar
 C:\Users\wyatt\.gradle\caches\forge_gradle\minecraft_repo\versions\1.19.2\client-extra.jar
 C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.47\1668d395b1f93c5591eb7447b5c808e2af1d0e0a\javafmllanguage-1.19.2-43.1.47.jar
 C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.47\a0d8118fdf70df78a1c014913a286ac4acce9d7a\lowcodelanguage-1.19.2-43.1.47.jar
