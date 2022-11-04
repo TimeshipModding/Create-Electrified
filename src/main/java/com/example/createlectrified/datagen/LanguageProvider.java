@@ -1,6 +1,7 @@
 package com.example.createlectrified.datagen;
 
 import com.example.createlectrified.CreateElectrified;
+import com.example.createlectrified.registry.ModItems;
 import net.minecraft.data.DataGenerator;
 
 public class LanguageProvider extends net.minecraftforge.common.data.LanguageProvider {
@@ -10,7 +11,8 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
 
     @Override
     protected void addTranslations() {
-        add(Registration.RAW_MYSTERIOUS_CHUNK.get(), "Mysterious Raw Chunk");
+        add(ModItems.ALUMINIUM_INGOT.get(), "Aluminium Ingot");
+        add(ModItems.ALUMINIUM_NUGGET.get(), "Aluminium Nugget");
     }
 }
 
