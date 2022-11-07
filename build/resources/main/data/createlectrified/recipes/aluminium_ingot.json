@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "createlectrified",
+  "ingredients": [
+    {
+      "item": "createlectrified:aluminium_nugget"
+    },
+    {
+      "item": "createlectrified:aluminium_nugget"
+    },
+    {
+      "item": "createlectrified:aluminium_nugget"
+    },
+    {
+      "item": "createlectrified:aluminium_nugget"
+    },
+    {
+      "item": "createlectrified:aluminium_nugget"
+    },
+    {
+      "item": "createlectrified:aluminium_nugget"
+    },
+    {
+      "item": "createlectrified:aluminium_nugget"
+    },
+    {
+      "item": "createlectrified:aluminium_nugget"
+    },
+    {
+      "item": "createlectrified:aluminium_nugget"
+    }
+  ],
+  "result": {
+    "item": "createlectrified:aluminium_ingot"
+  }
+}

@@ -1,7 +1,12 @@
 package com.example.createlectrified.datagen;
 
 import com.example.createlectrified.CreateElectrified;
-import com.example.createlectrified.datagen.*;
+import com.example.createlectrified.datagen.BlockStates.PlaceHolder;
+import com.example.createlectrified.datagen.ItemModels.Items;
+import com.example.createlectrified.datagen.LootTables.Ores;
+import com.example.createlectrified.datagen.Recipes.Shapeless;
+import com.example.createlectrified.datagen.Tags.BlockTags;
+import com.example.createlectrified.datagen.Tags.ItemTags;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -13,13 +18,15 @@ public class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
-        generator.addProvider(event.includeServer(), new Recipes(generator));
-        generator.addProvider(event.includeServer(), new LootTables(generator));
+        // Recipes
+        generator.addProvider(event.includeServer(), new Shapeless(generator));
+        // LootTables
+        generator.addProvider(event.includeServer(), new Ores(generator));
         BlockTags blockTags = new BlockTags(generator, event.getExistingFileHelper());
         generator.addProvider(event.includeServer(), blockTags);
         generator.addProvider(event.includeServer(), new ItemTags(generator, blockTags, event.getExistingFileHelper()));
-        generator.addProvider(event.includeClient(), new BlockStates(generator, event.getExistingFileHelper()));
-        generator.addProvider(event.includeClient(), new ItemModels(generator, event.getExistingFileHelper()));
-        generator.addProvider(event.includeClient(), new LanguageProvider(generator, "en_us"));
+        generator.addProvider(event.includeClient(), new PlaceHolder(generator, event.getExistingFileHelper()));
+        generator.addProvider(event.includeClient(), new Items(generator, event.getExistingFileHelper()));
+        generator.addProvider(event.includeClient(), new com.example.createlectrified.datagen.LanguageProviders.Items(generator, "en_us"));
     }
 }
