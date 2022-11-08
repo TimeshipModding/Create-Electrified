@@ -1,4 +1,6 @@
 {
   "item.createlectrified.aluminium_ingot": "Aluminium Ingot",
-  "item.createlectrified.aluminium_nugget": "Aluminium Nugget"
+  "item.createlectrified.aluminium_nugget": "Aluminium Nugget",
+  "item.createlectrified.electrum": "Electrum",
+  "itemGroup.electrifiedtab1": "Create: Electrified"
 }

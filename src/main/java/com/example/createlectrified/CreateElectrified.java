@@ -2,8 +2,8 @@ package com.example.createlectrified;
 
 import com.example.createlectrified.registries.ModBlocks;
 import com.example.createlectrified.registries.ModItems;
-import com.example.createlectrified.setup.ClientSetup;
-import com.example.createlectrified.setup.ModSetup;
+import setup.ClientSetup;
+import setup.ModSetup;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
