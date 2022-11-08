@@ -9,6 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import static com.example.createlectrified.CreateElectrified.MODID;
+import static com.example.createlectrified.registries.ModBlocks.MYSTERIOUS_ORE_OVERWORLD;
 
 public class ModItems {
 
@@ -23,5 +24,8 @@ public class ModItems {
     public static final RegistryObject<Item> ALUMINIUM_NUGGET = ITEMS.register("aluminium_nugget", () -> new Item(ITEM_PROPERTIES));
     public static final RegistryObject<Item> ALUMINIUM_INGOT = ITEMS.register("aluminium_ingot", () -> new Item(ITEM_PROPERTIES));
     public static final RegistryObject<Item> ELECTRUM = ITEMS.register("electrum", () -> new Item(ITEM_PROPERTIES));
+
+    public static final RegistryObject<Item> MYSTERIOUS_ORE_OVERWORLD_ITEM = fromBlock(MYSTERIOUS_ORE_OVERWORLD);
+    public static final RegistryObject<Item> MYSTERIOUS_ORE_NETHER_ITEM = fromBlock(MYSTERIOUS_ORE_NETHER);
 }
 
