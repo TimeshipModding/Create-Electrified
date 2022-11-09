@@ -2,8 +2,9 @@ package com.example.createlectrified;
 
 import com.example.createlectrified.registries.ModBlocks;
 import com.example.createlectrified.registries.ModItems;
-import setup.ClientSetup;
-import setup.ModSetup;
+import com.example.createlectrified.registries.ModTags;
+import com.example.createlectrified.setup.ClientSetup;
+import com.example.createlectrified.setup.ModSetup;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
@@ -23,6 +24,7 @@ public class CreateElectrified {
         // Register the registry classes
         ModItems.init();
         ModBlocks.init();
+        ModTags.init();
 
         // Register the setup method for modloading
         IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": {
+    "tag": "createlectrified:electrum_ore_item"
+  },
+  "result": "createlectrified:electrum"
+}

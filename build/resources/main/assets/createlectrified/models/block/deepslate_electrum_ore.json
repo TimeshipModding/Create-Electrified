@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "createlectrified:block/deepslate_electrum_ore"
+  }
+}

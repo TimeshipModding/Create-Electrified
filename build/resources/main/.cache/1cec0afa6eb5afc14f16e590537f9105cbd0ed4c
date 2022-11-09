@@ -1,1 +1,3 @@
-// 1.19.2	2022-11-07T17:06:27.7727168	Create: Electrified LootTables
+// 1.19.2	2022-11-08T17:57:36.7626661	Create: Electrified LootTables
+615ad3270412e819d10dd37fb72a9f38c6ace344 data/createlectrified/loot_tables/blocks/deepslate_electrum_ore.json
+e1c6ea17d665faaee0c2d82ad468c22fe69f2c19 data/createlectrified/loot_tables/blocks/electrum_ore.json
