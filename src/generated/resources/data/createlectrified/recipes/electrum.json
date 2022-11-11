@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "createlectrified",
+  "ingredients": [
+    {
+      "item": "createlectrified:electrum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "createlectrified:electrum"
+  }
+}

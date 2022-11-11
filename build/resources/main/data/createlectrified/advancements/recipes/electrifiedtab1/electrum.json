@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "createlectrified:aluminium_nugget"
+              "createlectrified:electrum_block"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "createlectrified:aluminium_ingot"
+        "recipe": "createlectrified:electrum"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "createlectrified:aluminium_ingot"
+      "createlectrified:electrum"
     ]
   }
 }

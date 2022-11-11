@@ -20,13 +20,13 @@ public class ModCreativeModeTab {
         @Override
         public void fillItemList(NonNullList<ItemStack> pItems) {
             pItems.add(new ItemStack(ModItems.ELECTRUM.get()));
+            pItems.add(new ItemStack(ModBlocks.ELECTRUM_ORE.get()));
+            pItems.add(new ItemStack(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get()));
+            pItems.add(new ItemStack(ModBlocks.ELECTRUM_BLOCK.get()));
             pItems.add(new ItemStack(ModItems.RAW_ALUMINIUM.get()));
             pItems.add(new ItemStack(ModItems.ALUMINIUM_INGOT.get()));
             pItems.add(new ItemStack(ModItems.ALUMINIUM_NUGGET.get()));
-            pItems.add(new ItemStack(ModBlocks.ELECTRUM_ORE.get()));
-            pItems.add(new ItemStack(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get()));
             pItems.add(new ItemStack(ModBlocks.RAW_ALUMINIUM_BLOCK.get()));
-            pItems.add(new ItemStack(ModBlocks.ELECTRUM_BLOCK.get()));
             pItems.add(new ItemStack(ModBlocks.ALUMINIUM_BLOCK.get()));
         }
     };

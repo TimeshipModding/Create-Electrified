@@ -2,6 +2,8 @@
   "values": [
     "createlectrified:electrum_ore",
     "createlectrified:deepslate_electrum_ore",
-    "createlectrified:raw_aluminium_block"
+    "createlectrified:raw_aluminium_block",
+    "createlectrified:aluminium_block",
+    "createlectrified:electrum_block"
   ]
 }

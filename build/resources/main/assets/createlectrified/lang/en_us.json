@@ -1,7 +1,9 @@
 {
+  "block.createlectrified.aluminium_block": "Block of Aluminium",
   "block.createlectrified.deepslate_electrum_ore": "Deepslate Electrum Ore",
+  "block.createlectrified.electrum_block": "Block of Electrum",
   "block.createlectrified.electrum_ore": "Electrum Ore",
-  "block.createlectrified.raw_aluminium_block": "Raw Aluminium Block",
+  "block.createlectrified.raw_aluminium_block": "Block of Raw Aluminium",
   "item.createlectrified.aluminium_ingot": "Aluminium Ingot",
   "item.createlectrified.aluminium_nugget": "Aluminium Nugget",
   "item.createlectrified.electrum": "Electrum",

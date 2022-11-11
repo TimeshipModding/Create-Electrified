@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "createlectrified",
+  "ingredients": [
+    {
+      "item": "createlectrified:electrum"
+    },
+    {
+      "item": "createlectrified:electrum"
+    },
+    {
+      "item": "createlectrified:electrum"
+    },
+    {
+      "item": "createlectrified:electrum"
+    },
+    {
+      "item": "createlectrified:electrum"
+    },
+    {
+      "item": "createlectrified:electrum"
+    },
+    {
+      "item": "createlectrified:electrum"
+    },
+    {
+      "item": "createlectrified:electrum"
+    },
+    {
+      "item": "createlectrified:electrum"
+    }
+  ],
+  "result": {
+    "item": "createlectrified:electrum_block"
+  }
+}

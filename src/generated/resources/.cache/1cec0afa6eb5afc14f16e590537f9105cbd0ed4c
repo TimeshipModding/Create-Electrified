@@ -1,4 +1,6 @@
-// 1.19.2	2022-11-11T14:02:30.5969164	Create: Electrified LootTables
+// 1.19.2	2022-11-11T18:58:10.8590234	Create: Electrified LootTables
+bcb0df3668acb0f2873173344365ca60266e2be0 data/createlectrified/loot_tables/blocks/aluminium_block.json
 f4666e16d65589685a05ef1241585d32c9b44b54 data/createlectrified/loot_tables/blocks/deepslate_electrum_ore.json
+c9545f3a7becaa9acb338d97f18796f4537fe646 data/createlectrified/loot_tables/blocks/electrum_block.json
 e1c6ea17d665faaee0c2d82ad468c22fe69f2c19 data/createlectrified/loot_tables/blocks/electrum_ore.json
 e9bba5b61691b9b85e33eea12f5c9ea55fb29801 data/createlectrified/loot_tables/blocks/raw_aluminium_block.json

@@ -1,7 +1,11 @@
-// 1.19.2	2022-11-11T14:02:30.5969164	Block States: createlectrified
+// 1.19.2	2022-11-11T18:58:10.8560277	Block States: createlectrified
+6a1533b77cd7db5aeae3faa90ea1e3d17c0761a4 assets/createlectrified/blockstates/aluminium_block.json
 10cdf02c2522e07d59108c961bfff987611a3017 assets/createlectrified/blockstates/deepslate_electrum_ore.json
+8d4fdc2cbf986ccd1c2ec2f101bbe0d84c80010d assets/createlectrified/blockstates/electrum_block.json
 9d25838fea49f1bed1739cd776831f2460612004 assets/createlectrified/blockstates/electrum_ore.json
 e1362fc7df96ecaa50276f8260cc6ee249b528f0 assets/createlectrified/blockstates/raw_aluminium_block.json
+b0d0e469e927ba721f4465912dcd2000b6c7f290 assets/createlectrified/models/block/aluminium_block.json
 f5e74843d2689c8475549d73d75ad803930300b8 assets/createlectrified/models/block/deepslate_electrum_ore.json
+b20cfe4b2b4060ba9468af888badcdc63b9e7f76 assets/createlectrified/models/block/electrum_block.json
 058320085c33dff41ae4877fa97327f62860e7ec assets/createlectrified/models/block/electrum_ore.json
 776ac03c727890fd682a2f488c2f25cbef27891d assets/createlectrified/models/block/raw_aluminium_block.json
