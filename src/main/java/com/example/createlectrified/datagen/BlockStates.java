@@ -16,5 +16,7 @@ public class BlockStates extends BlockStateProvider {
         simpleBlock(ModBlocks.ELECTRUM_ORE.get());
         simpleBlock(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
         simpleBlock(ModBlocks.RAW_ALUMINIUM_BLOCK.get());
+        simpleBlock(ModBlocks.ALUMINIUM_BLOCK.get());
+        simpleBlock(ModBlocks.ELECTRUM_BLOCK.get());
     }
 }

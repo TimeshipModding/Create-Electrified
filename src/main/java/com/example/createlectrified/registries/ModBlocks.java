@@ -28,9 +28,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> ELECTRUM_ORE
             = BLOCKS.register("electrum_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.0F, 3.0F), UniformInt.of(1, 3)));
     public static final RegistryObject<Block> DEEPSLATE_ELECTRUM_ORE
-            = BLOCKS.register("deepslate_electrum_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(ModBlocks.ELECTRUM_ORE.get()).color(MaterialColor.DEEPSLATE).strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(1, 3)));
+            = BLOCKS.register("deepslate_electrum_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(ModBlocks.ELECTRUM_ORE.get()).strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(1, 3)));
     public static final RegistryObject<Block> RAW_ALUMINIUM_BLOCK
             = BLOCKS.register("raw_aluminium_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final RegistryObject<Block> ALUMINIUM_BLOCK
+            = BLOCKS.register("aluminium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final RegistryObject<Block> ELECTRUM_BLOCK
+            = BLOCKS.register("electrum_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
 
 }
 

@@ -6,6 +6,7 @@ import net.minecraft.world.level.block.Block;
 import com.example.createlectrified.setup.ModCreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -31,6 +32,8 @@ public class ModItems {
     public static final RegistryObject<Item> ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.ELECTRUM_ORE);
     public static final RegistryObject<Item> DEEPSLATE_ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.DEEPSLATE_ELECTRUM_ORE);
     public static final RegistryObject<Item> RAW_ALUMINIUM_BLOCK_ITEM = fromBlock(ModBlocks.RAW_ALUMINIUM_BLOCK);
+    public static final RegistryObject<Item> ALUMINIUM_BLOCK_ITEM = fromBlock(ModBlocks.ALUMINIUM_BLOCK);
+    public static final RegistryObject<Item> ELECTRUM_BLOCK_ITEM = fromBlock(ModBlocks.ELECTRUM_BLOCK);
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

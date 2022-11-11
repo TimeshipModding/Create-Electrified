@@ -21,7 +21,6 @@ public class Recipes extends RecipeProvider {
 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> consumer) {
-
         // Shapeless Recipes
         ShapelessRecipeBuilder.shapeless(ModItems.ALUMINIUM_NUGGET.get(), 9)
                 .requires(ModItems.ALUMINIUM_INGOT.get())
@@ -42,6 +41,26 @@ public class Recipes extends RecipeProvider {
                 .requires(ModBlocks.RAW_ALUMINIUM_BLOCK.get())
                 .group("createlectrified")
                 .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.RAW_ALUMINIUM_BLOCK.get()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.ALUMINIUM_BLOCK.get(), 9)
+                .requires(ModItems.ALUMINIUM_INGOT.get(), 9)
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ALUMINIUM_INGOT.get()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModItems.ALUMINIUM_INGOT.get(), 9)
+                .requires(ModBlocks.ALUMINIUM_BLOCK.get())
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.ALUMINIUM_BLOCK.get()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.ELECTRUM_BLOCK.get())
+                .requires(ModItems.ELECTRUM.get(), 9)
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ELECTRUM.get()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModItems.ELECTRUM.get(), 9)
+                .requires(ModBlocks.ELECTRUM_BLOCK.get())
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.ELECTRUM_BLOCK.get()))
                 .save(consumer);
 
         // Cooking Recipes

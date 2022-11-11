@@ -26,6 +26,8 @@ public class ModCreativeModeTab {
             pItems.add(new ItemStack(ModBlocks.ELECTRUM_ORE.get()));
             pItems.add(new ItemStack(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get()));
             pItems.add(new ItemStack(ModBlocks.RAW_ALUMINIUM_BLOCK.get()));
+            pItems.add(new ItemStack(ModBlocks.ELECTRUM_BLOCK.get()));
+            pItems.add(new ItemStack(ModBlocks.ALUMINIUM_BLOCK.get()));
         }
     };
 }

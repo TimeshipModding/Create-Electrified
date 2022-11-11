@@ -23,7 +23,9 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
 
         add(ModBlocks.ELECTRUM_ORE.get(),"Electrum Ore");
         add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(),"Deepslate Electrum Ore");
-        add(ModBlocks.RAW_ALUMINIUM_BLOCK.get(), "Raw Aluminium Block");
+        add(ModBlocks.RAW_ALUMINIUM_BLOCK.get(), "Block of Raw Aluminium");
+        add(ModBlocks.ALUMINIUM_BLOCK.get(), "Block of Aluminium");
+        add(ModBlocks.ELECTRUM_BLOCK.get(), "Block of Electrum");
     }
 }
 
