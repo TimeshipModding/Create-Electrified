@@ -21,5 +21,6 @@ public class ItemModels extends ItemModelProvider {
 
         withExistingParent(ModBlocks.ELECTRUM_ORE.getId().getPath(), modLoc("block/electrum_ore"));
         withExistingParent(ModBlocks.DEEPSLATE_ELECTRUM_ORE.getId().getPath(), modLoc("block/deepslate_electrum_ore"));
+        withExistingParent(ModBlocks.RAW_ALUMINIUM_BLOCK.getId().getPath(), modLoc("block/raw_aluminium_block"));
     }
 }

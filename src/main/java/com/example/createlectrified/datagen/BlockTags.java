@@ -18,13 +18,12 @@ public class BlockTags extends BlockTagsProvider {
     protected void addTags() {
         tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.ELECTRUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
+                .add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get())
+                .add(ModBlocks.RAW_ALUMINIUM_BLOCK.get());
         tag(net.minecraft.tags.BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ELECTRUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
-        tag(Tags.Blocks.ORES)
-                .add(ModBlocks.ELECTRUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
+                .add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get())
+                .add(ModBlocks.RAW_ALUMINIUM_BLOCK.get());
 
         tag(ModTags.ELECTRUM_ORE_BLOCK)
                 .add(ModBlocks.ELECTRUM_ORE.get())

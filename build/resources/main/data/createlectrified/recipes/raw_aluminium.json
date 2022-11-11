@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "createlectrified",
+  "ingredients": [
+    {
+      "item": "createlectrified:raw_aluminium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "createlectrified:raw_aluminium"
+  }
+}

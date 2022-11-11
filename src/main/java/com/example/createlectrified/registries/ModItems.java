@@ -1,6 +1,7 @@
 package com.example.createlectrified.registries;
 
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.Block;
 import com.example.createlectrified.setup.ModCreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -29,6 +30,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.ELECTRUM_ORE);
     public static final RegistryObject<Item> DEEPSLATE_ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.DEEPSLATE_ELECTRUM_ORE);
+    public static final RegistryObject<Item> RAW_ALUMINIUM_BLOCK_ITEM = fromBlock(ModBlocks.RAW_ALUMINIUM_BLOCK);
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

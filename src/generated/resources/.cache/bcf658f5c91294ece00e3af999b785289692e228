@@ -1,7 +1,2 @@
-// 1.19.2	2022-11-08T18:56:08.993059	Create: Electrified Tags
+// 1.19.2	2022-11-11T14:02:30.5989114	Create: Electrified Tags
 8d7f34a850668e519f5bff9ad3a7260c3ebb630a data/createlectrified/tags/items/electrum_ore_item.json
-f212b4344738ff7c8d1df46ce6fe325e11d4e8bf data/forge/tags/items/gems.json
-e5e86f01ae4979f28f5ef3a9fa366d3680f51107 data/forge/tags/items/ingots.json
-e5e86f01ae4979f28f5ef3a9fa366d3680f51107 data/forge/tags/items/nuggets.json
-8d7f34a850668e519f5bff9ad3a7260c3ebb630a data/forge/tags/items/ores.json
-572e22a15dd7a763b8d184b98bfb4d7de6911079 data/forge/tags/items/raw_materials.json

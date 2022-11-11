@@ -1,5 +1,6 @@
 package com.example.createlectrified.datagen;
 
+import com.example.createlectrified.registries.ModBlocks;
 import com.example.createlectrified.registries.ModItems;
 import com.example.createlectrified.registries.ModTags;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
@@ -31,6 +32,16 @@ public class Recipes extends RecipeProvider {
                 .requires(ModItems.ALUMINIUM_NUGGET.get(), 9)
                 .group("createlectrified")
                 .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ALUMINIUM_NUGGET.get()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.RAW_ALUMINIUM_BLOCK.get(), 9)
+                .requires(ModItems.RAW_ALUMINIUM.get(), 9)
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.RAW_ALUMINIUM.get()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModItems.RAW_ALUMINIUM.get(), 9)
+                .requires(ModBlocks.RAW_ALUMINIUM_BLOCK.get())
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.RAW_ALUMINIUM_BLOCK.get()))
                 .save(consumer);
 
         // Cooking Recipes

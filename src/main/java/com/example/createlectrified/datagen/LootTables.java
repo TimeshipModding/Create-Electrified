@@ -12,6 +12,9 @@ public class LootTables extends BaseLootTableProvider {
     protected void addTables() {
         // Ore LootTables
         lootTables.put(ModBlocks.ELECTRUM_ORE.get(), createSilkTouchTable("electrum_ore", ModBlocks.ELECTRUM_ORE.get(), ModItems.ELECTRUM.get(), 1, 3));
-        lootTables.put(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(), createSilkTouchTable("mysterious_ore_nether", ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(), ModItems.ELECTRUM.get(), 1, 3));
+        lootTables.put(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(), createSilkTouchTable("deepslate_electrum_ore", ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(), ModItems.ELECTRUM.get(), 1, 3));
+
+        // Blocks
+        lootTables.put(ModBlocks.RAW_ALUMINIUM_BLOCK.get(), createSimpleTable("raw_aluminium_block", ModBlocks.RAW_ALUMINIUM_BLOCK.get()));
     }
 }
