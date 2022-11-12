@@ -35,6 +35,9 @@ public class ModBlocks {
             = BLOCKS.register("aluminium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
     public static final RegistryObject<Block> ELECTRUM_BLOCK
             = BLOCKS.register("electrum_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final RegistryObject<Block> BAUXITE_ORE
+            = BLOCKS.register("bauxite_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.0F, 3.0F), UniformInt.of(1,3)));
+    public static final RegistryObject
 
 }
 
