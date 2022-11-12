@@ -27,7 +27,9 @@ public class ModTags {
     }
     // Block Tags
     public static final TagKey<Block> ELECTRUM_ORE_BLOCK = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(CreateElectrified.MODID, "electrum_ore_block"));
+    public static final TagKey<Block> BAUXITE_ORE_BLOCK = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(CreateElectrified.MODID, "bauxite_ore_block"));
 
     // Item Tags
     public static final TagKey<Item> ELECTRUM_ORE_ITEM = TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation(CreateElectrified.MODID, "electrum_ore_item"));
+    public static final TagKey<Item> BAUXITE_ORE_ITEM = TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation(CreateElectrified.MODID, "bauxite_ore_block"));
 }

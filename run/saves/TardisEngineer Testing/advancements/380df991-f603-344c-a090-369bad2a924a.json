@@ -574,6 +574,12 @@
     },
     "done": true
   },
+  "createlectrified:recipes/electrifiedtab1/electrum_block": {
+    "criteria": {
+      "criteria": "2022-11-12 15:09:55 +1000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2022-11-06 08:58:32 +1000"
@@ -754,6 +760,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/electrifiedtab1/bauxite2": {
+    "criteria": {
+      "criteria": "2022-11-12 14:46:51 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2022-11-08 18:04:27 +1000"
@@ -763,6 +775,12 @@
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2022-11-06 09:01:27 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/electrifiedtab1/bauxite1": {
+    "criteria": {
+      "criteria": "2022-11-12 14:46:51 +1000"
     },
     "done": true
   },

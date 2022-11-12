@@ -13,10 +13,16 @@ public class BlockStates extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        // Ore Simple Blocks
         simpleBlock(ModBlocks.ELECTRUM_ORE.get());
         simpleBlock(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
+        simpleBlock(ModBlocks.BAUXITE_ORE.get());
+        simpleBlock(ModBlocks.DEEPSLATE_BAUXITE_ORE.get());
+
+        // Simple Blocks
         simpleBlock(ModBlocks.RAW_ALUMINIUM_BLOCK.get());
         simpleBlock(ModBlocks.ALUMINIUM_BLOCK.get());
         simpleBlock(ModBlocks.ELECTRUM_BLOCK.get());
+
     }
 }

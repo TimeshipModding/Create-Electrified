@@ -21,9 +21,7 @@ public class Recipes extends RecipeProvider {
 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> consumer) {
-        // Shapeless Recipes
-
-        // Crafting for Items
+        // Shapeless Crafting for Items
         ShapelessRecipeBuilder.shapeless(ModItems.ALUMINIUM_NUGGET.get(), 9)
                 .requires(ModItems.ALUMINIUM_INGOT.get())
                 .group("createlectrified")
@@ -50,7 +48,7 @@ public class Recipes extends RecipeProvider {
                 .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.ELECTRUM_BLOCK.get()))
                 .save(consumer);
 
-        // Crafting for Blocks
+        // Shapeless Crafting for Blocks
         ShapelessRecipeBuilder.shapeless(ModBlocks.RAW_ALUMINIUM_BLOCK.get(), 9)
                 .requires(ModItems.RAW_ALUMINIUM.get(), 9)
                 .group("createlectrified")
@@ -67,15 +65,16 @@ public class Recipes extends RecipeProvider {
                 .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ELECTRUM.get()))
                 .save(consumer);
 
-        // Cooking Recipes
-
         // Cooking for Furnaces
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModTags.ELECTRUM_ORE_ITEM), ModItems.ELECTRUM.get(), 1.0F, 200)
-                .unlockedBy("criteria", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ELECTRUM_ORE_BLOCKITEM.get()).build()))
+                .unlockedBy("criteria", inventoryTrigger(ItemPredicate.Builder.item().of(ModTags.BAUXITE_ORE_ITEM).build()))
                 .save(consumer, "electrum1");
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModItems.RAW_ALUMINIUM.get()), ModItems.ALUMINIUM_INGOT.get(), 0.7F, 200)
                 .unlockedBy("criteria", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.RAW_ALUMINIUM.get()).build()))
                 .save(consumer, "raw_aluminium1");
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModTags.BAUXITE_ORE_ITEM), ModItems.ALUMINIUM_INGOT.get(), 0.7F, 200)
+                .unlockedBy("criteria", inventoryTrigger(ItemPredicate.Builder.item().of(ModTags.BAUXITE_ORE_ITEM).build()))
+                .save(consumer, "bauxite1");
 
         // Cooking for Blast Furnaces
         SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModItems.RAW_ALUMINIUM.get()), ModItems.ALUMINIUM_INGOT.get(), 0.7F, 100)
@@ -84,6 +83,9 @@ public class Recipes extends RecipeProvider {
         SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModTags.ELECTRUM_ORE_ITEM), ModItems.ELECTRUM.get(), 1.0F, 100)
                 .unlockedBy("criteria", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ELECTRUM_ORE_BLOCKITEM.get()).build()))
                 .save(consumer, "electrum2");
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModTags.BAUXITE_ORE_ITEM), ModItems.ALUMINIUM_INGOT.get(), 0.7F, 100)
+                .unlockedBy("criteria", inventoryTrigger(ItemPredicate.Builder.item().of(ModTags.BAUXITE_ORE_ITEM).build()))
+                .save(consumer, "bauxite2");
 
     }
 }

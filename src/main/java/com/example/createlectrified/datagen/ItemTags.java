@@ -17,10 +17,14 @@ public class ItemTags extends ItemTagsProvider {
 
     @Override
     protected void addTags() {
-        // Block Items
+        // Create: Electrified Tags
         tag(ModTags.ELECTRUM_ORE_ITEM)
                 .add(ModItems.ELECTRUM_ORE_BLOCKITEM.get())
                 .add(ModItems.DEEPSLATE_ELECTRUM_ORE_BLOCKITEM.get());
+
+        tag(ModTags.BAUXITE_ORE_ITEM)
+                .add(ModItems.BAUXITE_ORE_BLOCKITEM.get())
+                .add(ModItems.DEEPSLATE_BAUXITE_ORE_BLOCKITEM.get());
 
     }
 

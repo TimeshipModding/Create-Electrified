@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "tag": "createlectrified:bauxite_ore_block"
+  },
+  "result": "createlectrified:aluminium_ingot"
+}
