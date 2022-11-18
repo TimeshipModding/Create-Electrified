@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createlectrified:raw_aluminium"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "createlectrified:crushed_bauxite_ore"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

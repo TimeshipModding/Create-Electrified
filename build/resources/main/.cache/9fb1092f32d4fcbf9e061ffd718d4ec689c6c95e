@@ -1,4 +1,4 @@
-// 1.19.2	2022-11-12T14:39:45.6417172	Recipes
+// 1.19.2	2022-11-15T10:51:08.4008774	Recipes
 0ab92cb7968c5279e93bb151b0bba1b25b14b988 data/createlectrified/advancements/recipes/electrifiedtab1/aluminium_block.json
 8e58b18020c9848d345840d167e3959e23fe5117 data/createlectrified/advancements/recipes/electrifiedtab1/aluminium_nugget.json
 950bdacd894ee83d4508f0b25a346ebc7d5fbcf0 data/createlectrified/advancements/recipes/electrifiedtab1/electrum.json
@@ -15,6 +15,8 @@ e8ff18db7fab0b60c80f857a0b401ba3266b8580 data/minecraft/advancements/recipes/ele
 b9622df532e5119d5eb908696873cb15a4985798 data/minecraft/advancements/recipes/electrifiedtab1/aluminium2.json
 4d539b75deb58fa6ed61ee603f02045363bdefae data/minecraft/advancements/recipes/electrifiedtab1/bauxite1.json
 044272df101572ca0479e4c7511c5090a15dca48 data/minecraft/advancements/recipes/electrifiedtab1/bauxite2.json
+b64e75f30061b3ad12b49de256a45ef1342af558 data/minecraft/advancements/recipes/electrifiedtab1/crushedbauxite1.json
+c7dc6d451ca818b7265a8e6fe207ffc3ab00d1c6 data/minecraft/advancements/recipes/electrifiedtab1/crushedbauxite2.json
 ceb5f5c57bca2abbec946a9aefc79d0475b1c624 data/minecraft/advancements/recipes/electrifiedtab1/electrum1.json
 a1110d2092d0373ad134ea5e5fb0938cf2a520e6 data/minecraft/advancements/recipes/electrifiedtab1/electrum2.json
 e45cb5e551769f84e2a9b145352e77813a360b99 data/minecraft/advancements/recipes/electrifiedtab1/raw_aluminium1.json
@@ -23,6 +25,8 @@ e45cb5e551769f84e2a9b145352e77813a360b99 data/minecraft/advancements/recipes/ele
 2e0579c2a10753f9592286c54a5dcd0bdcec5592 data/minecraft/recipes/aluminium2.json
 58bd8571a66546615548c0e599f9fca6191af51f data/minecraft/recipes/bauxite1.json
 b053a5067266c7867d332a3fcb983d805084ffaa data/minecraft/recipes/bauxite2.json
+c1d27ac97dcf6f68016afa442d76d8ace527ab4b data/minecraft/recipes/crushedbauxite1.json
+b3f831e729e8d8237b85d2d58fe68fdbc0c7aced data/minecraft/recipes/crushedbauxite2.json
 9789e448331e34170b1ad11b15d0b371fa3b9a89 data/minecraft/recipes/electrum1.json
 b25890f6e3ed440be033e3aaf95779b5b3e220f4 data/minecraft/recipes/electrum2.json
 5912d73964b9247179bc785e4bbc6277d699f8e6 data/minecraft/recipes/raw_aluminium1.json

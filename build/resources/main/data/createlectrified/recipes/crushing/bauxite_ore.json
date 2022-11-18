@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createlectrified:bauxite_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "createlectrified:crushed_bauxite_ore"
+    },
+    {
+      "chance": 0.75,
+      "item": "createlectrified:crushed_bauxite_ore"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}

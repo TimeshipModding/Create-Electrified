@@ -23,7 +23,7 @@ public class BlockTags extends BlockTagsProvider {
                 .add(ModBlocks.ELECTRUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get())
                 .add(ModBlocks.BAUXITE_ORE.get())
-                .add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_BAUXITE_ORE.get())
                 .add(ModBlocks.RAW_ALUMINIUM_BLOCK.get())
                 .add(ModBlocks.ALUMINIUM_BLOCK.get())
                 .add(ModBlocks.ELECTRUM_BLOCK.get());

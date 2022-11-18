@@ -3,19 +3,29 @@ package com.example.createlectrified.datagen;
 import com.example.createlectrified.registries.ModBlocks;
 import com.example.createlectrified.registries.ModItems;
 import com.example.createlectrified.registries.ModTags;
+
+import com.simibubi.create.AllBlocks;
+import com.simibubi.create.AllItems;
+import com.simibubi.create.AllRecipeTypes;
+import com.simibubi.create.compat.jei.category.CrushingCategory;
+import com.simibubi.create.content.contraptions.components.crusher.CrushingRecipe;
+import com.simibubi.create.content.contraptions.processing.ProcessingRecipe;
+import com.simibubi.create.content.contraptions.processing.ProcessingRecipeBuilder;
+import com.simibubi.create.foundation.data.recipe.CreateRecipeProvider;
+import com.simibubi.create.foundation.data.recipe.ProcessingRecipeGen;
+import com.simibubi.create.foundation.utility.recipe.IRecipeTypeInfo;
+import com.simibubi.create.foundation.data.recipe.CrushingRecipeGen;
+
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.recipes.FinishedRecipe;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapelessRecipeBuilder;
-import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
-import net.minecraft.world.item.Items;
+import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.crafting.RecipeType;
 
 import java.util.function.Consumer;
 public class Recipes extends RecipeProvider {
-    public Recipes(DataGenerator generatorIn){
+    public Recipes(DataGenerator generatorIn) {
         super(generatorIn);
     }
 
@@ -75,6 +85,9 @@ public class Recipes extends RecipeProvider {
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModTags.BAUXITE_ORE_ITEM), ModItems.ALUMINIUM_INGOT.get(), 0.7F, 200)
                 .unlockedBy("criteria", inventoryTrigger(ItemPredicate.Builder.item().of(ModTags.BAUXITE_ORE_ITEM).build()))
                 .save(consumer, "bauxite1");
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModItems.CRUSHED_BAUXITE_ORE.get()), ModItems.ALUMINIUM_INGOT.get(), 0.7F, 200)
+                .unlockedBy("criteria", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.CRUSHED_BAUXITE_ORE.get()).build()))
+                .save(consumer, "crushedbauxite1");
 
         // Cooking for Blast Furnaces
         SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModItems.RAW_ALUMINIUM.get()), ModItems.ALUMINIUM_INGOT.get(), 0.7F, 100)
@@ -86,6 +99,10 @@ public class Recipes extends RecipeProvider {
         SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModTags.BAUXITE_ORE_ITEM), ModItems.ALUMINIUM_INGOT.get(), 0.7F, 100)
                 .unlockedBy("criteria", inventoryTrigger(ItemPredicate.Builder.item().of(ModTags.BAUXITE_ORE_ITEM).build()))
                 .save(consumer, "bauxite2");
-
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModItems.CRUSHED_BAUXITE_ORE.get()), ModItems.ALUMINIUM_INGOT.get(), 0.7F, 100)
+                .unlockedBy("criteria", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.CRUSHED_BAUXITE_ORE.get()).build()))
+                .save(consumer, "crushedbauxite2");
     }
 }
+
+

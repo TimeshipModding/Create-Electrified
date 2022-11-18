@@ -3,6 +3,7 @@ package com.example.createlectrified.setup;
 import com.example.createlectrified.CreateElectrified;
 import com.example.createlectrified.datagen.*;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.DataProvider;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;

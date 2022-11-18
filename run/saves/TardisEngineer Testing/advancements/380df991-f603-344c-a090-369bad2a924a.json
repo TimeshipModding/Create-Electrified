@@ -275,6 +275,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2022-11-15 10:16:06 +1000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/logistics/redstone_link": {
     "criteria": {
       "has_item": "2022-11-07 17:16:25 +1000"
@@ -491,6 +497,12 @@
     },
     "done": true
   },
+  "create:crushing_wheel": {
+    "criteria": {
+      "0": "2022-11-17 21:11:13 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2022-11-06 08:59:51 +1000"
@@ -499,10 +511,15 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:bamboo_jungle": "2022-11-15 10:12:11 +1000",
       "minecraft:beach": "2022-11-06 09:00:25 +1000",
+      "minecraft:dark_forest": "2022-11-15 10:16:42 +1000",
+      "minecraft:mangrove_swamp": "2022-11-15 10:12:12 +1000",
       "minecraft:sparse_jungle": "2022-11-06 08:54:44 +1000",
       "minecraft:lukewarm_ocean": "2022-11-06 09:01:50 +1000",
+      "minecraft:swamp": "2022-11-15 10:16:31 +1000",
       "minecraft:jungle": "2022-11-05 18:41:06 +1000",
+      "minecraft:old_growth_birch_forest": "2022-11-15 10:17:07 +1000",
       "minecraft:savanna": "2022-11-06 09:04:59 +1000",
       "minecraft:plains": "2022-11-06 08:54:48 +1000"
     },
@@ -745,6 +762,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2022-11-08 18:04:27 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/gearboxfrom_conversion": {
+    "criteria": {
+      "has_item": "2022-11-15 10:58:28 +1000"
     },
     "done": true
   },
