@@ -20,7 +20,7 @@ public class ModCasingBlocks {
     }
 
     public static final BlockEntry<CasingBlock> ALUMINIUM_CASING = REGISTRATE.block("aluminium_casing", CasingBlock::new)
-            .properties(p -> p.color(MaterialColor.TERRACOTTA_BROWN))
+            .properties(p -> p.color(MaterialColor.TERRACOTTA_RED))
             .transform(BuilderTransformers.casing(() -> ModSpriteShifts.ALUMINIUM_CASING))
             .register();
 }

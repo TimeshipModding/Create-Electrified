@@ -2,6 +2,7 @@ package com.example.createlectrified.datagen;
 
 import com.example.createlectrified.CreateElectrified;
 import com.example.createlectrified.registries.ModBlocks;
+import com.example.createlectrified.registries.ModCasingBlocks;
 import com.example.createlectrified.registries.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -31,5 +32,8 @@ public class ItemModels extends ItemModelProvider {
         withExistingParent(ModBlocks.RAW_ALUMINIUM_BLOCK.getId().getPath(), modLoc("block/raw_aluminium_block"));
         withExistingParent(ModBlocks.ALUMINIUM_BLOCK.getId().getPath(), modLoc("block/aluminium_block"));
         withExistingParent(ModBlocks.ELECTRUM_BLOCK.getId().getPath(), modLoc("block/electrum_block"));
+
+        // Casing Blocks
+        withExistingParent(ModCasingBlocks.ALUMINIUM_CASING.getId().getPath(), modLoc("block/aluminium_casing"));
     }
 }

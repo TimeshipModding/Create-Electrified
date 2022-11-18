@@ -2,6 +2,7 @@ package com.example.createlectrified.datagen;
 
 import com.example.createlectrified.CreateElectrified;
 import com.example.createlectrified.registries.ModBlocks;
+import com.example.createlectrified.registries.ModCasingBlocks;
 import com.example.createlectrified.registries.ModItems;
 import net.minecraft.data.DataGenerator;
 
@@ -32,6 +33,9 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         add(ModBlocks.RAW_ALUMINIUM_BLOCK.get(), "Block of Raw Aluminium");
         add(ModBlocks.ALUMINIUM_BLOCK.get(), "Block of Aluminium");
         add(ModBlocks.ELECTRUM_BLOCK.get(), "Block of Electrum");
+
+        // Casing Block Translations
+        add(ModCasingBlocks.ALUMINIUM_CASING.get(), "Aluminium Casing");
     }
 }
 
