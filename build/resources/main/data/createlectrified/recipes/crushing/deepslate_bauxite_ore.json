@@ -5,9 +5,10 @@
       "item": "createlectrified:deepslate_bauxite_ore"
     }
   ],
-  "processingTime": 250,
+  "processingTime": 350,
   "results": [
     {
+      "count": 2,
       "item": "createlectrified:crushed_bauxite_ore"
     },
     {

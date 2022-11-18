@@ -21,6 +21,7 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         add(ModItems.ELECTRUM.get(),"Electrum");
         add(ModItems.RAW_ALUMINIUM.get(), "Raw Aluminium");
         add(ModItems.CRUSHED_BAUXITE_ORE.get(), "Crushed Bauxite Ore");
+        add(ModItems.ALUMINIUM_SHEET.get(), "Aluminium Sheet");
 
         // Block Translations
         add(ModBlocks.ELECTRUM_ORE.get(),"Electrum Ore");

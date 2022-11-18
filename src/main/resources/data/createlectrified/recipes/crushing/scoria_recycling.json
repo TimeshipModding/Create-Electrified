@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "create:stone_types/scoria"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "chance": 0.4,
+      "item": "createlectrified:crushed_bauxite_ore"
+    },
+    {
+      "chance": 0.4,
+      "item": "createlectrified:aluminium_nugget"
+    }
+  ]
+}

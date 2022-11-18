@@ -47,9 +47,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/electrifiedtab1/crushedbauxite1": {
+    "criteria": {
+      "criteria": "2022-11-18 13:32:09 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-11-06 08:59:50 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/electrifiedtab1/crushedbauxite2": {
+    "criteria": {
+      "criteria": "2022-11-18 13:32:09 +1000"
     },
     "done": true
   },
@@ -80,6 +92,12 @@
   "create:recipes/create.base/crafting/kinetics/gantry_carriage": {
     "criteria": {
       "has_item": "2022-11-07 17:16:23 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2022-11-18 13:32:19 +1000"
     },
     "done": true
   },
@@ -263,6 +281,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2022-11-18 13:15:45 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/iron_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2022-11-18 13:32:26 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-11-06 08:59:50 +1000"
@@ -443,6 +473,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2022-11-18 13:15:45 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_planks": {
     "criteria": {
       "has_log": "2022-11-06 09:06:23 +1000"
@@ -582,6 +618,12 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2022-11-06 08:59:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2022-11-18 13:32:19 +1000"
     },
     "done": true
   },
@@ -741,6 +783,12 @@
     },
     "done": true
   },
+  "create:recipes/misc/smelting/iron_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2022-11-18 13:32:26 +1000"
+    },
+    "done": true
+  },
   "create:root": {
     "criteria": {
       "0": "2022-11-05 18:41:32 +1000"
@@ -822,6 +870,12 @@
   "createlectrified:recipes/electrifiedtab1/raw_aluminium_block": {
     "criteria": {
       "criteria": "2022-11-11 15:20:05 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2022-11-18 13:32:19 +1000"
     },
     "done": true
   },

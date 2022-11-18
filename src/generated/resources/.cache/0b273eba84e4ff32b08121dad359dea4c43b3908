@@ -1,7 +1,8 @@
-// 1.19.2	2022-11-15T11:01:26.3048594	Item Models: createlectrified
+// 1.19.2	2022-11-18T13:29:58.9565233	Item Models: createlectrified
 faead5144bdf07ae85c0c6aed962ef3ee5c3dd64 assets/createlectrified/models/item/aluminium_block.json
 190dc9110e1d8472041f4f8077d7e8f85d770619 assets/createlectrified/models/item/aluminium_ingot.json
 0b7ffb397072c4cb295429f9de85ba88a8682931 assets/createlectrified/models/item/aluminium_nugget.json
+10956294c973dbfba0253232f1b6730693555a14 assets/createlectrified/models/item/aluminium_sheet.json
 e905c65b26789cc1afd703460b8adc99ef5a35f2 assets/createlectrified/models/item/bauxite_ore.json
 d853649a2eac2510176b993b84e72d3ac18bba37 assets/createlectrified/models/item/crushed_bauxite_ore.json
 b550d7279b0734140a17bb55c03a91c6c471f4b3 assets/createlectrified/models/item/deepslate_bauxite_ore.json

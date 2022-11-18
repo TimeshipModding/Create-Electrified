@@ -1,5 +1,13 @@
 package com.example.createlectrified.registries;
 
+import com.example.createlectrified.CreateElectrified;
+import com.example.createlectrified.setup.ModCreativeModeTab;
+import com.simibubi.create.AllSpriteShifts;
+import com.simibubi.create.content.contraptions.base.CasingBlock;
+import com.simibubi.create.foundation.block.connected.SimpleCTBehaviour;
+import com.simibubi.create.foundation.data.BuilderTransformers;
+import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;

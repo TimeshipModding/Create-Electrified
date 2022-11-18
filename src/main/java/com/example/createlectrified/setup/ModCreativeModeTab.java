@@ -29,6 +29,7 @@ public class ModCreativeModeTab {
             pItems.add(new ItemStack(ModItems.CRUSHED_BAUXITE_ORE.get()));
             pItems.add(new ItemStack(ModItems.ALUMINIUM_INGOT.get()));
             pItems.add(new ItemStack(ModItems.ALUMINIUM_NUGGET.get()));
+            pItems.add(new ItemStack(ModItems.ALUMINIUM_SHEET.get()));
             pItems.add(new ItemStack(ModBlocks.BAUXITE_ORE.get()));
             pItems.add(new ItemStack(ModBlocks.DEEPSLATE_BAUXITE_ORE.get()));
             pItems.add(new ItemStack(ModBlocks.RAW_ALUMINIUM_BLOCK.get()));
