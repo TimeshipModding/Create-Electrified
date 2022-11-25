@@ -1,7 +1,7 @@
 
 Source installation information for modders
 -------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
+This code follows the Minecraft Forge installation methodology. It will appl
 some small patches to the vanilla MCP source code, giving you and it access 
 to some of the data and functions you need to build a successful mod.
 
