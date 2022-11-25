@@ -1,0 +1,44 @@
+{
+  "minecraft:recipes/electrifiedtab1/electrum1": {
+    "criteria": {
+      "criteria": "2022-11-20 10:32:03 +1000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2022-11-20 10:32:03 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/electrifiedtab1/bauxite2": {
+    "criteria": {
+      "criteria": "2022-11-20 10:32:03 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2022-11-20 10:40:12 +1000",
+      "minecraft:sunflower_plains": "2022-11-20 10:40:37 +1000",
+      "minecraft:beach": "2022-11-20 10:41:08 +1000",
+      "minecraft:river": "2022-11-20 10:32:47 +1000",
+      "minecraft:stony_shore": "2022-11-20 10:40:39 +1000",
+      "minecraft:swamp": "2022-11-20 10:31:44 +1000",
+      "minecraft:jagged_peaks": "2022-11-20 10:39:49 +1000",
+      "minecraft:forest": "2022-11-20 10:31:28 +1000",
+      "minecraft:ocean": "2022-11-20 10:32:06 +1000",
+      "minecraft:windswept_savanna": "2022-11-20 10:31:46 +1000",
+      "minecraft:flower_forest": "2022-11-20 10:40:31 +1000",
+      "minecraft:plains": "2022-11-20 10:31:38 +1000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/electrifiedtab1/bauxite1": {
+    "criteria": {
+      "criteria": "2022-11-20 10:32:03 +1000"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

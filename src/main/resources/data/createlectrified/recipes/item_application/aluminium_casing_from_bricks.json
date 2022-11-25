@@ -2,7 +2,7 @@
   "type": "create:item_application",
   "ingredients": [
     {
-      "tag": "minecraft:bricks"
+      "item": "minecraft:bricks"
     },
     {
       "item": "createlectrified:aluminium_ingot"

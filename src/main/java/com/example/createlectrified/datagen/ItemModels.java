@@ -33,7 +33,7 @@ public class ItemModels extends ItemModelProvider {
         withExistingParent(ModBlocks.ALUMINIUM_BLOCK.getId().getPath(), modLoc("block/aluminium_block"));
         withExistingParent(ModBlocks.ELECTRUM_BLOCK.getId().getPath(), modLoc("block/electrum_block"));
 
-        // Casing Blocks
         withExistingParent(ModCasingBlocks.ALUMINIUM_CASING.getId().getPath(), modLoc("block/aluminium_casing"));
+
     }
 }

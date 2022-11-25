@@ -1,6 +1,7 @@
 package com.example.createlectrified.setup;
 
 import com.example.createlectrified.registries.ModBlocks;
+import com.example.createlectrified.registries.ModCasingBlocks;
 import com.example.createlectrified.registries.ModItems;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.Registry;
@@ -21,6 +22,7 @@ public class ModCreativeModeTab {
         @Override
         public void fillItemList(NonNullList<ItemStack> pItems) {
             // CreativeModeTab Organization
+            pItems.add(new ItemStack(ModCasingBlocks.ALUMINIUM_CASING.get()));
             pItems.add(new ItemStack(ModItems.ELECTRUM.get()));
             pItems.add(new ItemStack(ModBlocks.ELECTRUM_ORE.get()));
             pItems.add(new ItemStack(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get()));
