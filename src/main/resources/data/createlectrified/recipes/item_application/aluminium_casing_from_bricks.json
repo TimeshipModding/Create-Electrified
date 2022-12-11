@@ -2,7 +2,7 @@
   "type": "create:item_application",
   "ingredients": [
     {
-      "item": "minecraft:bricks"
+      "item": "minecraft:nether_bricks"
     },
     {
       "item": "createlectrified:aluminium_ingot"

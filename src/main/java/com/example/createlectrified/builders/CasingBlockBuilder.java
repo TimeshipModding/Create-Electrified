@@ -4,6 +4,7 @@ import com.example.createlectrified.CreateElectrified;
 import com.simibubi.create.AllSpriteShifts;
 import com.simibubi.create.AllTags;
 import com.simibubi.create.content.contraptions.base.CasingBlock;
+import com.simibubi.create.content.contraptions.relays.encased.EncasedCTBehaviour;
 import com.simibubi.create.foundation.block.connected.CTSpriteShiftEntry;
 import com.simibubi.create.foundation.block.connected.SimpleCTBehaviour;
 import com.simibubi.create.foundation.data.CreateRegistrate;
@@ -19,15 +20,14 @@ import static com.simibubi.create.foundation.data.CreateRegistrate.casingConnect
 import static com.simibubi.create.foundation.data.CreateRegistrate.connectedTextures;
 
 public class CasingBlockBuilder {
-    private static final CreateRegistrate REGISTRATE = CreateElectrified.registrate();
 
     public static <B extends CasingBlock> NonNullUnaryOperator<BlockBuilder<B, CreateRegistrate>> casing(
             Supplier<CTSpriteShiftEntry> ct) {
-        return b -> b.initialProperties(SharedProperties::stone)
-                .properties(p -> p.sound(SoundType.WOOD))
+            return b -> b.initialProperties(SharedProperties::stone)
+                .properties(p -> p.sound(SoundType.NETHER_BRICKS))
                 .transform(axeOrPickaxe())
                 .blockstate((c, p) -> p.simpleBlock(c.get()))
-                .onRegister(connectedTextures(() -> new SimpleCTBehaviour(AllSpriteShifts.ANDESITE_CASING)))
+                .onRegister(connectedTextures(() -> new EncasedCTBehaviour(ct.get())))
                 .onRegister(casingConnectivity((block, cc) -> cc.makeCasing(block, ct.get())))
                 .tag(AllTags.AllBlockTags.CASING.tag)
                 .item()
