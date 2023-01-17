@@ -209,6 +209,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2023-01-01 12:26:38 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2023-01-01 12:26:38 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2022-11-06 09:01:31 +1000"
@@ -323,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2023-01-01 12:26:38 +1000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/rotation_speed_controller": {
     "criteria": {
       "has_item": "2022-11-07 17:16:25 +1000"
@@ -362,6 +380,12 @@
   "create:recipes/create.base/crafting/logistics/redstone_link": {
     "criteria": {
       "has_item": "2022-11-07 17:16:25 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/electrifiedtab1/aluminium2": {
+    "criteria": {
+      "criteria": "2023-01-01 12:26:21 +1000"
     },
     "done": true
   },
@@ -605,6 +629,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2023-01-01 12:26:38 +1000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_cut_deepslate_stairs_from_deepslate_stonecutting": {
     "criteria": {
       "has_deepslate": "2022-11-08 18:01:20 +1000"
@@ -644,6 +674,7 @@
       "minecraft:sparse_jungle": "2022-11-06 08:54:44 +1000",
       "minecraft:lukewarm_ocean": "2022-11-06 09:01:50 +1000",
       "minecraft:river": "2022-11-25 18:21:55 +1000",
+      "minecraft:dripstone_caves": "2023-01-01 16:00:04 +1000",
       "minecraft:swamp": "2022-11-15 10:16:31 +1000",
       "minecraft:jungle": "2022-11-05 18:41:06 +1000",
       "minecraft:old_growth_birch_forest": "2022-11-15 10:17:07 +1000",
@@ -700,6 +731,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2023-01-01 12:26:38 +1000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/clockwork_bearing": {
     "criteria": {
       "has_item": "2022-11-07 17:16:25 +1000"
@@ -745,6 +782,18 @@
   "createlectrified:recipes/electrifiedtab1/electrum_block": {
     "criteria": {
       "criteria": "2022-11-12 15:09:55 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2023-01-01 12:26:38 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/brass_ingot_from_decompacting": {
+    "criteria": {
+      "has_item": "2023-01-01 14:46:56 +1000"
     },
     "done": true
   },
