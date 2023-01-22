@@ -26,6 +26,7 @@ public class ItemModels extends ItemModelProvider {
         singleTexture(ModItems.COPPER_WIRE.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/copper_wire"));
         singleTexture(ModItems.CABLE_INSULATION.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/cable_insulation"));
         singleTexture(ModItems.CHARGED_ELECTRUM.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/charged_electrum"));
+        singleTexture(ModItems.ELECTRIC_MECHANISM.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/electric_mechanism"));
 
 
         // Blocks
