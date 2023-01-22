@@ -22,6 +22,8 @@ public class ItemModels extends ItemModelProvider {
         singleTexture(ModItems.RAW_ALUMINIUM.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/raw_aluminium"));
         singleTexture(ModItems.CRUSHED_BAUXITE_ORE.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/crushed_bauxite_ore"));
         singleTexture(ModItems.ALUMINIUM_SHEET.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/aluminium_sheet"));
+        singleTexture(ModItems.BRASS_WIRE.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/brass_wire"));
+        singleTexture(ModItems.COPPER_WIRE.getId().getPath(), mcLoc("item/generated"), "layer0",modLoc("item/copper_wire"));
 
         // Blocks
         withExistingParent(ModBlocks.ELECTRUM_ORE.getId().getPath(), modLoc("block/electrum_ore"));

@@ -23,19 +23,21 @@ public class ModCreativeModeTab {
         public void fillItemList(NonNullList<ItemStack> pItems) {
             // CreativeModeTab Organization
             pItems.add(new ItemStack(ModCasingBlocks.ALUMINIUM_CASING.get()));
-            pItems.add(new ItemStack(ModItems.ELECTRUM.get()));
-            pItems.add(new ItemStack(ModBlocks.ELECTRUM_ORE.get()));
-            pItems.add(new ItemStack(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get()));
+            pItems.add(new ItemStack(ModBlocks.ALUMINIUM_BLOCK.get()));
             pItems.add(new ItemStack(ModBlocks.ELECTRUM_BLOCK.get()));
-            pItems.add(new ItemStack(ModItems.RAW_ALUMINIUM.get()));
-            pItems.add(new ItemStack(ModItems.CRUSHED_BAUXITE_ORE.get()));
-            pItems.add(new ItemStack(ModItems.ALUMINIUM_INGOT.get()));
-            pItems.add(new ItemStack(ModItems.ALUMINIUM_NUGGET.get()));
-            pItems.add(new ItemStack(ModItems.ALUMINIUM_SHEET.get()));
             pItems.add(new ItemStack(ModBlocks.BAUXITE_ORE.get()));
             pItems.add(new ItemStack(ModBlocks.DEEPSLATE_BAUXITE_ORE.get()));
+            pItems.add(new ItemStack(ModBlocks.ELECTRUM_ORE.get()));
+            pItems.add(new ItemStack(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get()));
             pItems.add(new ItemStack(ModBlocks.RAW_ALUMINIUM_BLOCK.get()));
-            pItems.add(new ItemStack(ModBlocks.ALUMINIUM_BLOCK.get()));
+            pItems.add(new ItemStack(ModItems.RAW_ALUMINIUM.get()));
+            pItems.add(new ItemStack(ModItems.ELECTRUM.get()));
+            pItems.add(new ItemStack(ModItems.CRUSHED_BAUXITE_ORE.get()));
+            pItems.add(new ItemStack(ModItems.ALUMINIUM_NUGGET.get()));
+            pItems.add(new ItemStack(ModItems.ALUMINIUM_INGOT.get()));
+            pItems.add(new ItemStack(ModItems.ALUMINIUM_SHEET.get()));
+            pItems.add(new ItemStack(ModItems.COPPER_WIRE.get()));
+            pItems.add(new ItemStack(ModItems.BRASS_WIRE.get()));
         }
     };
 }
