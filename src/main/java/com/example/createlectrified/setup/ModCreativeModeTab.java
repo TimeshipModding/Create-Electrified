@@ -38,6 +38,7 @@ public class ModCreativeModeTab {
             pItems.add(new ItemStack(ModItems.ALUMINIUM_SHEET.get()));
             pItems.add(new ItemStack(ModItems.COPPER_WIRE.get()));
             pItems.add(new ItemStack(ModItems.BRASS_WIRE.get()));
+            pItems.add(new ItemStack(ModItems.CABLE_INSULATION.get()));
         }
     };
 }

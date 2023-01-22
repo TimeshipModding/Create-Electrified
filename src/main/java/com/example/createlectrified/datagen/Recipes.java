@@ -20,6 +20,7 @@ import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeType;
 
@@ -56,6 +57,11 @@ public class Recipes extends RecipeProvider {
                 .requires(ModBlocks.ELECTRUM_BLOCK.get())
                 .group("createlectrified")
                 .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.ELECTRUM_BLOCK.get()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModItems.CABLE_INSULATION.get())
+                .requires(Items.DRIED_KELP, 3)
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(Items.DRIED_KELP))
                 .save(consumer);
 
         // Shapeless Crafting for Blocks

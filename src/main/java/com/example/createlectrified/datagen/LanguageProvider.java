@@ -25,6 +25,7 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         add(ModItems.ALUMINIUM_SHEET.get(), "Aluminium Sheet");
         add(ModItems.COPPER_WIRE.get(), "Copper Wire");
         add(ModItems.BRASS_WIRE.get(), "Brass Wire");
+        add(ModItems.CABLE_INSULATION.get(), "Cable Insulation");
 
         // Block Translations
         add(ModBlocks.ELECTRUM_ORE.get(),"Electrum Ore");

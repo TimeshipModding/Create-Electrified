@@ -37,6 +37,7 @@ public class ModItems {
     public static final RegistryObject<Item> ALUMINIUM_SHEET = ITEMS.register("aluminium_sheet", () -> new Item(ITEM_PROPERTIES));
     public static final RegistryObject<Item> BRASS_WIRE = ITEMS.register("brass_wire", () -> new Item(ITEM_PROPERTIES));
     public static final RegistryObject<Item> COPPER_WIRE = ITEMS.register("copper_wire",() -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> CABLE_INSULATION = ITEMS.register("cable_insulation", () -> new Item(ITEM_PROPERTIES));
 
     // Ore BlockItems
     public static final RegistryObject<Item> ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.ELECTRUM_ORE);
