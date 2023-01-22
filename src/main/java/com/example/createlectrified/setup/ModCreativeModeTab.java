@@ -16,7 +16,7 @@ public class ModCreativeModeTab {
         @Override
         public ItemStack makeIcon() {
             // CreativeModeTab Icon
-            return new ItemStack(ModItems.ELECTRUM.get());
+            return new ItemStack(ModItems.CHARGED_ELECTRUM.get());
         }
 
         @Override
@@ -38,6 +38,7 @@ public class ModCreativeModeTab {
             pItems.add(new ItemStack(ModItems.ALUMINIUM_SHEET.get()));
             pItems.add(new ItemStack(ModItems.COPPER_WIRE.get()));
             pItems.add(new ItemStack(ModItems.BRASS_WIRE.get()));
+            pItems.add(new ItemStack(ModItems.CHARGED_ELECTRUM.get()));
             pItems.add(new ItemStack(ModItems.CABLE_INSULATION.get()));
         }
     };
