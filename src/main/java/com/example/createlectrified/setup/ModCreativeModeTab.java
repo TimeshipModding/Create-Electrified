@@ -22,6 +22,7 @@ public class ModCreativeModeTab {
         @Override
         public void fillItemList(NonNullList<ItemStack> pItems) {
             // CreativeModeTab Organization
+            pItems.add(new ItemStack(ModBlocks.COPPER_CABLE.get()));
             pItems.add(new ItemStack(ModCasingBlocks.ALUMINIUM_CASING.get()));
             pItems.add(new ItemStack(ModBlocks.ALUMINIUM_BLOCK.get()));
             pItems.add(new ItemStack(ModBlocks.ELECTRUM_BLOCK.get()));

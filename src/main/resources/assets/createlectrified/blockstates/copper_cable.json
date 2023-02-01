@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model":  "createlectrified:block/copper_cable"},
+    "facing=east": {"model":  "createlectrified:block/copper_cable", "y":  90},
+    "facing=south": {"model":  "createlectrified:block/copper_cable", "y":  180},
+    "facing=west": {"model":  "createlectrified:block/copper_cable", "y":  270}
+  }
+}

@@ -1,6 +1,7 @@
 package com.example.createlectrified.registries;
 
 import com.example.createlectrified.CreateElectrified;
+import com.example.createlectrified.content.block.CopperCableBlock;
 import com.example.createlectrified.setup.ModCreativeModeTab;
 import com.simibubi.create.AllSpriteShifts;
 import com.simibubi.create.content.contraptions.base.CasingBlock;
@@ -10,6 +11,7 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -47,5 +49,8 @@ public class ModBlocks {
             = BLOCKS.register("bauxite_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.0F, 3.0F)));
     public static final RegistryObject<Block> DEEPSLATE_BAUXITE_ORE
             = BLOCKS.register("deepslate_bauxite_ore", () -> new Block(BlockBehaviour.Properties.copy(ModBlocks.BAUXITE_ORE.get()).strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> COPPER_CABLE
+            = BLOCKS.register("copper_cable", () -> new CopperCableBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 }
 
