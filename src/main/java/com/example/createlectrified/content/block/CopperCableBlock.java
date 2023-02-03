@@ -20,7 +20,8 @@ public class CopperCableBlock extends Block {
         super(pProperties);
     }
 
-    private static final VoxelShape SHAPE =  Block.box(0, 0, 0, 4, 4, 4);
+    public static final VoxelShape SHAPE =  Block.box(6.0D, 6.0D, 0.0D, 4.0D, 4.0D, 16.0D);
+
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
