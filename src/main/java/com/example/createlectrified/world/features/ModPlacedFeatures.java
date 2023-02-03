@@ -16,14 +16,14 @@ public class ModPlacedFeatures {
 
 
     public static final RegistryObject<PlacedFeature> BAUXITE_ORE_PLACED = PLACED_FEATURES.register("bauxite_ore_placed",
-            () -> new PlacedFeature(ModConfiguredFeatures.BAUXITE_ORE.getHolder().get(), commonOrePlacement(6, // VeinsPerChunk
+            () -> new PlacedFeature(ModConfiguredFeatures.BAUXITE_ORE.getHolder().get(), commonOrePlacement(7, // VeinsPerChunk
                             HeightRangePlacement.triangle(VerticalAnchor.absolute(-40), VerticalAnchor.absolute(90)))));
 
     public static final RegistryObject<PlacedFeature> ELECTRUM_ORE_PLACED = PLACED_FEATURES.register("electrum_ore_placed",
-            () -> new PlacedFeature(ModConfiguredFeatures.ELECTRUM_ORE.getHolder().get(), commonOrePlacement(5, // VeinsPerChunk
+            () -> new PlacedFeature(ModConfiguredFeatures.ELECTRUM_ORE.getHolder().get(), commonOrePlacement(6, // VeinsPerChunk
                     HeightRangePlacement.triangle(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80)))));
     public static final RegistryObject<PlacedFeature> UPPER_ELCTRUM_ORE_PLACED = PLACED_FEATURES.register("upper_electrum_ore_placed",
-            () -> new PlacedFeature(ModConfiguredFeatures.UPPER_ELCTRUM_ORE.getHolder().get(), rareOrePlacement(4, // VeinsPerChunk
+            () -> new PlacedFeature(ModConfiguredFeatures.UPPER_ELCTRUM_ORE.getHolder().get(), rareOrePlacement(5, // VeinsPerChunk
                     HeightRangePlacement.uniform((VerticalAnchor.absolute(130)), VerticalAnchor.top()))));
 
 

@@ -142,7 +142,7 @@ key_key.jei.showUses2:key.mouse.right
 key_key.jei.nextSearch:key.keyboard.down
 key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.copy.recipe.id:key.keyboard.unknown
-soundCategory_master:0.0
+soundCategory_master:0.5033113
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

@@ -35,9 +35,9 @@ public class ModConfiguredFeatures {
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_BAUXITE_ORES.get(),8)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> ELECTRUM_ORE = CONFIGURED_FEATURES.register("electrum_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_ELECTRUM_ORES.get(),3)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_ELECTRUM_ORES.get(),4)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> UPPER_ELCTRUM_ORE = CONFIGURED_FEATURES.register("upper_electrum_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(UPPER_OVERWORLD_ELECTRUM_ORES.get(), 2)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(UPPER_OVERWORLD_ELECTRUM_ORES.get(), 3)));
 
     public static void register(IEventBus eventBus) {
         CONFIGURED_FEATURES.register(eventBus);
