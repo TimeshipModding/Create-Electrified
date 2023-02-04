@@ -51,6 +51,6 @@ public class ModBlocks {
             = BLOCKS.register("deepslate_bauxite_ore", () -> new Block(BlockBehaviour.Properties.copy(ModBlocks.BAUXITE_ORE.get()).strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<Block> COPPER_CABLE
-            = BLOCKS.register("copper_cable", () -> new CopperCableBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+            = BLOCKS.register("copper_cable", () -> new CopperCableBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 }
 

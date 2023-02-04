@@ -1,33 +1,33 @@
-[03Feb2023 17:03:58.061] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.19, --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.47, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --mod, createlectrified, --all, --output, C:\Users\wyatt\Documents\GitHub\Create-Electrified\src\generated\resources, --existing, C:\Users\wyatt\Documents\GitHub\Create-Electrified\src\main\resources]
-[03Feb2023 17:03:58.072] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.4.1 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
-[03Feb2023 17:03:58.276] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/wyatt/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
-[03Feb2023 17:03:58.820] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.47\1668d395b1f93c5591eb7447b5c808e2af1d0e0a\javafmllanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[03Feb2023 17:03:58.824] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.47\a0d8118fdf70df78a1c014913a286ac4acce9d7a\lowcodelanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[03Feb2023 17:03:58.827] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.47\f7cbce46c868ff8b4626d82ef29918dcabb89dc8\mclanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[03Feb2023 17:03:58.831] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.47\65f5798d52872998a17f41ee2c01694cba9487d5\fmlcore-1.19.2-43.1.47.jar is missing mods.toml file
-[03Feb2023 17:03:59.031] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[03Feb2023 17:04:01.371] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[03Feb2023 17:04:01.381] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19, --mod, createlectrified, --all, --output, C:\Users\wyatt\Documents\GitHub\Create-Electrified\src\generated\resources, --existing, C:\Users\wyatt\Documents\GitHub\Create-Electrified\src\main\resources]
-[03Feb2023 17:04:01.802] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
-[03Feb2023 17:04:01.805] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
-[03Feb2023 17:04:02.056] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder)
-[03Feb2023 17:04:02.056] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin
-[03Feb2023 17:04:02.412] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [createlectrified]
-[03Feb2023 17:04:06.927] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[03Feb2023 17:04:10.054] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.47, for MC 1.19.2 with MCP 20220805.130853
-[03Feb2023 17:04:10.054] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.47 Initialized
-[03Feb2023 17:04:10.457] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[03Feb2023 17:04:14.340] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: null
+[03Feb2023 19:00:03.676] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.19, --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.47, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --mod, createlectrified, --all, --output, C:\Users\wyatt\Documents\GitHub\Create-Electrified\src\generated\resources, --existing, C:\Users\wyatt\Documents\GitHub\Create-Electrified\src\main\resources]
+[03Feb2023 19:00:03.685] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.4.1 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[03Feb2023 19:00:03.858] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/wyatt/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
+[03Feb2023 19:00:04.354] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.47\1668d395b1f93c5591eb7447b5c808e2af1d0e0a\javafmllanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[03Feb2023 19:00:04.358] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.47\a0d8118fdf70df78a1c014913a286ac4acce9d7a\lowcodelanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[03Feb2023 19:00:04.361] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.47\f7cbce46c868ff8b4626d82ef29918dcabb89dc8\mclanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[03Feb2023 19:00:04.364] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.47\65f5798d52872998a17f41ee2c01694cba9487d5\fmlcore-1.19.2-43.1.47.jar is missing mods.toml file
+[03Feb2023 19:00:04.585] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[03Feb2023 19:00:07.361] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Feb2023 19:00:07.370] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19, --mod, createlectrified, --all, --output, C:\Users\wyatt\Documents\GitHub\Create-Electrified\src\generated\resources, --existing, C:\Users\wyatt\Documents\GitHub\Create-Electrified\src\main\resources]
+[03Feb2023 19:00:08.051] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
+[03Feb2023 19:00:08.054] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
+[03Feb2023 19:00:08.399] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder)
+[03Feb2023 19:00:08.399] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin
+[03Feb2023 19:00:08.898] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [createlectrified]
+[03Feb2023 19:00:14.757] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[03Feb2023 19:00:17.891] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.47, for MC 1.19.2 with MCP 20220805.130853
+[03Feb2023 19:00:17.892] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.47 Initialized
+[03Feb2023 19:00:18.297] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[03Feb2023 19:00:22.369] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: null
 	Index: 2
 	Listeners:
 		0: NORMAL
-		1: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@13aeeaa5 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		2: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@2077ce3f handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		3: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@19dd714b handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		4: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@f1fe0ba handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		5: net.minecraftforge.eventbus.EventBus$$Lambda$3984/0x0000000801586818@4c5937ea
+		1: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@923f0f4 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		2: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@29bd33eb handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		3: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@71f05681 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		4: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@5779aa46 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		5: net.minecraftforge.eventbus.EventBus$$Lambda$3984/0x000000080157fc08@737405e3
 		6: LOWEST
-		7: net.minecraftforge.eventbus.EventBus$$Lambda$3984/0x0000000801586818@2bca913b
+		7: net.minecraftforge.eventbus.EventBus$$Lambda$3984/0x000000080157fc08@22e5665f
 java.lang.ExceptionInInitializerError
 	at TRANSFORMER/createlectrified@0.0NONE/com.example.createlectrified.registries.ModBlocks.lambda$static$7(ModBlocks.java:54)
 	at TRANSFORMER/forge@43.1.47/net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:388)
@@ -69,10 +69,10 @@ java.lang.ExceptionInInitializerError
 Caused by: java.lang.IllegalArgumentException: The min values need to be smaller or equals to the max values
 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.phys.shapes.Shapes.box(Shapes.java:38)
 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.Block.box(Block.java:140)
-	at TRANSFORMER/createlectrified@0.0NONE/com.example.createlectrified.content.block.CopperCableBlock.<clinit>(CopperCableBlock.java:23)
+	at TRANSFORMER/createlectrified@0.0NONE/com.example.createlectrified.content.block.CopperCableBlock.<clinit>(CopperCableBlock.java:24)
 	... 37 more
 
-[03Feb2023 17:04:14.342] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event RegisterEvent dispatch for modid createlectrified
+[03Feb2023 19:00:22.370] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event RegisterEvent dispatch for modid createlectrified
 java.lang.ExceptionInInitializerError: null
 	at com.example.createlectrified.registries.ModBlocks.lambda$static$7(ModBlocks.java:54) ~[%23188!/:?]
 	at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:388) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23182%23189!/:?]
@@ -114,19 +114,19 @@ java.lang.ExceptionInInitializerError: null
 Caused by: java.lang.IllegalArgumentException: The min values need to be smaller or equals to the max values
 	at net.minecraft.world.phys.shapes.Shapes.box(Shapes.java:38) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?]
 	at net.minecraft.world.level.block.Block.box(Block.java:140) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?]
-	at com.example.createlectrified.content.block.CopperCableBlock.<clinit>(CopperCableBlock.java:23) ~[%23188!/:?]
+	at com.example.createlectrified.content.block.CopperCableBlock.<clinit>(CopperCableBlock.java:24) ~[%23188!/:?]
 	... 37 more
-[03Feb2023 17:04:14.490] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Registry Object not present: createlectrified:copper_cable
+[03Feb2023 19:00:22.498] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Registry Object not present: createlectrified:copper_cable
 	Index: 1
 	Listeners:
 		0: NORMAL
-		1: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@13aeeaa5 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		2: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@2077ce3f handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		3: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@19dd714b handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		4: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@f1fe0ba handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		5: net.minecraftforge.eventbus.EventBus$$Lambda$3984/0x0000000801586818@4c5937ea
+		1: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@923f0f4 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		2: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@29bd33eb handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		3: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@71f05681 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		4: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@5779aa46 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		5: net.minecraftforge.eventbus.EventBus$$Lambda$3984/0x000000080157fc08@737405e3
 		6: LOWEST
-		7: net.minecraftforge.eventbus.EventBus$$Lambda$3984/0x0000000801586818@2bca913b
+		7: net.minecraftforge.eventbus.EventBus$$Lambda$3984/0x000000080157fc08@22e5665f
 java.lang.NullPointerException: Registry Object not present: createlectrified:copper_cable
 	at java.base/java.util.Objects.requireNonNull(Objects.java:334)
 	at TRANSFORMER/forge@43.1.47/net.minecraftforge.registries.RegistryObject.get(RegistryObject.java:204)
@@ -168,7 +168,7 @@ java.lang.NullPointerException: Registry Object not present: createlectrified:co
 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
 	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
 
-[03Feb2023 17:04:14.491] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event RegisterEvent dispatch for modid createlectrified
+[03Feb2023 19:00:22.499] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event RegisterEvent dispatch for modid createlectrified
 java.lang.NullPointerException: Registry Object not present: createlectrified:copper_cable
 	at java.util.Objects.requireNonNull(Objects.java:334) ~[?:?]
 	at net.minecraftforge.registries.RegistryObject.get(RegistryObject.java:204) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23182%23189!/:?]
@@ -209,7 +209,7 @@ java.lang.NullPointerException: Registry Object not present: createlectrified:co
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23108!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23108!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[03Feb2023 17:04:14.692] [main/FATAL] [net.minecraftforge.registries.GameData/]: Failed to register some entries, see suppressed exceptions for details
+[03Feb2023 19:00:22.726] [main/FATAL] [net.minecraftforge.registries.GameData/]: Failed to register some entries, see suppressed exceptions for details
 java.lang.RuntimeException: null
 	at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:328) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23182%23189!/:?]
 	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23182%23189!/:?]
@@ -278,7 +278,7 @@ java.lang.RuntimeException: null
 	Caused by: java.lang.IllegalArgumentException: The min values need to be smaller or equals to the max values
 		at net.minecraft.world.phys.shapes.Shapes.box(Shapes.java:38) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?]
 		at net.minecraft.world.level.block.Block.box(Block.java:140) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?]
-		at com.example.createlectrified.content.block.CopperCableBlock.<clinit>(CopperCableBlock.java:23) ~[%23188!/:?]
+		at com.example.createlectrified.content.block.CopperCableBlock.<clinit>(CopperCableBlock.java:24) ~[%23188!/:?]
 		at com.example.createlectrified.registries.ModBlocks.lambda$static$7(ModBlocks.java:54) ~[%23188!/:?]
 		at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:388) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23182%23189!/:?]
 		at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23182%23189!/:?]
@@ -333,8 +333,8 @@ java.lang.RuntimeException: null
 		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%23107!/:?]
 		at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107) ~[javafmllanguage-1.19.2-43.1.47.jar%23184!/:?]
 		... 27 more
-[03Feb2023 17:04:14.702] [main/FATAL] [net.minecraftforge.registries.GameData/]: Detected errors during registry event dispatch, rolling back to VANILLA state
-[03Feb2023 17:04:15.659] [main/FATAL] [net.minecraftforge.registries.GameData/]: Detected errors during registry event dispatch, roll back to VANILLA complete
-[03Feb2023 17:04:15.663] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
-[03Feb2023 17:04:15.663] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
-[03Feb2023 17:04:16.280] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registrate Provider for createlectrified [Recipes, Advancements, Loot tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+[03Feb2023 19:00:22.737] [main/FATAL] [net.minecraftforge.registries.GameData/]: Detected errors during registry event dispatch, rolling back to VANILLA state
+[03Feb2023 19:00:23.751] [main/FATAL] [net.minecraftforge.registries.GameData/]: Detected errors during registry event dispatch, roll back to VANILLA complete
+[03Feb2023 19:00:23.754] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[03Feb2023 19:00:23.755] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[03Feb2023 19:00:24.551] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registrate Provider for createlectrified [Recipes, Advancements, Loot tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]

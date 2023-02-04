@@ -1,4 +1,4 @@
-// 1.19.2	2023-01-22T16:40:41.2205933	Item Models: createlectrified
+// 1.19.2	2023-02-03T18:23:16.3296393	Item Models: createlectrified
 faead5144bdf07ae85c0c6aed962ef3ee5c3dd64 assets/createlectrified/models/item/aluminium_block.json
 fcec589a8bb45103fd3bfe92dc6cb2011d8be04d assets/createlectrified/models/item/aluminium_casing.json
 190dc9110e1d8472041f4f8077d7e8f85d770619 assets/createlectrified/models/item/aluminium_ingot.json
@@ -8,6 +8,7 @@ e905c65b26789cc1afd703460b8adc99ef5a35f2 assets/createlectrified/models/item/bau
 519a28dc48a262119efd000ab20e1bc3297469f6 assets/createlectrified/models/item/brass_wire.json
 dd937d198753a1cbce3205546a871bde14d7de4b assets/createlectrified/models/item/cable_insulation.json
 e91beb3a7ba9b04ae9bc157398189193b33974ea assets/createlectrified/models/item/charged_electrum.json
+aa0ec4a468e14bde60f00f06b9403065f06581be assets/createlectrified/models/item/copper_cable.json
 f335acc11527745f33e6dca285aa60421f837fbb assets/createlectrified/models/item/copper_wire.json
 d853649a2eac2510176b993b84e72d3ac18bba37 assets/createlectrified/models/item/crushed_bauxite_ore.json
 b550d7279b0734140a17bb55c03a91c6c471f4b3 assets/createlectrified/models/item/deepslate_bauxite_ore.json
