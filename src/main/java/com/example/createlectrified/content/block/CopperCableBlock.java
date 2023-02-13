@@ -1,7 +1,10 @@
 package com.example.createlectrified.content.block;
 
 import com.simibubi.create.content.logistics.trains.track.TrackVoxelShapes;
+import com.simibubi.create.foundation.utility.VoxelShaper;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
@@ -20,8 +23,7 @@ import java.awt.*;
 
 public class CopperCableBlock extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
-    public static final VoxelShape SHAPE_CABLE = Shapes.or(
-            Block.box(6.0D, 0.0D, 6.0D, 16.0D, 4.0D, 4.0D));
+    public static final VoxelShape SHAPE_CABLE = Block.box (4.0D, 2.0D, 4.0D, 12.0D, 14.0D, 12.0D);
 
     public CopperCableBlock(Properties pProperties) {
         super(pProperties);
