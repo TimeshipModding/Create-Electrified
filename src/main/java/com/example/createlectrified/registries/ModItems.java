@@ -1,22 +1,17 @@
 package com.example.createlectrified.registries;
 
-import com.example.createlectrified.CreateElectrified;
-import com.simibubi.create.foundation.data.CreateRegistrate;
-import com.tterrag.registrate.util.entry.BlockEntry;
-import com.tterrag.registrate.util.entry.ItemEntry;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.Block;
 import com.example.createlectrified.setup.ModCreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import static com.example.createlectrified.CreateElectrified.MODID;
+import static com.example.createlectrified.registries.ModBlocks.*;
 
 public class ModItems {
 
@@ -38,18 +33,17 @@ public class ModItems {
 
     // Ore BlockItems
     public static final RegistryObject<Item> ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.ELECTRUM_ORE);
-    public static final RegistryObject<Item> DEEPSLATE_ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.DEEPSLATE_ELECTRUM_ORE);
+    public static final RegistryObject<Item> DEEPSLATE_ELECTRUM_ORE_BLOCKITEM = fromBlock(DEEPSLATE_ELECTRUM_ORE);
     public static final RegistryObject<Item> BAUXITE_ORE_BLOCKITEM = fromBlock(ModBlocks.BAUXITE_ORE);
-    public static final RegistryObject<Item> DEEPSLATE_BAUXITE_ORE_BLOCKITEM = fromBlock(ModBlocks.DEEPSLATE_BAUXITE_ORE);
+    public static final RegistryObject<Item> DEEPSLATE_BAUXITE_ORE_BLOCKITEM = fromBlock(DEEPSLATE_BAUXITE_ORE);
 
     // BlockItems
-    public static final RegistryObject<Item> RAW_ALUMINIUM_BLOCK_ITEM = fromBlock(ModBlocks.RAW_ALUMINIUM_BLOCK);
-    public static final RegistryObject<Item> ALUMINIUM_BLOCK_ITEM = fromBlock(ModBlocks.ALUMINIUM_BLOCK);
-    public static final RegistryObject<Item> ELECTRUM_BLOCK_ITEM = fromBlock(ModBlocks.ELECTRUM_BLOCK);
+    public static final RegistryObject<Item> RAW_ALUMINIUM_BLOCKITEM = fromBlock(RAW_ALUMINIUM_BLOCK);
+    public static final RegistryObject<Item> ALUMINIUM_BLOCKITEM = fromBlock(ALUMINIUM_BLOCK);
+    public static final RegistryObject<Item> ELECTRUM_BLOCKITEM = fromBlock(ELECTRUM_BLOCK);
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));
     }
-
 }
 
