@@ -1,48 +1,45 @@
 package com.example.createlectrified.content.block;
 
-import com.simibubi.create.content.logistics.trains.track.TrackVoxelShapes;
-import com.simibubi.create.foundation.utility.VoxelShaper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Mirror;
-import net.minecraft.world.level.block.RenderShape;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 import java.awt.*;
 
-public class CopperCableBlock extends Block {
+public class CopperCableBlock extends HorizontalDirectionalBlock {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
-    public static final VoxelShape SHAPE_CABLE = Block.box (4.0D, 2.0D, 4.0D, 12.0D, 14.0D, 12.0D);
-
-    public CopperCableBlock(Properties pProperties) {
-        super(pProperties);
+    public CopperCableBlock(Properties properties) {
+        super(properties);
     }
 
+    public static final VoxelShape SHAPE_CABLE =
+            Block.box(0, 6, 6, 16, 10, 10);
+    public static final VoxelShape SHAPE_CABLE2 =
+            Block.box(6, 6, 0, 10, 10, 16);
 
-    public RenderShape getRenderShape(BlockState pState) {
-        return RenderShape.MODEL;
-    }
 
-    public VoxelShape getOcclusionShape(BlockState pState, BlockGetter pLevel, BlockPos pPos) {
-        return SHAPE_CABLE;
+
+
+    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
+        Direction direction = pState.getValue(FACING);
+        return direction.getAxis() == Direction.Axis.X ? SHAPE_CABLE : SHAPE_CABLE2;
     }
 
     // Facing
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
-
         return this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite());
     }
 
@@ -57,7 +54,7 @@ public class CopperCableBlock extends Block {
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-        pBuilder.add(FACING);
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> Builder) {
+        Builder.add(FACING);
     }
 }
