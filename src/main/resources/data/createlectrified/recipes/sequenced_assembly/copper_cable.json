@@ -1,12 +1,11 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "tag": "create:sleepers"
   },
   "loops": 1,
   "results": [
     {
-      "item": "create:track"
+      "item": "createlectrified:copper_cable"
     }
   ],
   "sequence": [
@@ -14,20 +13,17 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:incomplete_track"
+          "item": "createlectrified:incomplete_copper_cable"
         },
         [
           {
-            "tag": "forge:nuggets/iron"
-          },
-          {
-            "tag": "forge:nuggets/zinc"
+            "item": "createlectrfied:copper_wire"
           }
         ]
       ],
       "results": [
         {
-          "item": "create:incomplete_track"
+          "item": "createlectrified:incomplete_copper_cable"
         }
       ]
     },
@@ -35,38 +31,40 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:incomplete_track"
+          "item": "createlectrified:incomplete_copper_cable"
         },
         [
           {
-            "tag": "forge:nuggets/iron"
-          },
-          {
-            "tag": "forge:nuggets/zinc"
+            "item": "createlectrified:brass_wire"
           }
         ]
       ],
       "results": [
         {
-          "item": "create:incomplete_track"
+          "item": "createlectrified:incomplete_copper_cable"
         }
       ]
     },
     {
-      "type": "create:pressing",
+      "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:incomplete_track"
-        }
+          "item": "createlectrified:incomplete_copper_cable"
+        },
+        [
+          {
+            "item": "createlectrified:cable_insulation"
+          }
+        ]
       ],
       "results": [
         {
-          "item": "create:incomplete_track"
+          "item": "createlectrified:incomplete_copper_cable"
         }
       ]
     }
-  ],
+    ],
   "transitionalItem": {
-    "item": "create:incomplete_track"
+    "item": "createlectrified:incomplete_copper_cable"
   }
 }

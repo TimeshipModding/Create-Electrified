@@ -1,0 +1,71 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "create:sleepers"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createlectrified:copper_cable"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlectrified:incomplete_copper_cable"
+        },
+        [
+          {
+            "item": "createlectrfied:copper_wire"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "createlectrified:incomplete_copper_cable"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlectrified:incomplete_copper_cable"
+        },
+        [
+          {
+            "item": "createlectrified:brass_wire"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "createlectrified:incomplete_copper_cable"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlectrified:incomplete_copper_cable"
+        },
+        [
+          {
+            "item": "createlectrified:cable_insulation"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "createlectrified:incomplete_copper_cable"
+        }
+      ]
+    }
+    ],
+  "transitionalItem": {
+    "item": "createlectrified:incomplete_copper_cable"
+  }
+}
