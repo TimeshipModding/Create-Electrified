@@ -1,4 +1,4 @@
-// 1.19.2	2023-02-03T18:23:16.3296393	Item Models: createlectrified
+// 1.19.2	2023-02-19T16:36:55.5573079	Item Models: createlectrified
 faead5144bdf07ae85c0c6aed962ef3ee5c3dd64 assets/createlectrified/models/item/aluminium_block.json
 fcec589a8bb45103fd3bfe92dc6cb2011d8be04d assets/createlectrified/models/item/aluminium_casing.json
 190dc9110e1d8472041f4f8077d7e8f85d770619 assets/createlectrified/models/item/aluminium_ingot.json
@@ -17,5 +17,6 @@ fc08c549263c63530d1ae186b758978d1ad59f68 assets/createlectrified/models/item/ele
 bf160d1c56205710f8d4d573e9a12bbb02576192 assets/createlectrified/models/item/electrum.json
 1ae30ec3efcb9e75ad3a2f00dd6ed36c25a8666b assets/createlectrified/models/item/electrum_block.json
 b96d3e8fee3038ef5fe458bd99fa594f051d590c assets/createlectrified/models/item/electrum_ore.json
+6a5abf064e867b7b6e2bd7199edee9718a666f57 assets/createlectrified/models/item/incomplete_copper_cable.json
 aa5202ccf5a996026122dd4c3eefded3f421375a assets/createlectrified/models/item/raw_aluminium.json
 8d657003bb45e4695fb890c3aed186c6c97b7a47 assets/createlectrified/models/item/raw_aluminium_block.json
