@@ -1,3 +1,5 @@
-// 1.19.2	2023-02-19T17:12:40.367012	Create: Electrified Tags
-afd173f78e6734ee5363b85d2d4a60582d48bb6c data/createlectrified/tags/items/bauxite_ore_block.json
-8d7f34a850668e519f5bff9ad3a7260c3ebb630a data/createlectrified/tags/items/electrum_ore_item.json
+// 1.19.2	2023-02-20T16:11:10.159572	Create: Electrified Tags
+afd173f78e6734ee5363b85d2d4a60582d48bb6c data/createlectrified/tags/blocks/bauxite_ore_block.json
+8d7f34a850668e519f5bff9ad3a7260c3ebb630a data/createlectrified/tags/blocks/electrum_ore_block.json
+8fb212b3c551bcd4453fc1203c7edfb309b508ee data/minecraft/tags/blocks/mineable/pickaxe.json
+8fb212b3c551bcd4453fc1203c7edfb309b508ee data/minecraft/tags/blocks/needs_iron_tool.json

@@ -31,6 +31,7 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
 
         // Unseen Item and Block Translations
         add(ModItems.INCOMPLETE_COPPER_CABLE.get(), "Incomplete Copper Cable");
+        add(ModItems.INCOMPLETE_ELECTRIC_MECHANISM.get(), "Incomplete Electric Mechanism");
 
         // Block Translations
         add(ModBlocks.ELECTRUM_ORE.get(),"Electrum Ore");

@@ -44,6 +44,7 @@ public class ModItems {
 
     // Unseen Items
     public static final RegistryObject<Item> INCOMPLETE_COPPER_CABLE = ITEMS.register("incomplete_copper_cable", () -> new Item(UNSEEN_ITEM_PROPERTIES));
+    public static final RegistryObject<Item> INCOMPLETE_ELECTRIC_MECHANISM = ITEMS.register("incomplete_electric_mechanism", () -> new Item(UNSEEN_ITEM_PROPERTIES));
 
     // Ore BlockItems
     public static final RegistryObject<Item> ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.ELECTRUM_ORE);
