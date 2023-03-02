@@ -419,6 +419,12 @@
     },
     "done": true
   },
+  "createlectrified:recipes/electrifiedtab1/raw_aluminium": {
+    "criteria": {
+      "criteria": "2023-03-02 18:22:29 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2022-11-25 18:30:08 +1000"
