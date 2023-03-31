@@ -28,9 +28,6 @@ public class CopperCableBlock extends HorizontalDirectionalBlock {
     public static final VoxelShape SHAPE_CABLE2 =
             Block.box(6, 6, 0, 10, 10, 16);
 
-
-
-
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
         Direction direction = pState.getValue(FACING);
         return direction.getAxis() == Direction.Axis.X ? SHAPE_CABLE : SHAPE_CABLE2;

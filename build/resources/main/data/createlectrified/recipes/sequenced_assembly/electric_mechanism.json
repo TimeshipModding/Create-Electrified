@@ -1,0 +1,96 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createlectrified:aluminium_sheet"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 120.0,
+      "item": "createlectrified:electric_mechanism"
+    },
+    {
+      "chance": 8.0,
+      "item": "createlectrified:aluminium_sheet"
+    },
+    {
+      "chance": 8.0,
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "chance": 5.0,
+      "item": "createlectrified:copper_cable"
+    },
+    {
+      "chance": 3.0,
+      "item": "createlectrified:aluminium_nugget"
+    },
+    {
+      "chance": 2.0,
+      "item": "createlectrified:brass_wire"
+    },
+    {
+      "chance": 2.0,
+      "item": "createlectrified:crushed_bauxite"
+    },
+    {
+      "item": "createlectrifed:aluminium_ingot"
+    },
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlectrified:incomplete_electric_mechanism"
+        },
+        {
+          "item": "createlectrified:charged_electrum"
+        }
+      ],
+      "results": [
+        {
+          "item": "createlectrified:incomplete_electric_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlectrified:incomplete_electric_mechanism"
+        },
+        {
+          "item": "createlectrified:copper_cable"
+        }
+      ],
+      "results": [
+        {
+          "item": "createlectrified:incomplete_electric_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlectrified:incomplete_electric_mechanism"
+        },
+        {
+          "item": "createlectrified:copper_cable"
+        }
+      ],
+      "results": [
+        {
+          "item": "createlectrified:incomplete_electric_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createlectrified:incomplete_electric_mechanism"
+  }
+}

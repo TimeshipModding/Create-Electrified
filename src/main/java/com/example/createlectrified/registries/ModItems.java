@@ -27,6 +27,7 @@ public class ModItems {
         ITEMS.register(bus);
     }
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModCreativeModeTab.ELECTRIFIED_TAB_1);
+    public static final Item.Properties UNSEEN_ITEM_PROPERTIES = new Item.Properties();
 
     // Items
     public static final RegistryObject<Item> ALUMINIUM_NUGGET = ITEMS.register("aluminium_nugget", () -> new Item(ITEM_PROPERTIES));
@@ -40,6 +41,10 @@ public class ModItems {
     public static final RegistryObject<Item> CABLE_INSULATION = ITEMS.register("cable_insulation", () -> new Item(ITEM_PROPERTIES));
     public static final RegistryObject<Item> CHARGED_ELECTRUM = ITEMS.register("charged_electrum", () -> new Item(ITEM_PROPERTIES));
     public static final RegistryObject<Item> ELECTRIC_MECHANISM = ITEMS.register("electric_mechanism", () -> new Item(ITEM_PROPERTIES));
+
+    // Unseen Items
+    public static final RegistryObject<Item> INCOMPLETE_COPPER_CABLE = ITEMS.register("incomplete_copper_cable", () -> new Item(UNSEEN_ITEM_PROPERTIES));
+    public static final RegistryObject<Item> INCOMPLETE_ELECTRIC_MECHANISM = ITEMS.register("incomplete_electric_mechanism", () -> new Item(UNSEEN_ITEM_PROPERTIES));
 
     // Ore BlockItems
     public static final RegistryObject<Item> ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.ELECTRUM_ORE);
