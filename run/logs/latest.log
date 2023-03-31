@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [02Mar2023 18:21:20.734] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.47, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
 [02Mar2023 18:21:20.741] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.4.1 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
 [02Mar2023 18:21:20.964] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/wyatt/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
@@ -239,3 +240,44 @@
 [02Mar2023 18:25:26.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [02Mar2023 18:25:26.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
 [02Mar2023 18:25:43.130] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+=======
+[20Feb2023 16:10:46.569] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.19, --assetsDir, C:\Users\User\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.47, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --mod, createlectrified, --all, --output, C:\Users\User\Documents\GitHub\Create-Electrified\src\generated\resources, --existing, C:\Users\User\Documents\GitHub\Create-Electrified\src\main\resources]
+[20Feb2023 16:10:46.578] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[20Feb2023 16:10:46.867] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/User/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
+[20Feb2023 16:10:47.316] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.47\1668d395b1f93c5591eb7447b5c808e2af1d0e0a\javafmllanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[20Feb2023 16:10:47.320] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.47\a0d8118fdf70df78a1c014913a286ac4acce9d7a\lowcodelanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[20Feb2023 16:10:47.324] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.47\f7cbce46c868ff8b4626d82ef29918dcabb89dc8\mclanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[20Feb2023 16:10:47.328] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.47\65f5798d52872998a17f41ee2c01694cba9487d5\fmlcore-1.19.2-43.1.47.jar is missing mods.toml file
+[20Feb2023 16:10:47.535] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[20Feb2023 16:10:50.778] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Feb2023 16:10:50.796] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\User\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19, --mod, createlectrified, --all, --output, C:\Users\User\Documents\GitHub\Create-Electrified\src\generated\resources, --existing, C:\Users\User\Documents\GitHub\Create-Electrified\src\main\resources]
+[20Feb2023 16:10:51.581] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\User\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
+[20Feb2023 16:10:51.586] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\User\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
+[20Feb2023 16:10:51.992] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder)
+[20Feb2023 16:10:51.992] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin
+[20Feb2023 16:10:52.534] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [createlectrified]
+[20Feb2023 16:10:58.402] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[20Feb2023 16:11:02.392] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.47, for MC 1.19.2 with MCP 20220805.130853
+[20Feb2023 16:11:02.394] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.47 Initialized
+[20Feb2023 16:11:03.002] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[20Feb2023 16:11:08.893] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/User/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[20Feb2023 16:11:08.893] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/User/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[20Feb2023 16:11:09.702] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registrate Provider for createlectrified [Recipes, Advancements, Loot tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+[20Feb2023 16:11:09.930] [main/INFO] [net.minecraft.data.DataGenerator/]: Registrate Provider for createlectrified [Recipes, Advancements, Loot tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)] finished after 227 ms
+[20Feb2023 16:11:09.930] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[20Feb2023 16:11:09.983] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 52 ms
+[20Feb2023 16:11:09.984] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create: Electrified LootTables
+[20Feb2023 16:11:10.010] [main/INFO] [net.minecraft.data.DataGenerator/]: Create: Electrified LootTables finished after 26 ms
+[20Feb2023 16:11:10.010] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create: Electrified Tags
+[20Feb2023 16:11:10.018] [main/INFO] [net.minecraft.data.DataGenerator/]: Create: Electrified Tags finished after 6 ms
+[20Feb2023 16:11:10.018] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create: Electrified Tags
+[20Feb2023 16:11:10.020] [main/INFO] [net.minecraft.data.DataGenerator/]: Create: Electrified Tags finished after 2 ms
+[20Feb2023 16:11:10.021] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: createlectrified
+[20Feb2023 16:11:10.070] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: createlectrified finished after 49 ms
+[20Feb2023 16:11:10.070] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: createlectrified
+[20Feb2023 16:11:10.151] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: createlectrified finished after 80 ms
+[20Feb2023 16:11:10.152] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[20Feb2023 16:11:10.154] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 1 ms
+[20Feb2023 16:11:10.154] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 452 ms
+[20Feb2023 16:11:10.188] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 91, old count: 94, new count: 92, removed stale: 0, written: 4
+>>>>>>> c8df4e797608add5218ec35ce4de75743fab4b37
