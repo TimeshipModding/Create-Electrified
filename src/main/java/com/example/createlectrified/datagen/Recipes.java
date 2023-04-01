@@ -20,6 +20,7 @@ import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.*;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeType;
@@ -79,6 +80,15 @@ public class Recipes extends RecipeProvider {
                 .requires(ModItems.ELECTRUM.get(), 9)
                 .group("createlectrified")
                 .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ELECTRUM.get()))
+                .save(consumer);
+
+        // Shaped Crafting for Items
+        ShapedRecipeBuilder.shaped(ModBlocks.COPPER_ROD.get())
+                .define('#', Items.COPPER_INGOT)
+                .pattern("#")
+                .pattern("#")
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(Items.COPPER_INGOT))
                 .save(consumer);
 
         // Cooking for Furnaces

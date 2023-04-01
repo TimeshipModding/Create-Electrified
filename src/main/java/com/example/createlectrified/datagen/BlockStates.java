@@ -38,6 +38,7 @@ public class BlockStates extends BlockStateProvider {
         simpleBlock(ModBlocks.ALUMINIUM_BLOCK.get());
         simpleBlock(ModBlocks.ELECTRUM_BLOCK.get());
 
+        // SpriteShift Blocks
         simpleBlock(ModCasingBlocks.ALUMINIUM_CASING.get());
     }
 }

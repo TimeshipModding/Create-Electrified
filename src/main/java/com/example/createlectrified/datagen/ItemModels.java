@@ -43,8 +43,11 @@ public class ItemModels extends ItemModelProvider {
         withExistingParent(ModBlocks.ALUMINIUM_BLOCK.getId().getPath(), modLoc("block/aluminium_block"));
         withExistingParent(ModBlocks.ELECTRUM_BLOCK.getId().getPath(), modLoc("block/electrum_block"));
 
+        // SpriteShift Blocks
         withExistingParent(ModCasingBlocks.ALUMINIUM_CASING.getId().getPath(), modLoc("block/aluminium_casing"));
 
+        // Model Blocks
         withExistingParent(ModBlocks.COPPER_CABLE.getId().getPath(), modLoc("block/copper_cable"));
+        withExistingParent(ModBlocks.COPPER_ROD.getId().getPath(), modLoc("block/copper_rod"));
     }
 }

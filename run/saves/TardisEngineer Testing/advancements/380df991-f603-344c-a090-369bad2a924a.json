@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/copper_backtank": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2022-11-06 09:07:33 +1000"
@@ -143,6 +149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2022-11-06 08:59:51 +1000"
@@ -182,6 +194,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2022-11-06 08:59:51 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_valve": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
     },
     "done": true
   },
@@ -275,6 +293,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/materials/copper_nugget": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_deepslate_from_deepslate_stonecutting": {
     "criteria": {
       "has_deepslate": "2022-11-08 18:01:20 +1000"
@@ -290,6 +314,12 @@
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2022-11-06 08:59:50 +1000"
+    },
+    "done": true
+  },
+  "createlectrified:recipes/electrifiedtab1/copper_rod": {
+    "criteria": {
+      "criteria": "2023-04-01 11:05:43 +1000"
     },
     "done": true
   },
@@ -425,6 +455,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/mechanical_pump": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2022-11-06 08:59:01 +1000"
@@ -518,6 +554,12 @@
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2022-11-08 18:04:27 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:05:43 +1000"
     },
     "done": true
   },
@@ -678,6 +720,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/fluid_pipe_vertical": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
   "create:deployer": {
     "criteria": {
       "0": "2023-02-19 17:22:00 +1000"
@@ -705,6 +753,12 @@
   "createlectrified:recipes/electrifiedtab1/aluminium_nugget": {
     "criteria": {
       "criteria": "2022-11-11 10:02:34 +1000"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2023-04-01 11:05:43 +1000"
     },
     "done": true
   },
@@ -771,6 +825,18 @@
   "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
     "criteria": {
       "has_vine": "2023-03-31 20:49:03 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/copper_valve_handle_from_others": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/steam_engine": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
     },
     "done": true
   },
@@ -900,6 +966,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/copper_valve_handle": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_deepslate_brick_stairs_from_deepslate_stonecutting": {
     "criteria": {
       "has_deepslate": "2022-11-08 18:01:20 +1000"
@@ -984,6 +1056,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/diving_helmet": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2022-11-06 08:59:51 +1000"
@@ -1040,6 +1118,12 @@
   "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2022-11-18 13:32:19 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/diving_boots": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
     },
     "done": true
   },
@@ -1121,6 +1205,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/smart_fluid_pipe": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/small_deepslate_brick_wall_from_deepslate_stonecutting": {
     "criteria": {
       "has_deepslate": "2022-11-08 18:01:20 +1000"
@@ -1145,6 +1235,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/steam_whistle": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/mechanical_arm": {
     "criteria": {
       "has_item": "2022-11-07 17:16:25 +1000"
@@ -1163,9 +1259,21 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/fluid_pipe": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
       "has_raw_iron": "2022-11-18 13:32:19 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/hose_pulley": {
+    "criteria": {
+      "has_item": "2023-04-01 11:05:43 +1000"
     },
     "done": true
   },

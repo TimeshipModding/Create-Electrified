@@ -1,239 +1,226 @@
-[01Apr2023 10:32:57.473] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.47, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[01Apr2023 10:32:57.480] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.4.1 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
-[01Apr2023 10:32:57.686] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/wyatt/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
-[01Apr2023 10:32:58.155] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.47\1668d395b1f93c5591eb7447b5c808e2af1d0e0a\javafmllanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[01Apr2023 10:32:58.157] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.47\a0d8118fdf70df78a1c014913a286ac4acce9d7a\lowcodelanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[01Apr2023 10:32:58.161] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.47\f7cbce46c868ff8b4626d82ef29918dcabb89dc8\mclanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[01Apr2023 10:32:58.163] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.47\65f5798d52872998a17f41ee2c01694cba9487d5\fmlcore-1.19.2-43.1.47.jar is missing mods.toml file
-[01Apr2023 10:32:58.351] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[01Apr2023 10:33:00.664] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Apr2023 10:33:00.679] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[01Apr2023 10:33:01.108] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
-[01Apr2023 10:33:01.111] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
-[01Apr2023 10:33:01.328] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder)
-[01Apr2023 10:33:01.330] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin
-[01Apr2023 10:33:06.478] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[01Apr2023 10:33:09.174] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
-[01Apr2023 10:33:09.174] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
-[01Apr2023 10:33:09.192] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Apr2023 10:33:09.198] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[01Apr2023 10:33:09.353] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[01Apr2023 10:33:09.983] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.47, for MC 1.19.2 with MCP 20220805.130853
-[01Apr2023 10:33:09.990] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.47 Initialized
-[01Apr2023 10:33:10.038] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[01Apr2023 10:33:14.628] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [createlectrified]
-[01Apr2023 10:33:15.131] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[01Apr2023 10:33:15.157] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[01Apr2023 10:33:16.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Apr2023 10:33:18.180] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.47 Target: 43.2.0
-[01Apr2023 10:33:18.181] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/5lpsZoRi/forge_updates.json
-[01Apr2023 10:33:18.589] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: OUTDATED Current: 0.6.7-9 Target: 0.6.8.a
-[01Apr2023 10:33:24.376] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
-[01Apr2023 10:33:26.376] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[01Apr2023 10:33:26.376] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[01Apr2023 10:33:26.412] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (2- Logitech USB Headset)
-[01Apr2023 10:33:26.413] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[01Apr2023 10:33:26.659] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[01Apr2023 10:33:26.672] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[01Apr2023 10:33:26.674] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[01Apr2023 10:33:26.675] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[01Apr2023 10:33:26.676] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[01Apr2023 10:33:26.676] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[01Apr2023 10:33:26.676] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[01Apr2023 10:33:28.268] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[01Apr2023 10:33:28.460] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[01Apr2023 10:33:28.461] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[01Apr2023 10:33:28.462] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[01Apr2023 10:33:28.466] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
-[01Apr2023 10:33:29.475] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[01Apr2023 10:33:37.892] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
-[01Apr2023 10:33:39.324] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2362 advancements
-[01Apr2023 10:33:40.381] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
-[01Apr2023 10:33:40.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Apr2023 10:33:40.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Apr2023 10:33:45.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 10:33:45.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 10:33:45.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 10:33:45.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 10:33:45.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 10:33:45.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 10:33:45.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 10:33:45.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 10:33:45.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 10:33:45.334] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 10:33:45.848] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[01Apr2023 10:33:46.346] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[01Apr2023 10:33:46.776] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Apr2023 10:33:46.801] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5973 ms
-[01Apr2023 10:33:46.918] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[01Apr2023 10:33:46.920] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[01Apr2023 10:33:47.838] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[01Apr2023 10:33:47.906] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1b31edc9
-[01Apr2023 10:33:47.923] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:70bed991] logged in with entity id 165 at (-154.81073447915148, 86.0, 169.43640097842717)
-[01Apr2023 10:33:47.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[01Apr2023 10:33:49.636] [Render thread/INFO] [BatchExecutor/]: Started 2 worker threads
-[01Apr2023 10:33:49.743] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[01Apr2023 10:33:49.744] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[01Apr2023 10:33:50.019] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[01Apr2023 10:33:50.265] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[01Apr2023 10:33:50.265] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[01Apr2023 10:33:50.266] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
-[01Apr2023 10:33:50.282] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:minecraft ...
-[01Apr2023 10:33:50.286] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:minecraft took 3.708 ms
-[01Apr2023 10:33:50.286] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: create:jei_plugin ...
-[01Apr2023 10:33:50.286] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: create:jei_plugin took 10.40 μs
-[01Apr2023 10:33:50.287] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:debug ...
-[01Apr2023 10:33:50.287] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:debug took 28.60 μs
-[01Apr2023 10:33:50.287] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:forge ...
-[01Apr2023 10:33:50.288] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:forge took 14.20 μs
-[01Apr2023 10:33:50.288] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:internal ...
-[01Apr2023 10:33:50.288] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:internal took 15.50 μs
-[01Apr2023 10:33:50.290] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft ...
-[01Apr2023 10:33:50.290] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft took 27.40 μs
-[01Apr2023 10:33:50.290] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin ...
-[01Apr2023 10:33:50.294] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin took 4.171 ms
-[01Apr2023 10:33:50.295] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:debug ...
-[01Apr2023 10:33:50.296] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:debug took 829.4 μs
-[01Apr2023 10:33:50.296] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:forge ...
-[01Apr2023 10:33:50.296] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:forge took 12.20 μs
-[01Apr2023 10:33:50.296] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:internal ...
-[01Apr2023 10:33:50.296] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:internal took 9.800 μs
-[01Apr2023 10:33:50.299] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:minecraft ...
-[01Apr2023 10:33:50.347] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:minecraft took 47.67 ms
-[01Apr2023 10:33:50.347] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: create:jei_plugin ...
-[01Apr2023 10:33:50.347] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: create:jei_plugin took 14.10 μs
-[01Apr2023 10:33:50.347] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:debug ...
-[01Apr2023 10:33:50.348] [Render thread/INFO] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\wyatt\Documents\GitHub\Create-Electrified\run\config\jei\jei-client.ini
-[01Apr2023 10:33:50.351] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:debug took 4.583 ms
-[01Apr2023 10:33:50.351] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:forge ...
-[01Apr2023 10:33:50.352] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:forge took 11.20 μs
-[01Apr2023 10:33:50.352] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:internal ...
-[01Apr2023 10:33:50.352] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:internal took 7.500 μs
-[01Apr2023 10:33:50.355] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
-[01Apr2023 10:33:50.363] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 7.729 ms
-[01Apr2023 10:33:50.364] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
-[01Apr2023 10:33:50.390] [Render thread/INFO] [mezz.jei.common.ingredients.IngredientFilter/]: Adding 1999 ingredients
-[01Apr2023 10:33:50.673] [Render thread/INFO] [mezz.jei.common.ingredients.IngredientFilter/]: Added 1999 ingredients
-[01Apr2023 10:33:50.674] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 309.8 ms
-[01Apr2023 10:33:50.678] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks...
-[01Apr2023 10:33:50.686] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks took 6.749 ms
-[01Apr2023 10:33:50.687] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:minecraft ...
-[01Apr2023 10:33:50.712] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:minecraft took 24.64 ms
-[01Apr2023 10:33:50.712] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: create:jei_plugin ...
-[01Apr2023 10:33:50.772] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: create:jei_plugin took 60.55 ms
-[01Apr2023 10:33:50.773] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:debug ...
-[01Apr2023 10:33:50.773] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:debug took 19.20 μs
-[01Apr2023 10:33:50.773] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:forge ...
-[01Apr2023 10:33:50.773] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:forge took 9.600 μs
-[01Apr2023 10:33:50.773] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:internal ...
-[01Apr2023 10:33:50.775] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:internal took 1.397 ms
-[01Apr2023 10:33:50.776] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft ...
-[01Apr2023 10:33:50.779] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft took 2.908 ms
-[01Apr2023 10:33:50.779] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin ...
-[01Apr2023 10:33:50.780] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin took 10.50 μs
-[01Apr2023 10:33:50.780] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:debug ...
-[01Apr2023 10:33:50.780] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:debug took 7.600 μs
-[01Apr2023 10:33:50.780] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:forge ...
-[01Apr2023 10:33:50.780] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:forge took 7.000 μs
-[01Apr2023 10:33:50.780] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:internal ...
-[01Apr2023 10:33:50.780] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:internal took 7.400 μs
-[01Apr2023 10:33:50.782] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft ...
-[01Apr2023 10:33:50.783] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft took 425.8 μs
-[01Apr2023 10:33:50.783] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin ...
-[01Apr2023 10:33:50.786] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin took 2.451 ms
-[01Apr2023 10:33:50.786] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:debug ...
-[01Apr2023 10:33:50.786] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:debug took 17.70 μs
-[01Apr2023 10:33:50.786] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:forge ...
-[01Apr2023 10:33:50.786] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:forge took 10.50 μs
-[01Apr2023 10:33:50.786] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:internal ...
-[01Apr2023 10:33:50.787] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:internal took 7.000 μs
-[01Apr2023 10:33:50.788] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:minecraft ...
-[01Apr2023 10:33:50.788] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:minecraft took 29.70 μs
-[01Apr2023 10:33:50.788] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin ...
-[01Apr2023 10:33:50.788] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin took 8.900 μs
-[01Apr2023 10:33:50.788] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:debug ...
-[01Apr2023 10:33:50.788] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:debug took 7.400 μs
-[01Apr2023 10:33:50.788] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:forge ...
-[01Apr2023 10:33:50.789] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:forge took 6.200 μs
-[01Apr2023 10:33:50.789] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:internal ...
-[01Apr2023 10:33:50.789] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:internal took 9.900 μs
-[01Apr2023 10:33:50.789] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
-[01Apr2023 10:33:50.802] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 12.40 ms
-[01Apr2023 10:33:50.805] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:minecraft ...
-[01Apr2023 10:33:51.163] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:minecraft took 357.8 ms
-[01Apr2023 10:33:51.164] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: create:jei_plugin ...
-[01Apr2023 10:33:51.364] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: create:jei_plugin took 200.1 ms
-[01Apr2023 10:33:51.364] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:debug ...
-[01Apr2023 10:33:51.364] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:debug took 28.00 μs
-[01Apr2023 10:33:51.364] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:forge ...
-[01Apr2023 10:33:51.364] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:forge took 6.300 μs
-[01Apr2023 10:33:51.364] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:internal ...
-[01Apr2023 10:33:51.364] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:internal took 5.400 μs
-[01Apr2023 10:33:51.370] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft ...
-[01Apr2023 10:33:51.373] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft took 2.957 ms
-[01Apr2023 10:33:51.373] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin ...
-[01Apr2023 10:33:51.374] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin took 625.4 μs
-[01Apr2023 10:33:51.374] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug ...
-[01Apr2023 10:33:51.374] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug took 9.300 μs
-[01Apr2023 10:33:51.374] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge ...
-[01Apr2023 10:33:51.375] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge took 5.100 μs
-[01Apr2023 10:33:51.375] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal ...
-[01Apr2023 10:33:51.375] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal took 5.000 μs
-[01Apr2023 10:33:51.393] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
-[01Apr2023 10:33:51.398] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:minecraft ...
-[01Apr2023 10:33:51.401] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:minecraft took 3.240 ms
-[01Apr2023 10:33:51.401] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: create:jei_plugin ...
-[01Apr2023 10:33:51.402] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: create:jei_plugin took 1.186 ms
-[01Apr2023 10:33:51.402] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:debug ...
-[01Apr2023 10:33:51.402] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:debug took 12.30 μs
-[01Apr2023 10:33:51.402] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:forge ...
-[01Apr2023 10:33:51.403] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:forge took 7.600 μs
-[01Apr2023 10:33:51.403] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:internal ...
-[01Apr2023 10:33:51.410] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:internal took 6.396 ms
-[01Apr2023 10:33:51.450] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 57.27 ms
-[01Apr2023 10:33:51.451] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:minecraft ...
-[01Apr2023 10:33:51.451] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:minecraft took 25.10 μs
-[01Apr2023 10:33:51.451] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: create:jei_plugin ...
-[01Apr2023 10:33:51.451] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: create:jei_plugin took 8.900 μs
-[01Apr2023 10:33:51.451] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:debug ...
-[01Apr2023 10:33:51.451] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:debug took 13.50 μs
-[01Apr2023 10:33:51.451] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:forge ...
-[01Apr2023 10:33:51.452] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:forge took 7.000 μs
-[01Apr2023 10:33:51.452] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:internal ...
-[01Apr2023 10:33:51.452] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:internal took 6.800 μs
-[01Apr2023 10:33:51.487] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 1.220 s
-[01Apr2023 10:33:51.586] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 254 advancements
-[01Apr2023 10:33:53.015] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Apr2023 10:33:53.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
-[01Apr2023 10:33:54.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
-[01Apr2023 10:33:54.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
-[01Apr2023 10:33:55.958] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3881ms or 77 ticks behind
-[01Apr2023 10:34:02.028] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Apr2023 10:34:02.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
-[01Apr2023 10:34:02.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
-[01Apr2023 10:34:02.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
-[01Apr2023 10:34:08.879] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Apr2023 10:34:09.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
-[01Apr2023 10:34:09.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
-[01Apr2023 10:34:09.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
-[01Apr2023 10:36:20.878] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Apr2023 10:36:20.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
-[01Apr2023 10:36:20.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
-[01Apr2023 10:36:20.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
-[01Apr2023 10:36:21.406] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[01Apr2023 10:36:21.406] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[01Apr2023 10:36:21.406] [Render thread/INFO] [mezz.jei.forge.startup.ClientLifecycleHandler/]: Stopping JEI
-[01Apr2023 10:36:21.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[01Apr2023 10:36:21.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[01Apr2023 10:36:21.451] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[01Apr2023 10:36:21.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Apr2023 10:36:21.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Apr2023 10:36:21.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Apr2023 10:36:23.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
-[01Apr2023 10:36:23.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
-[01Apr2023 10:36:23.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
-[01Apr2023 10:36:23.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (TardisEngineer Testing): All chunks are saved
-[01Apr2023 10:36:23.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Apr2023 10:36:23.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Apr2023 10:36:23.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01Apr2023 10:36:25.614] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[01Apr2023 11:23:29.541] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.47, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[01Apr2023 11:23:29.547] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.4.1 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
+[01Apr2023 11:23:29.762] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/wyatt/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
+[01Apr2023 11:23:30.199] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.47\1668d395b1f93c5591eb7447b5c808e2af1d0e0a\javafmllanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[01Apr2023 11:23:30.203] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.47\a0d8118fdf70df78a1c014913a286ac4acce9d7a\lowcodelanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[01Apr2023 11:23:30.207] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.47\f7cbce46c868ff8b4626d82ef29918dcabb89dc8\mclanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[01Apr2023 11:23:30.212] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.47\65f5798d52872998a17f41ee2c01694cba9487d5\fmlcore-1.19.2-43.1.47.jar is missing mods.toml file
+[01Apr2023 11:23:30.363] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[01Apr2023 11:23:32.521] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Apr2023 11:23:32.533] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[01Apr2023 11:23:32.965] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
+[01Apr2023 11:23:32.969] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
+[01Apr2023 11:23:33.204] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder)
+[01Apr2023 11:23:33.204] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin
+[01Apr2023 11:23:37.980] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[01Apr2023 11:23:40.961] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[01Apr2023 11:23:40.962] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[01Apr2023 11:23:40.987] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Apr2023 11:23:40.993] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[01Apr2023 11:23:41.167] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[01Apr2023 11:23:41.961] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[01Apr2023 11:23:42.120] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.47, for MC 1.19.2 with MCP 20220805.130853
+[01Apr2023 11:23:42.120] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.47 Initialized
+[01Apr2023 11:23:46.380] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [createlectrified]
+[01Apr2023 11:23:46.865] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[01Apr2023 11:23:46.887] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[01Apr2023 11:23:47.437] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Apr2023 11:23:48.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.47 Target: 43.2.0
+[01Apr2023 11:23:48.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/5lpsZoRi/forge_updates.json
+[01Apr2023 11:23:48.946] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: OUTDATED Current: 0.6.7-9 Target: 0.6.8.a
+[01Apr2023 11:23:55.087] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[01Apr2023 11:23:56.907] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[01Apr2023 11:23:56.907] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01Apr2023 11:23:56.940] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (2- Logitech USB Headset)
+[01Apr2023 11:23:56.942] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[01Apr2023 11:23:57.100] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[01Apr2023 11:23:57.111] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[01Apr2023 11:23:57.115] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[01Apr2023 11:23:57.116] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[01Apr2023 11:23:57.117] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[01Apr2023 11:23:57.119] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[01Apr2023 11:23:57.119] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01Apr2023 11:23:58.494] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01Apr2023 11:23:58.674] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[01Apr2023 11:23:58.676] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[01Apr2023 11:23:58.677] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01Apr2023 11:23:58.681] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[01Apr2023 11:23:59.798] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[01Apr2023 11:24:05.762] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[01Apr2023 11:24:07.167] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2363 advancements
+[01Apr2023 11:24:08.197] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[01Apr2023 11:24:08.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Apr2023 11:24:08.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Apr2023 11:24:12.811] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Apr2023 11:24:12.811] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Apr2023 11:24:12.811] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Apr2023 11:24:13.165] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[01Apr2023 11:24:13.645] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[01Apr2023 11:24:13.955] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Apr2023 11:24:13.960] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5322 ms
+[01Apr2023 11:24:14.082] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[01Apr2023 11:24:14.085] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[01Apr2023 11:24:14.205] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[01Apr2023 11:24:14.869] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[01Apr2023 11:24:14.922] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@e6f587
+[01Apr2023 11:24:14.951] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:6053483c] logged in with entity id 183 at (-160.18883650415177, 85.1212968405392, 166.84110525898865)
+[01Apr2023 11:24:15.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[01Apr2023 11:24:16.182] [Render thread/INFO] [BatchExecutor/]: Started 2 worker threads
+[01Apr2023 11:24:16.209] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[01Apr2023 11:24:16.209] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[01Apr2023 11:24:16.430] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[01Apr2023 11:24:16.575] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[01Apr2023 11:24:16.575] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[01Apr2023 11:24:16.576] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
+[01Apr2023 11:24:16.591] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:minecraft ...
+[01Apr2023 11:24:16.594] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:minecraft took 2.832 ms
+[01Apr2023 11:24:16.594] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: create:jei_plugin ...
+[01Apr2023 11:24:16.594] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: create:jei_plugin took 9.400 μs
+[01Apr2023 11:24:16.595] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:debug ...
+[01Apr2023 11:24:16.595] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:debug took 28.70 μs
+[01Apr2023 11:24:16.595] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:forge ...
+[01Apr2023 11:24:16.596] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:forge took 14.80 μs
+[01Apr2023 11:24:16.596] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:internal ...
+[01Apr2023 11:24:16.596] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:internal took 17.80 μs
+[01Apr2023 11:24:16.596] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft ...
+[01Apr2023 11:24:16.597] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft took 30.20 μs
+[01Apr2023 11:24:16.597] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin ...
+[01Apr2023 11:24:16.599] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin took 1.930 ms
+[01Apr2023 11:24:16.600] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:debug ...
+[01Apr2023 11:24:16.601] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:debug took 693.6 μs
+[01Apr2023 11:24:16.601] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:forge ...
+[01Apr2023 11:24:16.601] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:forge took 12.00 μs
+[01Apr2023 11:24:16.601] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:internal ...
+[01Apr2023 11:24:16.601] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:internal took 10.00 μs
+[01Apr2023 11:24:16.603] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:minecraft ...
+[01Apr2023 11:24:16.656] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:minecraft took 53.60 ms
+[01Apr2023 11:24:16.656] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: create:jei_plugin ...
+[01Apr2023 11:24:16.657] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: create:jei_plugin took 12.20 μs
+[01Apr2023 11:24:16.657] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:debug ...
+[01Apr2023 11:24:16.659] [Render thread/INFO] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\wyatt\Documents\GitHub\Create-Electrified\run\config\jei\jei-client.ini
+[01Apr2023 11:24:16.662] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:debug took 4.817 ms
+[01Apr2023 11:24:16.662] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:forge ...
+[01Apr2023 11:24:16.662] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:forge took 9.700 μs
+[01Apr2023 11:24:16.663] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:internal ...
+[01Apr2023 11:24:16.663] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:internal took 8.600 μs
+[01Apr2023 11:24:16.666] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
+[01Apr2023 11:24:16.675] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 8.470 ms
+[01Apr2023 11:24:16.675] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
+[01Apr2023 11:24:16.701] [Render thread/INFO] [mezz.jei.common.ingredients.IngredientFilter/]: Adding 2000 ingredients
+[01Apr2023 11:24:16.979] [Render thread/INFO] [mezz.jei.common.ingredients.IngredientFilter/]: Added 2000 ingredients
+[01Apr2023 11:24:16.980] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 304.8 ms
+[01Apr2023 11:24:16.985] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks...
+[01Apr2023 11:24:16.994] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks took 7.638 ms
+[01Apr2023 11:24:16.995] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:minecraft ...
+[01Apr2023 11:24:17.017] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:minecraft took 22.42 ms
+[01Apr2023 11:24:17.017] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: create:jei_plugin ...
+[01Apr2023 11:24:17.086] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: create:jei_plugin took 68.73 ms
+[01Apr2023 11:24:17.087] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:debug ...
+[01Apr2023 11:24:17.087] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:debug took 14.20 μs
+[01Apr2023 11:24:17.087] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:forge ...
+[01Apr2023 11:24:17.087] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:forge took 8.500 μs
+[01Apr2023 11:24:17.087] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:internal ...
+[01Apr2023 11:24:17.088] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:internal took 1.529 ms
+[01Apr2023 11:24:17.089] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft ...
+[01Apr2023 11:24:17.092] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft took 2.716 ms
+[01Apr2023 11:24:17.092] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin ...
+[01Apr2023 11:24:17.092] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin took 11.30 μs
+[01Apr2023 11:24:17.092] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:debug ...
+[01Apr2023 11:24:17.093] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:debug took 6.800 μs
+[01Apr2023 11:24:17.093] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:forge ...
+[01Apr2023 11:24:17.093] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:forge took 7.300 μs
+[01Apr2023 11:24:17.093] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:internal ...
+[01Apr2023 11:24:17.093] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:internal took 5.700 μs
+[01Apr2023 11:24:17.095] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft ...
+[01Apr2023 11:24:17.095] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft took 353.3 μs
+[01Apr2023 11:24:17.095] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin ...
+[01Apr2023 11:24:17.122] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin took 26.18 ms
+[01Apr2023 11:24:17.122] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:debug ...
+[01Apr2023 11:24:17.123] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:debug took 13.40 μs
+[01Apr2023 11:24:17.123] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:forge ...
+[01Apr2023 11:24:17.123] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:forge took 8.400 μs
+[01Apr2023 11:24:17.123] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:internal ...
+[01Apr2023 11:24:17.123] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:internal took 7.700 μs
+[01Apr2023 11:24:17.126] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:minecraft ...
+[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:minecraft took 23.80 μs
+[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin ...
+[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin took 7.000 μs
+[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:debug ...
+[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:debug took 5.600 μs
+[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:forge ...
+[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:forge took 5.400 μs
+[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:internal ...
+[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:internal took 5.600 μs
+[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
+[01Apr2023 11:24:17.139] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 11.27 ms
+[01Apr2023 11:24:17.142] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:minecraft ...
+[01Apr2023 11:24:17.398] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:minecraft took 256.2 ms
+[01Apr2023 11:24:17.398] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: create:jei_plugin ...
+[01Apr2023 11:24:17.622] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: create:jei_plugin took 223.7 ms
+[01Apr2023 11:24:17.622] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:debug ...
+[01Apr2023 11:24:17.623] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:debug took 27.40 μs
+[01Apr2023 11:24:17.623] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:forge ...
+[01Apr2023 11:24:17.623] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:forge took 6.500 μs
+[01Apr2023 11:24:17.623] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:internal ...
+[01Apr2023 11:24:17.623] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:internal took 5.500 μs
+[01Apr2023 11:24:17.629] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft ...
+[01Apr2023 11:24:17.632] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft took 3.256 ms
+[01Apr2023 11:24:17.632] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin ...
+[01Apr2023 11:24:17.633] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin took 768.0 μs
+[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug ...
+[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug took 11.00 μs
+[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge ...
+[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge took 5.800 μs
+[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal ...
+[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal took 5.400 μs
+[01Apr2023 11:24:17.641] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
+[01Apr2023 11:24:17.646] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:minecraft ...
+[01Apr2023 11:24:17.650] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:minecraft took 2.707 ms
+[01Apr2023 11:24:17.650] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: create:jei_plugin ...
+[01Apr2023 11:24:17.651] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: create:jei_plugin took 1.210 ms
+[01Apr2023 11:24:17.651] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:debug ...
+[01Apr2023 11:24:17.651] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:debug took 11.30 μs
+[01Apr2023 11:24:17.651] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:forge ...
+[01Apr2023 11:24:17.651] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:forge took 8.800 μs
+[01Apr2023 11:24:17.652] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:internal ...
+[01Apr2023 11:24:17.657] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:internal took 6.149 ms
+[01Apr2023 11:24:17.694] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 52.67 ms
+[01Apr2023 11:24:17.694] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:minecraft ...
+[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:minecraft took 33.20 μs
+[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: create:jei_plugin ...
+[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: create:jei_plugin took 11.40 μs
+[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:debug ...
+[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:debug took 13.60 μs
+[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:forge ...
+[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:forge took 5.700 μs
+[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:internal ...
+[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:internal took 6.100 μs
+[01Apr2023 11:24:17.731] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 1.156 s
+[01Apr2023 11:24:17.828] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 275 advancements
+[01Apr2023 11:24:59.358] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[01Apr2023 11:24:59.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
+[01Apr2023 11:24:59.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
+[01Apr2023 11:24:59.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
+[01Apr2023 11:25:00.476] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[01Apr2023 11:25:00.476] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[01Apr2023 11:25:00.476] [Render thread/INFO] [mezz.jei.forge.startup.ClientLifecycleHandler/]: Stopping JEI
+[01Apr2023 11:25:00.516] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[01Apr2023 11:25:00.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[01Apr2023 11:25:00.533] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[01Apr2023 11:25:00.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Apr2023 11:25:00.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Apr2023 11:25:00.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Apr2023 11:25:02.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
+[01Apr2023 11:25:02.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
+[01Apr2023 11:25:02.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
+[01Apr2023 11:25:02.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (TardisEngineer Testing): All chunks are saved
+[01Apr2023 11:25:02.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Apr2023 11:25:02.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Apr2023 11:25:02.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Apr2023 11:25:05.131] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

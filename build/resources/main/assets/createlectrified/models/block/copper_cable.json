@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "createlectrified:block/copper_cable",
-		"particle": "minecraft:block/copper_block"
+		"particle": "createlectrified:block/copper_cable"
 	},
 	"elements": [
 		{

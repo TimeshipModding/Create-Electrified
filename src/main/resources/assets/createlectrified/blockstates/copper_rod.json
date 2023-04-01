@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": {"model":  "createlectrified:block/copper_rod"},
+    "facing=east": {"model":  "createlectrified:block/copper_rod", "y":  90},
+    "facing=south": {"model":  "createlectrified:block/copper_rod", "y":  180},
+    "facing=west": {"model":  "createlectrified:block/copper_rod", "y":  270},
+    "facing=up": {"model":  "createlectrified:block/copper_rod_vertical"},
+    "facing=down": {"model": "createlectrified:block/copper_rod_vertical"}
+  }
+}

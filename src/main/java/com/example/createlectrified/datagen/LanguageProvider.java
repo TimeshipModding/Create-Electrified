@@ -43,9 +43,11 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         add(ModBlocks.ALUMINIUM_BLOCK.get(), "Block of Aluminium");
         add(ModBlocks.ELECTRUM_BLOCK.get(), "Block of Electrum");
 
+        // Model Block Translations
         add(ModBlocks.COPPER_CABLE.get(), "Copper Cable");
+        add(ModBlocks.COPPER_ROD.get(), "Copper Rod");
 
-        // Casing Block Translations
+        // SpriteShift Translations
         add(ModCasingBlocks.ALUMINIUM_CASING.get(), "Aluminium Casing");
     }
 }

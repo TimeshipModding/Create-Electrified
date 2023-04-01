@@ -2,6 +2,7 @@ package com.example.createlectrified.registries;
 
 import com.example.createlectrified.CreateElectrified;
 import com.example.createlectrified.content.block.CopperCableBlock;
+import com.example.createlectrified.content.block.RodBlock;
 import com.example.createlectrified.setup.ModCreativeModeTab;
 import com.simibubi.create.AllSpriteShifts;
 import com.simibubi.create.content.contraptions.base.CasingBlock;
@@ -51,6 +52,8 @@ public class ModBlocks {
             = BLOCKS.register("deepslate_bauxite_ore", () -> new Block(BlockBehaviour.Properties.copy(ModBlocks.BAUXITE_ORE.get()).strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<Block> COPPER_CABLE
-            = BLOCKS.register("copper_cable", () -> new CopperCableBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            = BLOCKS.register("copper_cable", () -> new CopperCableBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+    public static final RegistryObject<Block> COPPER_ROD
+            = BLOCKS.register("copper_rod", () -> new RodBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
 }
 
