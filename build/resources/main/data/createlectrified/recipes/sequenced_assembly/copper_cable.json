@@ -1,20 +1,12 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-<<<<<<< HEAD
-    "tag": "create:sleepers"
-=======
     "item": "createlectrified:cable_insulation"
->>>>>>> c8df4e797608add5218ec35ce4de75743fab4b37
   },
   "loops": 1,
   "results": [
     {
-<<<<<<< HEAD
-      "item": "create:track"
-=======
       "item": "createlectrified:copper_cable"
->>>>>>> c8df4e797608add5218ec35ce4de75743fab4b37
     }
   ],
   "sequence": [
@@ -22,32 +14,17 @@
       "type": "create:deploying",
       "ingredients": [
         {
-<<<<<<< HEAD
-          "item": "create:incomplete_track"
-        },
-        [
-          {
-            "tag": "forge:nuggets/iron"
-          },
-          {
-            "tag": "forge:nuggets/zinc"
-=======
           "item": "createlectrified:incomplete_copper_cable"
         },
         [
           {
             "item": "createlectrified:copper_wire"
->>>>>>> c8df4e797608add5218ec35ce4de75743fab4b37
           }
         ]
       ],
       "results": [
         {
-<<<<<<< HEAD
-          "item": "create:incomplete_track"
-=======
           "item": "createlectrified:incomplete_copper_cable"
->>>>>>> c8df4e797608add5218ec35ce4de75743fab4b37
         }
       ]
     },
@@ -55,32 +32,17 @@
       "type": "create:deploying",
       "ingredients": [
         {
-<<<<<<< HEAD
-          "item": "create:incomplete_track"
-        },
-        [
-          {
-            "tag": "forge:nuggets/iron"
-          },
-          {
-            "tag": "forge:nuggets/zinc"
-=======
           "item": "createlectrified:incomplete_copper_cable"
         },
         [
           {
             "item": "createlectrified:brass_wire"
->>>>>>> c8df4e797608add5218ec35ce4de75743fab4b37
           }
         ]
       ],
       "results": [
         {
-<<<<<<< HEAD
-          "item": "create:incomplete_track"
-=======
           "item": "createlectrified:incomplete_copper_cable"
->>>>>>> c8df4e797608add5218ec35ce4de75743fab4b37
         }
       ]
     },
@@ -88,24 +50,11 @@
       "type": "create:pressing",
       "ingredients": [
         {
-<<<<<<< HEAD
-          "item": "create:incomplete_track"
-=======
           "item": "createlectrified:incomplete_copper_cable"
->>>>>>> c8df4e797608add5218ec35ce4de75743fab4b37
         }
       ],
       "results": [
         {
-<<<<<<< HEAD
-          "item": "create:incomplete_track"
-        }
-      ]
-    }
-  ],
-  "transitionalItem": {
-    "item": "create:incomplete_track"
-=======
           "item": "createlectrified:incomplete_copper_cable"
         }
       ]
@@ -131,6 +80,5 @@
     ],
   "transitionalItem": {
     "item": "createlectrified:incomplete_copper_cable"
->>>>>>> c8df4e797608add5218ec35ce4de75743fab4b37
   }
 }
