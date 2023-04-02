@@ -1,226 +1,521 @@
-[01Apr2023 11:23:29.541] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.47, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[01Apr2023 11:23:29.547] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.4.1 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
-[01Apr2023 11:23:29.762] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/wyatt/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
-[01Apr2023 11:23:30.199] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.47\1668d395b1f93c5591eb7447b5c808e2af1d0e0a\javafmllanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[01Apr2023 11:23:30.203] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.47\a0d8118fdf70df78a1c014913a286ac4acce9d7a\lowcodelanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[01Apr2023 11:23:30.207] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.47\f7cbce46c868ff8b4626d82ef29918dcabb89dc8\mclanguage-1.19.2-43.1.47.jar is missing mods.toml file
-[01Apr2023 11:23:30.212] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.47\65f5798d52872998a17f41ee2c01694cba9487d5\fmlcore-1.19.2-43.1.47.jar is missing mods.toml file
-[01Apr2023 11:23:30.363] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[01Apr2023 11:23:32.521] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Apr2023 11:23:32.533] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[01Apr2023 11:23:32.965] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
-[01Apr2023 11:23:32.969] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
-[01Apr2023 11:23:33.204] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder)
-[01Apr2023 11:23:33.204] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin
-[01Apr2023 11:23:37.980] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[01Apr2023 11:23:40.961] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
-[01Apr2023 11:23:40.962] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
-[01Apr2023 11:23:40.987] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Apr2023 11:23:40.993] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[01Apr2023 11:23:41.167] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[01Apr2023 11:23:41.961] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[01Apr2023 11:23:42.120] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.47, for MC 1.19.2 with MCP 20220805.130853
-[01Apr2023 11:23:42.120] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.47 Initialized
-[01Apr2023 11:23:46.380] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [createlectrified]
-[01Apr2023 11:23:46.865] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[01Apr2023 11:23:46.887] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[01Apr2023 11:23:47.437] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Apr2023 11:23:48.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.47 Target: 43.2.0
-[01Apr2023 11:23:48.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/5lpsZoRi/forge_updates.json
-[01Apr2023 11:23:48.946] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: OUTDATED Current: 0.6.7-9 Target: 0.6.8.a
-[01Apr2023 11:23:55.087] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
-[01Apr2023 11:23:56.907] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[01Apr2023 11:23:56.907] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[01Apr2023 11:23:56.940] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (2- Logitech USB Headset)
-[01Apr2023 11:23:56.942] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[01Apr2023 11:23:57.100] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[01Apr2023 11:23:57.111] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[01Apr2023 11:23:57.115] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[01Apr2023 11:23:57.116] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[01Apr2023 11:23:57.117] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[01Apr2023 11:23:57.119] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[01Apr2023 11:23:57.119] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[01Apr2023 11:23:58.494] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[01Apr2023 11:23:58.674] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[01Apr2023 11:23:58.676] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[01Apr2023 11:23:58.677] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[01Apr2023 11:23:58.681] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
-[01Apr2023 11:23:59.798] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[01Apr2023 11:24:05.762] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
-[01Apr2023 11:24:07.167] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2363 advancements
-[01Apr2023 11:24:08.197] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
-[01Apr2023 11:24:08.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Apr2023 11:24:08.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 11:24:12.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 11:24:12.811] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 11:24:12.811] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 11:24:12.811] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Apr2023 11:24:13.165] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[01Apr2023 11:24:13.645] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[01Apr2023 11:24:13.955] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Apr2023 11:24:13.960] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5322 ms
-[01Apr2023 11:24:14.082] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[01Apr2023 11:24:14.085] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[01Apr2023 11:24:14.205] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[01Apr2023 11:24:14.869] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[01Apr2023 11:24:14.922] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@e6f587
-[01Apr2023 11:24:14.951] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:6053483c] logged in with entity id 183 at (-160.18883650415177, 85.1212968405392, 166.84110525898865)
-[01Apr2023 11:24:15.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[01Apr2023 11:24:16.182] [Render thread/INFO] [BatchExecutor/]: Started 2 worker threads
-[01Apr2023 11:24:16.209] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[01Apr2023 11:24:16.209] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[01Apr2023 11:24:16.430] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[01Apr2023 11:24:16.575] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[01Apr2023 11:24:16.575] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[01Apr2023 11:24:16.576] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
-[01Apr2023 11:24:16.591] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:minecraft ...
-[01Apr2023 11:24:16.594] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:minecraft took 2.832 ms
-[01Apr2023 11:24:16.594] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: create:jei_plugin ...
-[01Apr2023 11:24:16.594] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: create:jei_plugin took 9.400 μs
-[01Apr2023 11:24:16.595] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:debug ...
-[01Apr2023 11:24:16.595] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:debug took 28.70 μs
-[01Apr2023 11:24:16.595] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:forge ...
-[01Apr2023 11:24:16.596] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:forge took 14.80 μs
-[01Apr2023 11:24:16.596] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:internal ...
-[01Apr2023 11:24:16.596] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:internal took 17.80 μs
-[01Apr2023 11:24:16.596] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft ...
-[01Apr2023 11:24:16.597] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft took 30.20 μs
-[01Apr2023 11:24:16.597] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin ...
-[01Apr2023 11:24:16.599] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin took 1.930 ms
-[01Apr2023 11:24:16.600] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:debug ...
-[01Apr2023 11:24:16.601] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:debug took 693.6 μs
-[01Apr2023 11:24:16.601] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:forge ...
-[01Apr2023 11:24:16.601] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:forge took 12.00 μs
-[01Apr2023 11:24:16.601] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:internal ...
-[01Apr2023 11:24:16.601] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:internal took 10.00 μs
-[01Apr2023 11:24:16.603] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:minecraft ...
-[01Apr2023 11:24:16.656] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:minecraft took 53.60 ms
-[01Apr2023 11:24:16.656] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: create:jei_plugin ...
-[01Apr2023 11:24:16.657] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: create:jei_plugin took 12.20 μs
-[01Apr2023 11:24:16.657] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:debug ...
-[01Apr2023 11:24:16.659] [Render thread/INFO] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\wyatt\Documents\GitHub\Create-Electrified\run\config\jei\jei-client.ini
-[01Apr2023 11:24:16.662] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:debug took 4.817 ms
-[01Apr2023 11:24:16.662] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:forge ...
-[01Apr2023 11:24:16.662] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:forge took 9.700 μs
-[01Apr2023 11:24:16.663] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:internal ...
-[01Apr2023 11:24:16.663] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:internal took 8.600 μs
-[01Apr2023 11:24:16.666] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
-[01Apr2023 11:24:16.675] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 8.470 ms
-[01Apr2023 11:24:16.675] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
-[01Apr2023 11:24:16.701] [Render thread/INFO] [mezz.jei.common.ingredients.IngredientFilter/]: Adding 2000 ingredients
-[01Apr2023 11:24:16.979] [Render thread/INFO] [mezz.jei.common.ingredients.IngredientFilter/]: Added 2000 ingredients
-[01Apr2023 11:24:16.980] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 304.8 ms
-[01Apr2023 11:24:16.985] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks...
-[01Apr2023 11:24:16.994] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks took 7.638 ms
-[01Apr2023 11:24:16.995] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:minecraft ...
-[01Apr2023 11:24:17.017] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:minecraft took 22.42 ms
-[01Apr2023 11:24:17.017] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: create:jei_plugin ...
-[01Apr2023 11:24:17.086] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: create:jei_plugin took 68.73 ms
-[01Apr2023 11:24:17.087] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:debug ...
-[01Apr2023 11:24:17.087] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:debug took 14.20 μs
-[01Apr2023 11:24:17.087] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:forge ...
-[01Apr2023 11:24:17.087] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:forge took 8.500 μs
-[01Apr2023 11:24:17.087] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:internal ...
-[01Apr2023 11:24:17.088] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:internal took 1.529 ms
-[01Apr2023 11:24:17.089] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft ...
-[01Apr2023 11:24:17.092] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft took 2.716 ms
-[01Apr2023 11:24:17.092] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin ...
-[01Apr2023 11:24:17.092] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin took 11.30 μs
-[01Apr2023 11:24:17.092] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:debug ...
-[01Apr2023 11:24:17.093] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:debug took 6.800 μs
-[01Apr2023 11:24:17.093] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:forge ...
-[01Apr2023 11:24:17.093] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:forge took 7.300 μs
-[01Apr2023 11:24:17.093] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:internal ...
-[01Apr2023 11:24:17.093] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:internal took 5.700 μs
-[01Apr2023 11:24:17.095] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft ...
-[01Apr2023 11:24:17.095] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft took 353.3 μs
-[01Apr2023 11:24:17.095] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin ...
-[01Apr2023 11:24:17.122] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin took 26.18 ms
-[01Apr2023 11:24:17.122] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:debug ...
-[01Apr2023 11:24:17.123] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:debug took 13.40 μs
-[01Apr2023 11:24:17.123] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:forge ...
-[01Apr2023 11:24:17.123] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:forge took 8.400 μs
-[01Apr2023 11:24:17.123] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:internal ...
-[01Apr2023 11:24:17.123] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:internal took 7.700 μs
-[01Apr2023 11:24:17.126] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:minecraft ...
-[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:minecraft took 23.80 μs
-[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin ...
-[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin took 7.000 μs
-[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:debug ...
-[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:debug took 5.600 μs
-[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:forge ...
-[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:forge took 5.400 μs
-[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:internal ...
-[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:internal took 5.600 μs
-[01Apr2023 11:24:17.127] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
-[01Apr2023 11:24:17.139] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 11.27 ms
-[01Apr2023 11:24:17.142] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:minecraft ...
-[01Apr2023 11:24:17.398] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:minecraft took 256.2 ms
-[01Apr2023 11:24:17.398] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: create:jei_plugin ...
-[01Apr2023 11:24:17.622] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: create:jei_plugin took 223.7 ms
-[01Apr2023 11:24:17.622] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:debug ...
-[01Apr2023 11:24:17.623] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:debug took 27.40 μs
-[01Apr2023 11:24:17.623] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:forge ...
-[01Apr2023 11:24:17.623] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:forge took 6.500 μs
-[01Apr2023 11:24:17.623] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:internal ...
-[01Apr2023 11:24:17.623] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:internal took 5.500 μs
-[01Apr2023 11:24:17.629] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft ...
-[01Apr2023 11:24:17.632] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft took 3.256 ms
-[01Apr2023 11:24:17.632] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin ...
-[01Apr2023 11:24:17.633] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin took 768.0 μs
-[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug ...
-[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug took 11.00 μs
-[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge ...
-[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge took 5.800 μs
-[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal ...
-[01Apr2023 11:24:17.634] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal took 5.400 μs
-[01Apr2023 11:24:17.641] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
-[01Apr2023 11:24:17.646] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:minecraft ...
-[01Apr2023 11:24:17.650] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:minecraft took 2.707 ms
-[01Apr2023 11:24:17.650] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: create:jei_plugin ...
-[01Apr2023 11:24:17.651] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: create:jei_plugin took 1.210 ms
-[01Apr2023 11:24:17.651] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:debug ...
-[01Apr2023 11:24:17.651] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:debug took 11.30 μs
-[01Apr2023 11:24:17.651] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:forge ...
-[01Apr2023 11:24:17.651] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:forge took 8.800 μs
-[01Apr2023 11:24:17.652] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:internal ...
-[01Apr2023 11:24:17.657] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:internal took 6.149 ms
-[01Apr2023 11:24:17.694] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 52.67 ms
-[01Apr2023 11:24:17.694] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:minecraft ...
-[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:minecraft took 33.20 μs
-[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: create:jei_plugin ...
-[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: create:jei_plugin took 11.40 μs
-[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:debug ...
-[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:debug took 13.60 μs
-[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:forge ...
-[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:forge took 5.700 μs
-[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:internal ...
-[01Apr2023 11:24:17.695] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:internal took 6.100 μs
-[01Apr2023 11:24:17.731] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 1.156 s
-[01Apr2023 11:24:17.828] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 275 advancements
-[01Apr2023 11:24:59.358] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Apr2023 11:24:59.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
-[01Apr2023 11:24:59.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
-[01Apr2023 11:24:59.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
-[01Apr2023 11:25:00.476] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[01Apr2023 11:25:00.476] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[01Apr2023 11:25:00.476] [Render thread/INFO] [mezz.jei.forge.startup.ClientLifecycleHandler/]: Stopping JEI
-[01Apr2023 11:25:00.516] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[01Apr2023 11:25:00.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[01Apr2023 11:25:00.533] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[01Apr2023 11:25:00.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Apr2023 11:25:00.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Apr2023 11:25:00.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Apr2023 11:25:02.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
-[01Apr2023 11:25:02.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
-[01Apr2023 11:25:02.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
-[01Apr2023 11:25:02.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (TardisEngineer Testing): All chunks are saved
-[01Apr2023 11:25:02.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Apr2023 11:25:02.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Apr2023 11:25:02.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01Apr2023 11:25:05.131] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[03Apr2023 09:27:37.870] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.47, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[03Apr2023 09:27:37.891] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.4.1 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
+[03Apr2023 09:27:38.261] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/wyatt/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
+[03Apr2023 09:27:38.809] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.47\1668d395b1f93c5591eb7447b5c808e2af1d0e0a\javafmllanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[03Apr2023 09:27:38.811] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.47\a0d8118fdf70df78a1c014913a286ac4acce9d7a\lowcodelanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[03Apr2023 09:27:38.814] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.47\f7cbce46c868ff8b4626d82ef29918dcabb89dc8\mclanguage-1.19.2-43.1.47.jar is missing mods.toml file
+[03Apr2023 09:27:38.819] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.47\65f5798d52872998a17f41ee2c01694cba9487d5\fmlcore-1.19.2-43.1.47.jar is missing mods.toml file
+[03Apr2023 09:27:39.044] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[03Apr2023 09:27:42.088] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Apr2023 09:27:42.097] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[03Apr2023 09:27:42.758] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
+[03Apr2023 09:27:42.761] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\wyatt\Documents\GitHub\Create-Electrified/build/createSrgToMcp/output.srg
+[03Apr2023 09:27:43.156] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder)
+[03Apr2023 09:27:43.156] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin
+[03Apr2023 09:27:51.162] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[03Apr2023 09:27:54.696] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[03Apr2023 09:27:54.697] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2/forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[03Apr2023 09:27:54.722] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Apr2023 09:27:54.729] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[03Apr2023 09:27:54.944] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[03Apr2023 09:27:55.658] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.47, for MC 1.19.2 with MCP 20220805.130853
+[03Apr2023 09:27:55.658] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.47 Initialized
+[03Apr2023 09:27:55.661] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[03Apr2023 09:28:01.938] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [createlectrified]
+[03Apr2023 09:28:02.676] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[03Apr2023 09:28:02.720] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[03Apr2023 09:28:07.008] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Apr2023 09:28:08.636] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.47 Target: 43.2.0
+[03Apr2023 09:28:08.636] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/5lpsZoRi/forge_updates.json
+[03Apr2023 09:28:09.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: OUTDATED Current: 0.6.7-9 Target: 0.6.8.a
+[03Apr2023 09:28:17.885] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[03Apr2023 09:28:20.731] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[03Apr2023 09:28:20.732] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[03Apr2023 09:28:20.797] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (2- Logitech USB Headset)
+[03Apr2023 09:28:20.799] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[03Apr2023 09:28:21.141] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[03Apr2023 09:28:21.169] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[03Apr2023 09:28:21.170] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[03Apr2023 09:28:21.171] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[03Apr2023 09:28:21.172] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[03Apr2023 09:28:21.173] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[03Apr2023 09:28:21.174] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[03Apr2023 09:28:22.982] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[03Apr2023 09:28:23.217] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[03Apr2023 09:28:23.226] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[03Apr2023 09:28:23.239] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[03Apr2023 09:28:23.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[03Apr2023 09:28:24.416] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[03Apr2023 09:28:48.467] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[03Apr2023 09:28:49.992] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2363 advancements
+[03Apr2023 09:28:51.062] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[03Apr2023 09:28:51.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Apr2023 09:28:51.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Apr2023 09:28:57.246] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.249] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.249] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.249] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.249] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:57.611] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Apr2023 09:28:58.115] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[03Apr2023 09:28:58.593] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[03Apr2023 09:28:59.103] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
+[03Apr2023 09:28:59.611] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Apr2023 09:28:59.620] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8040 ms
+[03Apr2023 09:29:00.361] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[03Apr2023 09:29:00.364] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[03Apr2023 09:29:00.641] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[03Apr2023 09:29:01.664] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[03Apr2023 09:29:01.882] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@77e66f72
+[03Apr2023 09:29:01.909] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8a62e7c0] logged in with entity id 166 at (-160.18883650415177, 85.0, 166.84110525898865)
+[03Apr2023 09:29:02.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[03Apr2023 09:29:03.676] [Render thread/INFO] [BatchExecutor/]: Started 2 worker threads
+[03Apr2023 09:29:03.726] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[03Apr2023 09:29:03.726] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[03Apr2023 09:29:04.005] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[03Apr2023 09:29:04.289] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[03Apr2023 09:29:04.289] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[03Apr2023 09:29:04.295] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
+[03Apr2023 09:29:04.795] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:minecraft ...
+[03Apr2023 09:29:04.799] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:minecraft took 3.670 ms
+[03Apr2023 09:29:04.799] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: create:jei_plugin ...
+[03Apr2023 09:29:04.800] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: create:jei_plugin took 14.60 μs
+[03Apr2023 09:29:04.829] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:debug ...
+[03Apr2023 09:29:04.830] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:debug took 31.90 μs
+[03Apr2023 09:29:04.830] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:forge ...
+[03Apr2023 09:29:04.830] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:forge took 21.20 μs
+[03Apr2023 09:29:04.830] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:internal ...
+[03Apr2023 09:29:04.831] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering item subtypes: jei:internal took 13.90 μs
+[03Apr2023 09:29:04.831] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft ...
+[03Apr2023 09:29:04.831] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft took 37.40 μs
+[03Apr2023 09:29:04.832] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin ...
+[03Apr2023 09:29:04.834] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin took 2.531 ms
+[03Apr2023 09:29:04.835] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:debug ...
+[03Apr2023 09:29:04.836] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:debug took 769.1 μs
+[03Apr2023 09:29:04.836] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:forge ...
+[03Apr2023 09:29:04.836] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:forge took 20.00 μs
+[03Apr2023 09:29:04.836] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:internal ...
+[03Apr2023 09:29:04.836] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering fluid subtypes: jei:internal took 17.40 μs
+[03Apr2023 09:29:04.838] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:minecraft ...
+[03Apr2023 09:29:04.906] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:minecraft took 67.86 ms
+[03Apr2023 09:29:04.907] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: create:jei_plugin ...
+[03Apr2023 09:29:04.907] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: create:jei_plugin took 14.40 μs
+[03Apr2023 09:29:04.907] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:debug ...
+[03Apr2023 09:29:04.909] [Render thread/INFO] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\wyatt\Documents\GitHub\Create-Electrified\run\config\jei\jei-client.ini
+[03Apr2023 09:29:04.921] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:debug took 12.84 ms
+[03Apr2023 09:29:04.921] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:forge ...
+[03Apr2023 09:29:04.921] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:forge took 12.40 μs
+[03Apr2023 09:29:04.921] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:internal ...
+[03Apr2023 09:29:04.921] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering ingredients: jei:internal took 8.600 μs
+[03Apr2023 09:29:04.925] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
+[03Apr2023 09:29:04.933] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 8.747 ms
+[03Apr2023 09:29:04.933] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
+[03Apr2023 09:29:04.973] [Render thread/INFO] [mezz.jei.common.ingredients.IngredientFilter/]: Adding 2000 ingredients
+[03Apr2023 09:29:05.240] [Render thread/INFO] [mezz.jei.common.ingredients.IngredientFilter/]: Added 2000 ingredients
+[03Apr2023 09:29:05.241] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 306.9 ms
+[03Apr2023 09:29:05.247] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks...
+[03Apr2023 09:29:05.256] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks took 9.352 ms
+[03Apr2023 09:29:05.257] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:minecraft ...
+[03Apr2023 09:29:05.283] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:minecraft took 25.25 ms
+[03Apr2023 09:29:05.283] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: create:jei_plugin ...
+[03Apr2023 09:29:05.399] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: create:jei_plugin took 115.8 ms
+[03Apr2023 09:29:05.399] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:debug ...
+[03Apr2023 09:29:05.400] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:debug took 25.90 μs
+[03Apr2023 09:29:05.400] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:forge ...
+[03Apr2023 09:29:05.400] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:forge took 13.20 μs
+[03Apr2023 09:29:05.400] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:internal ...
+[03Apr2023 09:29:05.402] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering categories: jei:internal took 1.603 ms
+[03Apr2023 09:29:05.403] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft ...
+[03Apr2023 09:29:05.406] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft took 2.807 ms
+[03Apr2023 09:29:05.406] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin ...
+[03Apr2023 09:29:05.406] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin took 10.80 μs
+[03Apr2023 09:29:05.406] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:debug ...
+[03Apr2023 09:29:05.406] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:debug took 7.000 μs
+[03Apr2023 09:29:05.406] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:forge ...
+[03Apr2023 09:29:05.406] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:forge took 6.600 μs
+[03Apr2023 09:29:05.406] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:internal ...
+[03Apr2023 09:29:05.406] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering vanilla category extensions: jei:internal took 10.50 μs
+[03Apr2023 09:29:05.408] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft ...
+[03Apr2023 09:29:05.409] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft took 455.7 μs
+[03Apr2023 09:29:05.409] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin ...
+[03Apr2023 09:29:05.412] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin took 2.464 ms
+[03Apr2023 09:29:05.412] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:debug ...
+[03Apr2023 09:29:05.412] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:debug took 148.4 μs
+[03Apr2023 09:29:05.412] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:forge ...
+[03Apr2023 09:29:05.413] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:forge took 12.70 μs
+[03Apr2023 09:29:05.413] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:internal ...
+[03Apr2023 09:29:05.413] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipe catalysts: jei:internal took 10.40 μs
+[03Apr2023 09:29:05.416] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:minecraft ...
+[03Apr2023 09:29:05.416] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:minecraft took 28.60 μs
+[03Apr2023 09:29:05.416] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin ...
+[03Apr2023 09:29:05.416] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin took 7.300 μs
+[03Apr2023 09:29:05.416] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:debug ...
+[03Apr2023 09:29:05.417] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:debug took 7.600 μs
+[03Apr2023 09:29:05.417] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:forge ...
+[03Apr2023 09:29:05.417] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:forge took 6.100 μs
+[03Apr2023 09:29:05.417] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:internal ...
+[03Apr2023 09:29:05.417] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering advanced plugins: jei:internal took 5.500 μs
+[03Apr2023 09:29:05.417] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
+[03Apr2023 09:29:05.458] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 41.40 ms
+[03Apr2023 09:29:05.461] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:minecraft ...
+[03Apr2023 09:29:05.734] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:minecraft took 272.6 ms
+[03Apr2023 09:29:05.734] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: create:jei_plugin ...
+[03Apr2023 09:29:05.959] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: create:jei_plugin took 225.1 ms
+[03Apr2023 09:29:05.959] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:debug ...
+[03Apr2023 09:29:05.960] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:debug took 33.90 μs
+[03Apr2023 09:29:05.960] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:forge ...
+[03Apr2023 09:29:05.960] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:forge took 9.400 μs
+[03Apr2023 09:29:05.960] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:internal ...
+[03Apr2023 09:29:05.960] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes: jei:internal took 6.700 μs
+[03Apr2023 09:29:05.967] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft ...
+[03Apr2023 09:29:05.972] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft took 4.409 ms
+[03Apr2023 09:29:05.972] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin ...
+[03Apr2023 09:29:05.972] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin took 685.6 μs
+[03Apr2023 09:29:05.973] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug ...
+[03Apr2023 09:29:05.973] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug took 11.90 μs
+[03Apr2023 09:29:05.973] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge ...
+[03Apr2023 09:29:05.973] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge took 53.50 μs
+[03Apr2023 09:29:05.973] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal ...
+[03Apr2023 09:29:05.973] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal took 7.500 μs
+[03Apr2023 09:29:05.983] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
+[03Apr2023 09:29:05.990] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:minecraft ...
+[03Apr2023 09:29:05.994] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:minecraft took 3.348 ms
+[03Apr2023 09:29:05.994] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: create:jei_plugin ...
+[03Apr2023 09:29:05.995] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: create:jei_plugin took 1.288 ms
+[03Apr2023 09:29:05.995] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:debug ...
+[03Apr2023 09:29:05.995] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:debug took 17.70 μs
+[03Apr2023 09:29:05.996] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:forge ...
+[03Apr2023 09:29:05.996] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:forge took 8.800 μs
+[03Apr2023 09:29:05.996] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:internal ...
+[03Apr2023 09:29:06.003] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Registering gui handlers: jei:internal took 7.472 ms
+[03Apr2023 09:29:06.041] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 56.33 ms
+[03Apr2023 09:29:06.041] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:minecraft ...
+[03Apr2023 09:29:06.041] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:minecraft took 25.00 μs
+[03Apr2023 09:29:06.041] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: create:jei_plugin ...
+[03Apr2023 09:29:06.041] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: create:jei_plugin took 7.800 μs
+[03Apr2023 09:29:06.042] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:debug ...
+[03Apr2023 09:29:06.042] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:debug took 14.10 μs
+[03Apr2023 09:29:06.042] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:forge ...
+[03Apr2023 09:29:06.042] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:forge took 5.700 μs
+[03Apr2023 09:29:06.042] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:internal ...
+[03Apr2023 09:29:06.042] [Render thread/INFO] [mezz.jei.common.load.PluginCaller/]: Sending Runtime: jei:internal took 5.600 μs
+[03Apr2023 09:29:06.144] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 1.850 s
+[03Apr2023 09:29:06.237] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 275 advancements
+[03Apr2023 09:29:14.264] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Apr2023 09:29:14.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
+[03Apr2023 09:29:14.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
+[03Apr2023 09:29:14.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
+[03Apr2023 09:29:29.785] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3723ms or 74 ticks behind
+[03Apr2023 09:29:29.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Who is Cutting Onions?]
+[03Apr2023 09:29:29.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [You've Got a Friend in Me]
+[03Apr2023 09:29:29.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [With Our Powers Combined!]
+[03Apr2023 09:29:29.920] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Who is Cutting Onions?]
+[03Apr2023 09:29:29.932] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [You've Got a Friend in Me]
+[03Apr2023 09:29:29.933] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [With Our Powers Combined!]
+[03Apr2023 09:29:29.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Springboard Champion]
+[03Apr2023 09:29:29.968] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Springboard Champion]
+[03Apr2023 09:29:29.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Suit Up]
+[03Apr2023 09:29:29.989] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Suit Up]
+[03Apr2023 09:29:30.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Tapping the Mantle]
+[03Apr2023 09:29:30.006] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Tapping the Mantle]
+[03Apr2023 09:29:30.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Free the End]
+[03Apr2023 09:29:30.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Contraption O'Clock]
+[03Apr2023 09:29:30.024] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Free the End]
+[03Apr2023 09:29:30.024] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Contraption O'Clock]
+[03Apr2023 09:29:30.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Glow and Behold!]
+[03Apr2023 09:29:30.081] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Glow and Behold!]
+[03Apr2023 09:29:30.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Bring Home the Beacon]
+[03Apr2023 09:29:30.107] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Bring Home the Beacon]
+[03Apr2023 09:29:30.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Not Today, Thank You]
+[03Apr2023 09:29:30.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [When the Squad Hops into Town]
+[03Apr2023 09:29:30.160] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Not Today, Thank You]
+[03Apr2023 09:29:30.163] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [When the Squad Hops into Town]
+[03Apr2023 09:29:30.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Local Brewery]
+[03Apr2023 09:29:30.241] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Local Brewery]
+[03Apr2023 09:29:30.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [The Next Generation]
+[03Apr2023 09:29:30.247] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [The Next Generation]
+[03Apr2023 09:29:30.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Fishy Business]
+[03Apr2023 09:29:30.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Rope to Nowhere]
+[03Apr2023 09:29:30.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Hot Tourist Destinations]
+[03Apr2023 09:29:30.364] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Fishy Business]
+[03Apr2023 09:29:30.368] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Rope to Nowhere]
+[03Apr2023 09:29:30.369] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Hot Tourist Destinations]
+[03Apr2023 09:29:30.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [This Boat Has Legs]
+[03Apr2023 09:29:30.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Great View From Up Here]
+[03Apr2023 09:29:30.479] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [This Boat Has Legs]
+[03Apr2023 09:29:30.483] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Great View From Up Here]
+[03Apr2023 09:29:30.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Self-Driving Cart]
+[03Apr2023 09:29:30.495] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Self-Driving Cart]
+[03Apr2023 09:29:30.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [How Did We Get Here?]
+[03Apr2023 09:29:30.530] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [How Did We Get Here?]
+[03Apr2023 09:29:30.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Bullseye]
+[03Apr2023 09:29:30.533] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Bullseye]
+[03Apr2023 09:29:30.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Stone Age]
+[03Apr2023 09:29:30.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The Andesite Age]
+[03Apr2023 09:29:30.604] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Stone Age]
+[03Apr2023 09:29:30.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The Andesite Age]
+[03Apr2023 09:29:30.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Full Steam]
+[03Apr2023 09:29:30.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Two Birds, One Arrow]
+[03Apr2023 09:29:30.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [We Need to Go Deeper]
+[03Apr2023 09:29:30.642] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Full Steam]
+[03Apr2023 09:29:30.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Who's the Pillager Now?]
+[03Apr2023 09:29:30.644] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Two Birds, One Arrow]
+[03Apr2023 09:29:30.646] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [We Need to Go Deeper]
+[03Apr2023 09:29:30.648] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Who's the Pillager Now?]
+[03Apr2023 09:29:30.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Blind Spot]
+[03Apr2023 09:29:30.681] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Blind Spot]
+[03Apr2023 09:29:30.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Blacksmith Artillery]
+[03Apr2023 09:29:30.763] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Blacksmith Artillery]
+[03Apr2023 09:29:30.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Fwoomp!]
+[03Apr2023 09:29:30.799] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Fwoomp!]
+[03Apr2023 09:29:30.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [All Aboard!]
+[03Apr2023 09:29:30.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [On a Roll]
+[03Apr2023 09:29:30.872] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [All Aboard!]
+[03Apr2023 09:29:30.879] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [On a Roll]
+[03Apr2023 09:29:30.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Into Fire]
+[03Apr2023 09:29:30.910] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Into Fire]
+[03Apr2023 09:29:30.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Take Aim]
+[03Apr2023 09:29:30.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Total Beelocation]
+[03Apr2023 09:29:30.937] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Take Aim]
+[03Apr2023 09:29:30.942] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Total Beelocation]
+[03Apr2023 09:29:30.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Road Kill]
+[03Apr2023 09:29:30.946] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Road Kill]
+[03Apr2023 09:29:30.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Arbalistic]
+[03Apr2023 09:29:30.963] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Arbalistic]
+[03Apr2023 09:29:30.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Acquire Hardware]
+[03Apr2023 09:29:30.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The Brass Age]
+[03Apr2023 09:29:30.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Workout Session]
+[03Apr2023 09:29:30.986] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Acquire Hardware]
+[03Apr2023 09:29:30.987] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The Brass Age]
+[03Apr2023 09:29:30.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Not Quite "Nine" Lives]
+[03Apr2023 09:29:30.997] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Workout Session]
+[03Apr2023 09:29:30.999] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Not Quite "Nine" Lives]
+[03Apr2023 09:29:31.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Don't Cross the Streams!]
+[03Apr2023 09:29:31.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Cover Me with Diamonds]
+[03Apr2023 09:29:31.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Bukkit Bukkit]
+[03Apr2023 09:29:31.039] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Don't Cross the Streams!]
+[03Apr2023 09:29:31.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Wax Off]
+[03Apr2023 09:29:31.040] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Cover Me with Diamonds]
+[03Apr2023 09:29:31.043] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Bukkit Bukkit]
+[03Apr2023 09:29:31.050] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Wax Off]
+[03Apr2023 09:29:31.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Hired Help]
+[03Apr2023 09:29:31.096] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Hired Help]
+[03Apr2023 09:29:31.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Sweet Dreams]
+[03Apr2023 09:29:31.141] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Sweet Dreams]
+[03Apr2023 09:29:31.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [You Need a Mint]
+[03Apr2023 09:29:31.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Monsters Hunted]
+[03Apr2023 09:29:31.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Enchanter]
+[03Apr2023 09:29:31.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Voluntary Exile]
+[03Apr2023 09:29:31.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Perfectly Stressed]
+[03Apr2023 09:29:31.277] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [You Need a Mint]
+[03Apr2023 09:29:31.279] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Monsters Hunted]
+[03Apr2023 09:29:31.284] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Enchanter]
+[03Apr2023 09:29:31.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Dynamic Timetables]
+[03Apr2023 09:29:31.289] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Voluntary Exile]
+[03Apr2023 09:29:31.293] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Perfectly Stressed]
+[03Apr2023 09:29:31.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [To Full Extent]
+[03Apr2023 09:29:31.299] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Dynamic Timetables]
+[03Apr2023 09:29:31.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Desperate Measures]
+[03Apr2023 09:29:31.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Is It a Bird?]
+[03Apr2023 09:29:31.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [To Full Extent]
+[03Apr2023 09:29:31.305] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Desperate Measures]
+[03Apr2023 09:29:31.305] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Is It a Bird?]
+[03Apr2023 09:29:31.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Postmortal]
+[03Apr2023 09:29:31.359] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Postmortal]
+[03Apr2023 09:29:31.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Birthday Song]
+[03Apr2023 09:29:31.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Is It a Plane?]
+[03Apr2023 09:29:31.404] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Birthday Song]
+[03Apr2023 09:29:31.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Crushing It]
+[03Apr2023 09:29:31.406] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Is It a Plane?]
+[03Apr2023 09:29:31.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Star Trader]
+[03Apr2023 09:29:31.410] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Crushing It]
+[03Apr2023 09:29:31.412] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Star Trader]
+[03Apr2023 09:29:31.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Wax On]
+[03Apr2023 09:29:31.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Sound of Music]
+[03Apr2023 09:29:31.458] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Wax On]
+[03Apr2023 09:29:31.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Hero of the Village]
+[03Apr2023 09:29:31.460] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Sound of Music]
+[03Apr2023 09:29:31.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Hidden in the Depths]
+[03Apr2023 09:29:31.470] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Hero of the Village]
+[03Apr2023 09:29:31.473] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Hidden in the Depths]
+[03Apr2023 09:29:31.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Beaconator]
+[03Apr2023 09:29:31.478] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Beaconator]
+[03Apr2023 09:29:31.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Strong Arms]
+[03Apr2023 09:29:31.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Veggie Fireworks]
+[03Apr2023 09:29:31.526] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Strong Arms]
+[03Apr2023 09:29:31.526] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Veggie Fireworks]
+[03Apr2023 09:29:31.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Bee Our Guest]
+[03Apr2023 09:29:31.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [What a Deal!]
+[03Apr2023 09:29:31.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Is It a Balloon?]
+[03Apr2023 09:29:31.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Uneasy Alliance]
+[03Apr2023 09:29:31.594] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Bee Our Guest]
+[03Apr2023 09:29:31.595] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [What a Deal!]
+[03Apr2023 09:29:31.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Ambitious Endeavours]
+[03Apr2023 09:29:31.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The Healing Power of Friendship!]
+[03Apr2023 09:29:31.627] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Is It a Balloon?]
+[03Apr2023 09:29:31.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Uneasy Alliance]
+[03Apr2023 09:29:31.655] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Ambitious Endeavours]
+[03Apr2023 09:29:31.658] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The Healing Power of Friendship!]
+[03Apr2023 09:29:31.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [A Throwaway Joke]
+[03Apr2023 09:29:31.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [The Longest Bend]
+[03Apr2023 09:29:31.704] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [A Throwaway Joke]
+[03Apr2023 09:29:31.707] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [The Longest Bend]
+[03Apr2023 09:29:31.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [The Parrots and the Flaps]
+[03Apr2023 09:29:31.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Sticky Situation]
+[03Apr2023 09:29:31.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Ol' Betsy]
+[03Apr2023 09:29:31.718] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [The Parrots and the Flaps]
+[03Apr2023 09:29:31.719] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Sticky Situation]
+[03Apr2023 09:29:31.719] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Ol' Betsy]
+[03Apr2023 09:29:31.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Cover Me in Debris]
+[03Apr2023 09:29:31.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Organize-o-Tron]
+[03Apr2023 09:29:31.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The Parrots and the Bats]
+[03Apr2023 09:29:31.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [A Complete Catalogue]
+[03Apr2023 09:29:31.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Expert Driver]
+[03Apr2023 09:29:31.792] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Cover Me in Debris]
+[03Apr2023 09:29:31.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Dimensional Commuter]
+[03Apr2023 09:29:31.793] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Organize-o-Tron]
+[03Apr2023 09:29:31.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Oh Shiny]
+[03Apr2023 09:29:31.798] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The Parrots and the Bats]
+[03Apr2023 09:29:31.801] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [A Complete Catalogue]
+[03Apr2023 09:29:31.808] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Expert Driver]
+[03Apr2023 09:29:31.819] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Dimensional Commuter]
+[03Apr2023 09:29:31.822] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Oh Shiny]
+[03Apr2023 09:29:31.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Very Very Frightening]
+[03Apr2023 09:29:31.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Hot Stuff]
+[03Apr2023 09:29:31.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Terrible Service]
+[03Apr2023 09:29:31.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Field Trip]
+[03Apr2023 09:29:31.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Whatever Floats Your Goat!]
+[03Apr2023 09:29:31.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Surge Protector]
+[03Apr2023 09:29:31.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [A Furious Cocktail]
+[03Apr2023 09:29:31.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Best Friends Forever]
+[03Apr2023 09:29:33.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Busy Hands]
+[03Apr2023 09:29:33.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [A Strong Breeze]
+[03Apr2023 09:29:33.671] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Very Very Frightening]
+[03Apr2023 09:29:33.671] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Hot Stuff]
+[03Apr2023 09:29:33.673] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Terrible Service]
+[03Apr2023 09:29:33.676] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Field Trip]
+[03Apr2023 09:29:33.678] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Whatever Floats Your Goat!]
+[03Apr2023 09:29:33.682] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Surge Protector]
+[03Apr2023 09:29:33.685] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [A Furious Cocktail]
+[03Apr2023 09:29:33.688] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Best Friends Forever]
+[03Apr2023 09:29:33.694] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Busy Hands]
+[03Apr2023 09:29:33.700] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [A Strong Breeze]
+[03Apr2023 09:29:33.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [It Spreads]
+[03Apr2023 09:29:33.743] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [It Spreads]
+[03Apr2023 09:29:33.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Caves & Cliffs]
+[03Apr2023 09:29:33.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Pound It, Bro!]
+[03Apr2023 09:29:33.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Sniper Duel]
+[03Apr2023 09:29:33.777] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Caves & Cliffs]
+[03Apr2023 09:29:33.779] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Pound It, Bro!]
+[03Apr2023 09:29:33.784] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Sniper Duel]
+[03Apr2023 09:29:33.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [DJ Mechanico]
+[03Apr2023 09:29:33.801] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [DJ Mechanico]
+[03Apr2023 09:29:33.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Big Data]
+[03Apr2023 09:29:33.808] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Big Data]
+[03Apr2023 09:29:33.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Spooky Scary Skeleton]
+[03Apr2023 09:29:33.829] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Spooky Scary Skeleton]
+[03Apr2023 09:29:33.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Two by Two]
+[03Apr2023 09:29:33.832] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Two by Two]
+[03Apr2023 09:29:34.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Light as a Rabbit]
+[03Apr2023 09:29:34.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Swimming with the Striders]
+[03Apr2023 09:29:34.092] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Light as a Rabbit]
+[03Apr2023 09:29:34.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Is It Time?]
+[03Apr2023 09:29:34.094] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Swimming with the Striders]
+[03Apr2023 09:29:34.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Tactical Fishing]
+[03Apr2023 09:29:34.094] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Is It Time?]
+[03Apr2023 09:29:34.096] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Tactical Fishing]
+[03Apr2023 09:29:34.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Zombie Doctor]
+[03Apr2023 09:29:34.116] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Zombie Doctor]
+[03Apr2023 09:29:34.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The City at the End of the Game]
+[03Apr2023 09:29:34.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Ice Bucket Challenge]
+[03Apr2023 09:29:34.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Shadow Sense]
+[03Apr2023 09:29:34.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Remote Getaway]
+[03Apr2023 09:29:34.148] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The City at the End of the Game]
+[03Apr2023 09:29:34.148] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Ice Bucket Challenge]
+[03Apr2023 09:29:34.150] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Shadow Sense]
+[03Apr2023 09:29:34.150] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Remote Getaway]
+[03Apr2023 09:29:34.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [War Pigs]
+[03Apr2023 09:29:34.156] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [War Pigs]
+[03Apr2023 09:29:34.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [The End... Again...]
+[03Apr2023 09:29:34.192] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [The End... Again...]
+[03Apr2023 09:29:34.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Sky's the Limit]
+[03Apr2023 09:29:34.232] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Sky's the Limit]
+[03Apr2023 09:29:34.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Sneak 100]
+[03Apr2023 09:29:34.260] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Sneak 100]
+[03Apr2023 09:29:34.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Return to Sender]
+[03Apr2023 09:29:34.281] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Return to Sender]
+[03Apr2023 09:29:34.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Eye Spy]
+[03Apr2023 09:29:34.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The Copper Age]
+[03Apr2023 09:29:34.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Serious Dedication]
+[03Apr2023 09:29:34.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Balanced Diet]
+[03Apr2023 09:29:34.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [The Pipe Organ]
+[03Apr2023 09:29:34.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Adventuring Time]
+[03Apr2023 09:29:34.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [A Seedy Place]
+[03Apr2023 09:29:34.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Those Were the Days]
+[03Apr2023 09:29:34.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The Cutest Predator]
+[03Apr2023 09:29:34.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Feels Like Home]
+[03Apr2023 09:29:34.470] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Eye Spy]
+[03Apr2023 09:29:34.476] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The Copper Age]
+[03Apr2023 09:29:34.479] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Serious Dedication]
+[03Apr2023 09:29:34.480] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Balanced Diet]
+[03Apr2023 09:29:34.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Withering Heights]
+[03Apr2023 09:29:34.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [A Balanced Diet]
+[03Apr2023 09:29:34.493] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [The Pipe Organ]
+[03Apr2023 09:29:34.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Subspace Bubble]
+[03Apr2023 09:29:34.496] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Adventuring Time]
+[03Apr2023 09:29:34.498] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [A Seedy Place]
+[03Apr2023 09:29:34.498] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Those Were the Days]
+[03Apr2023 09:29:34.500] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The Cutest Predator]
+[03Apr2023 09:29:34.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Complex Curiosities]
+[03Apr2023 09:29:34.510] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Feels Like Home]
+[03Apr2023 09:29:34.526] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Withering Heights]
+[03Apr2023 09:29:34.529] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [A Balanced Diet]
+[03Apr2023 09:29:34.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The Logistical Age]
+[03Apr2023 09:29:34.533] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Subspace Bubble]
+[03Apr2023 09:29:34.538] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Complex Curiosities]
+[03Apr2023 09:29:34.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Country Lode, Take Me Home]
+[03Apr2023 09:29:34.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Track Factory]
+[03Apr2023 09:29:34.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The Logistical Age]
+[03Apr2023 09:29:34.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Country Lode, Take Me Home]
+[03Apr2023 09:29:34.577] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Track Factory]
+[03Apr2023 09:29:34.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [A Terrible Fortress]
+[03Apr2023 09:29:34.596] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [A Terrible Fortress]
+[03Apr2023 09:29:34.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Magma Wheel]
+[03Apr2023 09:29:34.613] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Magma Wheel]
+[03Apr2023 09:29:34.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The End?]
+[03Apr2023 09:29:34.687] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The End?]
+[03Apr2023 09:29:34.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Granted 2363 advancements to Dev]
+[03Apr2023 09:29:34.890] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Granted 2363 advancements to Dev
+[03Apr2023 09:29:34.906] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2363 advancements
+[03Apr2023 09:29:35.410] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Apr2023 09:29:35.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
+[03Apr2023 09:29:35.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
+[03Apr2023 09:29:35.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
+[03Apr2023 09:29:50.562] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Apr2023 09:29:50.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
+[03Apr2023 09:29:50.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
+[03Apr2023 09:29:50.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
+[03Apr2023 09:29:51.027] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[03Apr2023 09:29:51.028] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[03Apr2023 09:29:51.028] [Render thread/INFO] [mezz.jei.forge.startup.ClientLifecycleHandler/]: Stopping JEI
+[03Apr2023 09:29:51.073] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[03Apr2023 09:29:51.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[03Apr2023 09:29:51.115] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[03Apr2023 09:29:51.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03Apr2023 09:29:51.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03Apr2023 09:29:51.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03Apr2023 09:29:52.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:overworld
+[03Apr2023 09:29:53.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_nether
+[03Apr2023 09:29:53.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TardisEngineer Testing]'/minecraft:the_end
+[03Apr2023 09:29:53.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (TardisEngineer Testing): All chunks are saved
+[03Apr2023 09:29:53.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Apr2023 09:29:53.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Apr2023 09:29:53.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03Apr2023 09:29:58.411] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
