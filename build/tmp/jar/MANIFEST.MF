@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: createlectrified
+Specification-Vendor: createlectrifiedsareus
+Specification-Version: 1
+Implementation-Title: Create-Electrified
+Implementation-Vendor: createlectrifiedsareus
+Implementation-Timestamp: 2023-04-02T20:35:53+1000
+

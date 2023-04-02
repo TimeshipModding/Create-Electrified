@@ -9,7 +9,7 @@ modId="createlectrified"
 version="${file.jarVersion}"
 displayName="Create: Electrified"
 logoFile="createlectrified.png"
-credits="Created by Tardis Modding"
+credits="Created by TardisModding"
 authors="TardisEngineer"
 description='''
 Work in progress!
