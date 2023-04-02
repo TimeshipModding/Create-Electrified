@@ -2,6 +2,7 @@ package com.timeshipmodding.createlectrified.datagen;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
 import com.timeshipmodding.createlectrified.registries.ModBlocks;
+import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
 import com.timeshipmodding.createlectrified.registries.ModTags;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
@@ -24,7 +25,8 @@ public class BlockTags extends BlockTagsProvider {
                 .add(ModBlocks.DEEPSLATE_BAUXITE_ORE.get())
                 .add(ModBlocks.RAW_ALUMINIUM_BLOCK.get())
                 .add(ModBlocks.ALUMINIUM_BLOCK.get())
-                .add(ModBlocks.ELECTRUM_BLOCK.get());
+                .add(ModBlocks.ELECTRUM_BLOCK.get())
+                .add(ModCasingBlocks.ALUMINIUM_CASING.get());
 
         tag(net.minecraft.tags.BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ELECTRUM_ORE.get())
