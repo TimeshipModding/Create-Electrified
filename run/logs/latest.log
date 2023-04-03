@@ -46,6 +46,7 @@
 [03Apr2023 09:28:23.239] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
 [03Apr2023 09:28:23.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
 [03Apr2023 09:28:24.416] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+<<<<<<< Updated upstream
 [03Apr2023 09:28:48.467] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
 [03Apr2023 09:28:49.992] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2363 advancements
 [03Apr2023 09:28:51.062] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
@@ -519,3 +520,5 @@
 [03Apr2023 09:29:53.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [03Apr2023 09:29:53.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
 [03Apr2023 09:29:58.411] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+=======
+>>>>>>> Stashed changes

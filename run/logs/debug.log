@@ -3219,6 +3219,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [03Apr2023 09:28:23.239] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
 [03Apr2023 09:28:23.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
 [03Apr2023 09:28:24.416] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+<<<<<<< Updated upstream
 [03Apr2023 09:28:45.937] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
 [03Apr2023 09:28:45.938] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:flywheel for mod file C:\Users\wyatt\.gradle\caches\forge_gradle\deobf_dependencies\com\jozufozu\flywheel\flywheel-forge-1.19.2\0.6.7-9_mapped_parchment_2022.10.16-1.19.2\flywheel-forge-1.19.2-0.6.7-9_mapped_parchment_2022.10.16-1.19.2.jar
 [03Apr2023 09:28:45.938] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:create for mod file C:\Users\wyatt\.gradle\caches\forge_gradle\deobf_dependencies\com\simibubi\create\create-1.19.2\0.5.0.f-15_mapped_parchment_2022.10.16-1.19.2\create-1.19.2-0.5.0.f-15_mapped_parchment_2022.10.16-1.19.2-slim.jar
@@ -3891,3 +3892,5 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [03Apr2023 09:29:54.792] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\TardisEngineer Testing\serverconfig
 [03Apr2023 09:29:54.792] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
 [03Apr2023 09:29:58.411] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+=======
+>>>>>>> Stashed changes
