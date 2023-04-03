@@ -1,7 +1,23 @@
 {
-  "parent": "create:display_link",
+  "display": {
+    "icon": {
+      "item": "createlectrified:aluminium_ingot"
+    },
+    "title": {
+      "translate": "That's Not Bauxite"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "Mine Bauxite Ore to smelt into Aluminium Ingot for your electric expansion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "create:display_board_0",
   "criteria": {
-    "0": {
+    "requirements": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
@@ -10,29 +26,7 @@
             ]
           }
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      }
     }
-  },
-  "display": {
-    "announce_to_chat": false,
-    "description": {
-      "color": "#DBA213",
-      "translate": "Mine Bauxite to Smelt into Aluminium for your Electric Expansion"
-    },
-    "frame": "task",
-    "hidden": false,
-    "icon": {
-      "item": "minecraft:copper_ingot"
-    },
-    "show_toast": false,
-    "title": {
-      "translate": "That's Not Bauxite"
-    }
-  },
-  "requirements": [
-    [
-      "0"
-    ]
-  ]
+  }
 }

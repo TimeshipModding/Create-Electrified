@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "createlectrified:aluminium_casing"
+    },
+    "title": {
+      "translate": "The Electrical Age"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "Apply Copper Ingots to nether bricks, creating a base for your electrical machinery"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "createlectrified:aluminium",
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createlectrified:aluminium_casing"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
