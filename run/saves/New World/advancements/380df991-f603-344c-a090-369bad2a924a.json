@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/crafting_blueprint": {
+    "criteria": {
+      "has_item": "2023-04-03 13:53:45 +1000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/materials/zinc_ingot_from_decompacting": {
     "criteria": {
       "has_item": "2023-03-31 18:45:35 +1000"
@@ -112,6 +118,18 @@
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2023-02-19 09:04:45 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_the_recipe": "2023-04-03 13:53:45 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2023-04-03 13:53:43 +1000"
     },
     "done": true
   },
@@ -217,6 +235,12 @@
     },
     "done": true
   },
+  "createlectrified:recipes/electrifiedtab1/electrum_block": {
+    "criteria": {
+      "criteria": "2023-04-03 13:53:20 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_copper": {
     "criteria": {
       "has_copper_block": "2023-03-31 18:45:39 +1000"
@@ -292,6 +316,12 @@
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2023-02-03 17:23:55 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2023-04-03 13:53:43 +1000"
     },
     "done": true
   },
@@ -421,9 +451,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2023-04-03 13:53:43 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/electrifiedtab1/bauxite1": {
     "criteria": {
       "criteria": "2023-02-03 17:30:57 +1000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-04-03 13:53:45 +1000"
     },
     "done": true
   },
