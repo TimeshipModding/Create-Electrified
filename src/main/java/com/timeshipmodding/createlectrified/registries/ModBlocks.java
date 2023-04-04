@@ -1,11 +1,8 @@
 package com.timeshipmodding.createlectrified.registries;
 
-<<<<<<< HEAD
-=======
 import com.timeshipmodding.createlectrified.CreateElectrified;
 import com.timeshipmodding.createlectrified.content.block.CopperCableBlock;
 import com.timeshipmodding.createlectrified.content.block.RodBlock;
->>>>>>> 1.19.2-v0.2
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -19,11 +16,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-<<<<<<< HEAD
-import static com.timeshipmodding.createlectrified.CreateElectrified.MODID;
-
-=======
->>>>>>> 1.19.2-v0.2
 public class ModBlocks {
 
     private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CreateElectrified.MODID);

@@ -1,15 +1,9 @@
 package com.timeshipmodding.createlectrified.registries;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
-<<<<<<< HEAD
 import com.timeshipmodding.createlectrified.setup.ModCreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
-=======
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.level.block.Block;
-import com.timeshipmodding.createlectrified.setup.ModCreativeModeTab;
->>>>>>> 1.19.2-v0.2
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

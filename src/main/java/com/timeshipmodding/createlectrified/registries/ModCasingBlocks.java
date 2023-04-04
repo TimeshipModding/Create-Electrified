@@ -6,6 +6,7 @@ import com.simibubi.create.content.contraptions.base.CasingBlock;
 import com.simibubi.create.foundation.data.BuilderTransformers;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.BlockEntry;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.MaterialColor;
 
 import static com.simibubi.create.AllTags.axeOrPickaxe;

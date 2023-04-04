@@ -2,10 +2,7 @@ package com.timeshipmodding.createlectrified.datagen;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
 import com.timeshipmodding.createlectrified.registries.ModBlocks;
-<<<<<<< HEAD
 import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
-=======
->>>>>>> 1.19.2-v0.2
 import com.timeshipmodding.createlectrified.registries.ModTags;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
