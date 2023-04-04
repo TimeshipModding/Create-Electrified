@@ -23,6 +23,15 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         add(ModItems.RAW_ALUMINIUM.get(), "Raw Aluminium");
         add(ModItems.CRUSHED_BAUXITE_ORE.get(), "Crushed Bauxite Ore");
         add(ModItems.ALUMINIUM_SHEET.get(), "Aluminium Sheet");
+        add(ModItems.COPPER_WIRE.get(), "Copper Wire");
+        add(ModItems.BRASS_WIRE.get(), "Brass Wire");
+        add(ModItems.CABLE_INSULATION.get(), "Cable Insulation");
+        add(ModItems.CHARGED_ELECTRUM.get(), "Charged Electrum");
+        add(ModItems.ELECTRIC_MECHANISM.get(), "Electric Mechanism");
+
+        // Unseen Item and Block Translations
+        add(ModItems.INCOMPLETE_COPPER_CABLE.get(), "Incomplete Copper Cable");
+        add(ModItems.INCOMPLETE_ELECTRIC_MECHANISM.get(), "Incomplete Electric Mechanism");
 
         // Block Translations
         add(ModBlocks.ELECTRUM_ORE.get(),"Electrum Ore");
@@ -34,7 +43,11 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         add(ModBlocks.ALUMINIUM_BLOCK.get(), "Block of Aluminium");
         add(ModBlocks.ELECTRUM_BLOCK.get(), "Block of Electrum");
 
-        // Casing Block Translations
+        // Model Block Translations
+        add(ModBlocks.COPPER_CABLE.get(), "Copper Cable");
+        add(ModBlocks.COPPER_ROD.get(), "Copper Rod");
+
+        // SpriteShift Translations
         add(ModCasingBlocks.ALUMINIUM_CASING.get(), "Aluminium Casing");
     }
 }

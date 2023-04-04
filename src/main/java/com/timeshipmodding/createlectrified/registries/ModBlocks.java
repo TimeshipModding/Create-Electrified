@@ -1,7 +1,14 @@
 package com.timeshipmodding.createlectrified.registries;
 
+<<<<<<< HEAD
+=======
+import com.timeshipmodding.createlectrified.CreateElectrified;
+import com.timeshipmodding.createlectrified.content.block.CopperCableBlock;
+import com.timeshipmodding.createlectrified.content.block.RodBlock;
+>>>>>>> 1.19.2-v0.2
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -12,11 +19,14 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+<<<<<<< HEAD
 import static com.timeshipmodding.createlectrified.CreateElectrified.MODID;
 
+=======
+>>>>>>> 1.19.2-v0.2
 public class ModBlocks {
 
-    private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
+    private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CreateElectrified.MODID);
 
     public static void init() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -37,5 +47,10 @@ public class ModBlocks {
             = BLOCKS.register("bauxite_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.0F, 3.0F)));
     public static final RegistryObject<Block> DEEPSLATE_BAUXITE_ORE
             = BLOCKS.register("deepslate_bauxite_ore", () -> new Block(BlockBehaviour.Properties.copy(ModBlocks.BAUXITE_ORE.get()).strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> COPPER_CABLE
+            = BLOCKS.register("copper_cable", () -> new CopperCableBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+    public static final RegistryObject<Block> COPPER_ROD
+            = BLOCKS.register("copper_rod", () -> new RodBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
 }
 

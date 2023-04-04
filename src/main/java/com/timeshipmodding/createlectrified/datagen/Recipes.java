@@ -8,6 +8,7 @@ import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Consumer;
@@ -44,6 +45,11 @@ public class Recipes extends RecipeProvider {
                 .group("createlectrified")
                 .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.ELECTRUM_BLOCK.get()))
                 .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModItems.CABLE_INSULATION.get())
+                .requires(Items.DRIED_KELP, 3)
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(Items.DRIED_KELP))
+                .save(consumer);
 
         // Shapeless Crafting for Blocks
         ShapelessRecipeBuilder.shapeless(ModBlocks.RAW_ALUMINIUM_BLOCK.get(), 9)
@@ -60,6 +66,15 @@ public class Recipes extends RecipeProvider {
                 .requires(ModItems.ELECTRUM.get(), 9)
                 .group("createlectrified")
                 .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ELECTRUM.get()))
+                .save(consumer);
+
+        // Shaped Crafting for Items
+        ShapedRecipeBuilder.shaped(ModBlocks.COPPER_ROD.get())
+                .define('#', Items.COPPER_INGOT)
+                .pattern("#")
+                .pattern("#")
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(Items.COPPER_INGOT))
                 .save(consumer);
 
         // Cooking for Furnaces

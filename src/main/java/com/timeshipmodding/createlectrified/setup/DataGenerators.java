@@ -1,6 +1,10 @@
 package com.timeshipmodding.createlectrified.setup;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
+<<<<<<< HEAD
+=======
+import com.timeship.createlectrified.datagen.*;
+>>>>>>> 1.19.2-v0.2
 import com.timeshipmodding.createlectrified.datagen.*;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.data.event.GatherDataEvent;

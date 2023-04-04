@@ -1,9 +1,15 @@
 package com.timeshipmodding.createlectrified.registries;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
+<<<<<<< HEAD
 import com.timeshipmodding.createlectrified.setup.ModCreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
+=======
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.level.block.Block;
+import com.timeshipmodding.createlectrified.setup.ModCreativeModeTab;
+>>>>>>> 1.19.2-v0.2
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -20,6 +26,7 @@ public class ModItems {
         ITEMS.register(bus);
     }
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModCreativeModeTab.ELECTRIFIED_TAB_1);
+    public static final Item.Properties UNSEEN_ITEM_PROPERTIES = new Item.Properties();
 
     // Items
     public static final RegistryObject<Item> ALUMINIUM_NUGGET = ITEMS.register("aluminium_nugget", () -> new Item(ITEM_PROPERTIES));
@@ -28,6 +35,15 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_aluminium", () -> new Item(ITEM_PROPERTIES));
     public static final RegistryObject<Item> CRUSHED_BAUXITE_ORE = ITEMS.register("crushed_bauxite_ore", () -> new Item(ITEM_PROPERTIES));
     public static final RegistryObject<Item> ALUMINIUM_SHEET = ITEMS.register("aluminium_sheet", () -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> BRASS_WIRE = ITEMS.register("brass_wire", () -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> COPPER_WIRE = ITEMS.register("copper_wire",() -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> CABLE_INSULATION = ITEMS.register("cable_insulation", () -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> CHARGED_ELECTRUM = ITEMS.register("charged_electrum", () -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> ELECTRIC_MECHANISM = ITEMS.register("electric_mechanism", () -> new Item(ITEM_PROPERTIES));
+
+    // Unseen Items
+    public static final RegistryObject<Item> INCOMPLETE_COPPER_CABLE = ITEMS.register("incomplete_copper_cable", () -> new Item(UNSEEN_ITEM_PROPERTIES));
+    public static final RegistryObject<Item> INCOMPLETE_ELECTRIC_MECHANISM = ITEMS.register("incomplete_electric_mechanism", () -> new Item(UNSEEN_ITEM_PROPERTIES));
 
     // Ore BlockItems
     public static final RegistryObject<Item> ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.ELECTRUM_ORE);
@@ -39,6 +55,10 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_ALUMINIUM_BLOCKITEM = fromBlock(ModBlocks.RAW_ALUMINIUM_BLOCK);
     public static final RegistryObject<Item> ALUMINIUM_BLOCKITEM = fromBlock(ModBlocks.ALUMINIUM_BLOCK);
     public static final RegistryObject<Item> ELECTRUM_BLOCKITEM = fromBlock(ModBlocks.ELECTRUM_BLOCK);
+
+    // Model BlockItems
+    public static final RegistryObject<Item> COPPER_CABLE_BLOCK_ITEM = fromBlock(ModBlocks.COPPER_CABLE);
+    public static final RegistryObject<Item> COPPER_ROD_BLOCK_ITEM = fromBlock(ModBlocks.COPPER_ROD);
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

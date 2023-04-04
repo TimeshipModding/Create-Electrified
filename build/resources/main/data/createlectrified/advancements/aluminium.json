@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "createlectrified:aluminium_ingot"
+    },
+    "title": {
+      "translate": "That's Not Bauxite"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "Mine Bauxite Ore to smelt into Aluminium Ingot for your electric expansion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "create:display_board_0",
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createlectrified:aluminium_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

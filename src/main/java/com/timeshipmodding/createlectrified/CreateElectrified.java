@@ -1,6 +1,12 @@
 package com.timeshipmodding.createlectrified;
 
+<<<<<<< HEAD
 import com.timeshipmodding.createlectrified.registries.*;
+=======
+import com.timeship.createlectrified.registries.*;
+import com.timeshipmodding.createlectrified.registries.ModBlocks;
+import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
+>>>>>>> 1.19.2-v0.2
 import com.timeshipmodding.createlectrified.registries.ModItems;
 import com.timeshipmodding.createlectrified.registries.ModTags;
 import com.timeshipmodding.createlectrified.setup.ClientSetup;
@@ -8,8 +14,11 @@ import com.timeshipmodding.createlectrified.setup.ModSetup;
 import com.timeshipmodding.createlectrified.world.features.ModConfiguredFeatures;
 import com.timeshipmodding.createlectrified.world.features.ModPlacedFeatures;
 import com.simibubi.create.foundation.data.CreateRegistrate;
+<<<<<<< HEAD
 import com.timeshipmodding.createlectrified.registries.ModBlocks;
 import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
+=======
+>>>>>>> 1.19.2-v0.2
 import com.tterrag.registrate.util.nullness.NonNullSupplier;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
