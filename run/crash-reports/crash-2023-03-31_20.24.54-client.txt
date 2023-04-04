@@ -6,7 +6,7 @@ Description: Rendering overlay
 
 java.lang.IllegalArgumentException: Cannot get property DirectionProperty{name=facing, clazz=class net.minecraft.core.Direction, values=[north, east, south, west, up, down]} as it does not exist in Block{createlectrified:copper_cable}
 	at net.minecraft.world.level.block.state.StateHolder.getValue(StateHolder.java:97) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?] {re:classloading,re:mixin}
-	at com.example.createlectrified.content.block.CopperCableBlock.getShape(CopperCableBlock.java:30) ~[%23188!/:?] {re:classloading}
+	at block.content.com.timeship.createlectrified.CopperCableBlock.getShape(CopperCableBlock.java:30) ~[%23188!/:?] {re:classloading}
 	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:695) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?] {re:classloading,re:mixin}
 	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:691) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?] {re:classloading,re:mixin}
 	at net.minecraft.world.level.block.state.BlockBehaviour.getOcclusionShape(BlockBehaviour.java:323) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?] {re:classloading,re:mixin}
@@ -48,7 +48,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Thread: Render thread
 Stacktrace:
 	at net.minecraft.world.level.block.state.StateHolder.getValue(StateHolder.java:97) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?] {re:classloading,re:mixin}
-	at com.example.createlectrified.content.block.CopperCableBlock.getShape(CopperCableBlock.java:30) ~[%23188!/:?] {re:classloading}
+	at block.content.com.timeship.createlectrified.CopperCableBlock.getShape(CopperCableBlock.java:30) ~[%23188!/:?] {re:classloading}
 	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:695) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?] {re:classloading,re:mixin}
 	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:691) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?] {re:classloading,re:mixin}
 	at net.minecraft.world.level.block.state.BlockBehaviour.getOcclusionShape(BlockBehaviour.java:323) ~[forge-1.19.2-43.1.47_mapped_parchment_2022.10.16-1.19.2-recomp.jar%23183!/:?] {re:classloading,re:mixin}
