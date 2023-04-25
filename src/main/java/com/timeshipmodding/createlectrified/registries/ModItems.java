@@ -53,6 +53,7 @@ public class ModItems {
     // Model BlockItems
     public static final RegistryObject<Item> COPPER_CABLE_BLOCK_ITEM = fromBlock(ModBlocks.COPPER_CABLE);
     public static final RegistryObject<Item> COPPER_ROD_BLOCK_ITEM = fromBlock(ModBlocks.COPPER_ROD);
+    public static final RegistryObject<Item> BRASS_ROD_BLOCK_ITEM = fromBlock(ModBlocks.BRASS_ROD);
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

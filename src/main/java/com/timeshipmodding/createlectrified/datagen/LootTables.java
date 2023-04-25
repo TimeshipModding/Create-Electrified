@@ -25,6 +25,7 @@ public class LootTables extends BaseLootTableProvider {
 
         lootTables.put(ModBlocks.COPPER_CABLE.get(), createSimpleTable("copper_cable", ModBlocks.COPPER_CABLE.get()));
         lootTables.put(ModBlocks.COPPER_ROD.get(), createSimpleTable("copper_rod", ModBlocks.COPPER_ROD.get()));
+        lootTables.put(ModBlocks.BRASS_ROD.get(), createSimpleTable("brass_rod", ModBlocks.BRASS_ROD.get()));
 
     }
 }

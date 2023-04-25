@@ -1,5 +1,6 @@
 package com.timeshipmodding.createlectrified.datagen;
 
+import com.simibubi.create.AllItems;
 import com.timeshipmodding.createlectrified.registries.ModBlocks;
 import com.timeshipmodding.createlectrified.registries.ModItems;
 import com.timeshipmodding.createlectrified.registries.ModTags;
@@ -75,6 +76,13 @@ public class Recipes extends RecipeProvider {
                 .pattern("#")
                 .group("createlectrified")
                 .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(Items.COPPER_INGOT))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(ModBlocks.BRASS_ROD.get())
+                .define('#', AllItems.BRASS_INGOT.get())
+                .pattern("#")
+                .pattern("#")
+                .group("createlectrified")
+                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(AllItems.BRASS_INGOT.get()))
                 .save(consumer);
 
         // Cooking for Furnaces

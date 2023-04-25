@@ -21,7 +21,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod(CreateElectrified.MODID)
-public class CreateElectrified {
+public class    CreateElectrified {
 
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MODID = "createlectrified";
@@ -35,6 +35,8 @@ public class CreateElectrified {
         ModBlocks.init();
         ModTags.init();
 
+        ModCasingBlocks.register();
+
         // Register the setup method for modloading
         IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
         MinecraftForge.EVENT_BUS.register(this);
@@ -44,7 +46,6 @@ public class CreateElectrified {
         // Register World Gen classes
         ModPlacedFeatures.register(modbus);
         ModConfiguredFeatures.register(modbus);
-        ModCasingBlocks.register();
 
     }
     public static ResourceLocation asResource(String path) {

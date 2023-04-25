@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "createlectrified",
+  "key": {
+    "#": {
+      "item": "create:brass_ingot"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "createlectrified:brass_rod"
+  }
+}
