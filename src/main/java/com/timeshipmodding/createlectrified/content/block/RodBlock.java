@@ -16,9 +16,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class RodBlock extends DirectionalBlock {
     public static final DirectionProperty FACING = BlockStateProperties.FACING;
-    public RodBlock(Properties properties) {
-        super(properties);
-    }
+    public RodBlock(Properties properties) {super(properties);}
 
     public static final VoxelShape X_AXIS =
             Block.box(0, 7, 7, 16, 9, 9);
