@@ -19,15 +19,15 @@ public class ModFluids {
     public static final DeferredRegister<Fluid> FLUIDS =
             DeferredRegister.create(ForgeRegistries.FLUIDS, CreateElectrified.MODID);
 
-    public static final RegistryObject<FlowingFluid> SOURCE_SOAP_WATER = FLUIDS.register("soap_water_fluid",
-            () -> new ForgeFlowingFluid.Source(ModFluids.SOAP_WATER_FLUID_PROPERTIES));
-    public static final RegistryObject<FlowingFluid> FLOWING_SOAP_WATER = FLUIDS.register("flowing_soap_water",
-            () -> new ForgeFlowingFluid.Flowing(ModFluids.SOAP_WATER_FLUID_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> MOLTEN_SOURCE = FLUIDS.register("molten_source",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_FLUID_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> MOLTEN_FLOW = FLUIDS.register("molten_flow",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_FLUID_PROPERTIES));
 
 
-    public static final ForgeFlowingFluid.Properties SOAP_WATER_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
-            ModFluidTypes.SOAP_WATER_FLUID_TYPE, SOURCE_SOAP_WATER, FLOWING_SOAP_WATER)
-            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.SOAP_WATER_BLOCK)
-            .bucket(ModItems.SOAP_WATER_BUCKET);
+    public static final ForgeFlowingFluid.Properties MOLTEN_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_FLUID_TYPE, MOLTEN_SOURCE, MOLTEN_FLOW)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_COPPER_BLOCK)
+            .bucket(ModItems.MOLTEN_COPPER_BUCKET);
 }
 

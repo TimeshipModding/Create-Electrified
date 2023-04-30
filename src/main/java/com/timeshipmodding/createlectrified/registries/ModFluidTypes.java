@@ -19,19 +19,19 @@ public class ModFluidTypes {
         FLUID_TYPES.register(bus);
     }
 
-    public static final ResourceLocation WATER_STILL_RL = new ResourceLocation("createlectrified:block/molten_copper_still");
-    public static final ResourceLocation WATER_FLOWING_RL = new ResourceLocation("createlectrified:block/molten_copper_flow");
+    public static final ResourceLocation COPPER_SOURCE = new ResourceLocation("createlectrified:block/molten_copper_source");
+    public static final ResourceLocation COPPER_FLOWING = new ResourceLocation("createlectrified:block/molten_copper_flow");
 
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, CreateElectrified.MODID);
 
-    public static final RegistryObject<FluidType> SOAP_WATER_FLUID_TYPE = register("soap_water_fluid",
-            FluidType.Properties.create().lightLevel(2).density(15).viscosity(5));
+    public static final RegistryObject<FluidType> MOLTEN_FLUID_TYPE = register("molten_fluid",
+            FluidType.Properties.create().lightLevel(15).density(10).viscosity(30));
 
 
 
     private static RegistryObject<FluidType> register(String name, FluidType.Properties properties) {
-        return FLUID_TYPES.register(name, () -> new BaseFluidType(WATER_STILL_RL, WATER_FLOWING_RL,
+        return FLUID_TYPES.register(name, () -> new BaseFluidType(COPPER_SOURCE, COPPER_FLOWING,
                 new Vector3f(224f / 255f, 56f / 255f, 208f / 255f), properties));
     }
 }

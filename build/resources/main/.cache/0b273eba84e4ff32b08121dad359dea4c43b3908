@@ -1,4 +1,4 @@
-// 1.19.2	2023-04-30T10:45:06.8493369	Item Models: createlectrified
+// 1.19.2	2023-04-30T16:00:19.8784026	Item Models: createlectrified
 faead5144bdf07ae85c0c6aed962ef3ee5c3dd64 assets/createlectrified/models/item/aluminium_block.json
 fcec589a8bb45103fd3bfe92dc6cb2011d8be04d assets/createlectrified/models/item/aluminium_casing.json
 190dc9110e1d8472041f4f8077d7e8f85d770619 assets/createlectrified/models/item/aluminium_ingot.json
@@ -21,6 +21,6 @@ bf160d1c56205710f8d4d573e9a12bbb02576192 assets/createlectrified/models/item/ele
 b96d3e8fee3038ef5fe458bd99fa594f051d590c assets/createlectrified/models/item/electrum_ore.json
 6a5abf064e867b7b6e2bd7199edee9718a666f57 assets/createlectrified/models/item/incomplete_copper_cable.json
 39f98be3557cd7383f256b2665386fc02c320b9f assets/createlectrified/models/item/incomplete_electric_mechanism.json
+42a625a5ad5f58d957e1eec5cb2ec31543423ea6 assets/createlectrified/models/item/molten_copper_bucket.json
 aa5202ccf5a996026122dd4c3eefded3f421375a assets/createlectrified/models/item/raw_aluminium.json
 8d657003bb45e4695fb890c3aed186c6c97b7a47 assets/createlectrified/models/item/raw_aluminium_block.json
-ef115f683db306e9af722bf75fff46b4f1aa02cc assets/createlectrified/models/item/soap_water_bucket.json

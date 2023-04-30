@@ -41,6 +41,7 @@ public class ModCreativeModeTab {
             pItems.add(new ItemStack(ModItems.ELECTRIC_MECHANISM.get()));
             pItems.add(new ItemStack(ModItems.CHARGED_ELECTRUM.get()));
             pItems.add(new ItemStack(ModItems.CABLE_INSULATION.get()));
+            pItems.add(new ItemStack(ModItems.MOLTEN_COPPER_BUCKET.get()));
         }
     };
 }

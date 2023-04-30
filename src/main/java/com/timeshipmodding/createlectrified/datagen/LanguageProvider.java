@@ -30,7 +30,7 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         add(ModItems.ELECTRIC_MECHANISM.get(), "Electric Mechanism");
 
         // Bucket Item Translations
-        add(ModItems.SOAP_WATER_BUCKET.get(), "Soap Water Bucket");
+        add(ModItems.MOLTEN_COPPER_BUCKET.get(), "Bucket of Molten Copper");
 
         // Unseen Item and Block Translations
         add(ModItems.INCOMPLETE_COPPER_CABLE.get(), "Incomplete Copper Cable");

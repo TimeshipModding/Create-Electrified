@@ -29,7 +29,7 @@ public class ItemModels extends ItemModelProvider {
         singleTexture(ModItems.ELECTRIC_MECHANISM.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/electric_mechanism"));
 
         // Bucket Items
-        singleTexture(ModItems.SOAP_WATER_BUCKET.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/soap_water_bucket"));
+        singleTexture(ModItems.MOLTEN_COPPER_BUCKET.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/molten_copper_bucket"));
 
         // Unseen Items
         singleTexture(ModItems.INCOMPLETE_COPPER_CABLE.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/incomplete_copper_cable"));
