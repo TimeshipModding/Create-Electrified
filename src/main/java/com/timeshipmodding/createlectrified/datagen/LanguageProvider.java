@@ -29,6 +29,9 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         add(ModItems.CHARGED_ELECTRUM.get(), "Charged Electrum");
         add(ModItems.ELECTRIC_MECHANISM.get(), "Electric Mechanism");
 
+        // Bucket Item Translations
+        add(ModItems.SOAP_WATER_BUCKET.get(), "Soap Water Bucket");
+
         // Unseen Item and Block Translations
         add(ModItems.INCOMPLETE_COPPER_CABLE.get(), "Incomplete Copper Cable");
         add(ModItems.INCOMPLETE_ELECTRIC_MECHANISM.get(), "Incomplete Electric Mechanism");

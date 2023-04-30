@@ -44,5 +44,8 @@ public class ModBlocks {
             = BLOCKS.register("copper_rod", () -> new RodBlock(BlockBehaviour.Properties.copy(Blocks.LIGHTNING_ROD)));
     public static final RegistryObject<Block> BRASS_ROD
             = BLOCKS.register("brass_rod", () -> new RodBlock(BlockBehaviour.Properties.copy(Blocks.LIGHTNING_ROD)));
+
+    public static final RegistryObject<LiquidBlock> SOAP_WATER_BLOCK = BLOCKS.register("soap_water_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_SOAP_WATER, BlockBehaviour.Properties.copy(Blocks.LAVA).noOcclusion()));
 }
 

@@ -1,9 +1,6 @@
 package com.timeshipmodding.createlectrified;
 
-import com.timeshipmodding.createlectrified.registries.ModBlocks;
-import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
-import com.timeshipmodding.createlectrified.registries.ModItems;
-import com.timeshipmodding.createlectrified.registries.ModTags;
+import com.timeshipmodding.createlectrified.registries.*;
 import com.timeshipmodding.createlectrified.setup.ClientSetup;
 import com.timeshipmodding.createlectrified.setup.ModSetup;
 import com.timeshipmodding.createlectrified.world.features.ModConfiguredFeatures;
@@ -34,6 +31,8 @@ public class    CreateElectrified {
         ModItems.init();
         ModBlocks.init();
         ModTags.init();
+        ModFluids.init();
+        ModFluidTypes.init();
 
         ModCasingBlocks.register();
 
