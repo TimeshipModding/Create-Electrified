@@ -1,13 +1,11 @@
 package com.timeshipmodding.createlectrified.registries;
 
+import com.simibubi.create.AllBlocks;
 import com.timeshipmodding.createlectrified.CreateElectrified;
 import com.timeshipmodding.createlectrified.content.block.CopperCableBlock;
 import com.timeshipmodding.createlectrified.content.block.RodBlock;
 import net.minecraft.util.valueproviders.UniformInt;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -43,6 +41,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> COPPER_CABLE
             = BLOCKS.register("copper_cable", () -> new CopperCableBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> COPPER_ROD
-            = BLOCKS.register("copper_rod", () -> new RodBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+            = BLOCKS.register("copper_rod", () -> new RodBlock(BlockBehaviour.Properties.copy(Blocks.LIGHTNING_ROD)));
+    public static final RegistryObject<Block> BRASS_ROD
+            = BLOCKS.register("brass_rod", () -> new RodBlock(BlockBehaviour.Properties.copy(Blocks.LIGHTNING_ROD)));
+
+    public static final RegistryObject<LiquidBlock> SOAP_WATER_BLOCK = BLOCKS.register("soap_water_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_SOAP_WATER, BlockBehaviour.Properties.copy(Blocks.LAVA).noOcclusion()));
 }
 

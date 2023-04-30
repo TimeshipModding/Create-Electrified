@@ -29,6 +29,9 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         add(ModItems.CHARGED_ELECTRUM.get(), "Charged Electrum");
         add(ModItems.ELECTRIC_MECHANISM.get(), "Electric Mechanism");
 
+        // Bucket Item Translations
+        add(ModItems.SOAP_WATER_BUCKET.get(), "Soap Water Bucket");
+
         // Unseen Item and Block Translations
         add(ModItems.INCOMPLETE_COPPER_CABLE.get(), "Incomplete Copper Cable");
         add(ModItems.INCOMPLETE_ELECTRIC_MECHANISM.get(), "Incomplete Electric Mechanism");
@@ -46,6 +49,7 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         // Model Block Translations
         add(ModBlocks.COPPER_CABLE.get(), "Copper Cable");
         add(ModBlocks.COPPER_ROD.get(), "Copper Rod");
+        add(ModBlocks.BRASS_ROD.get(), "Brass Rod");
 
         // SpriteShift Translations
         add(ModCasingBlocks.ALUMINIUM_CASING.get(), "Aluminium Casing");

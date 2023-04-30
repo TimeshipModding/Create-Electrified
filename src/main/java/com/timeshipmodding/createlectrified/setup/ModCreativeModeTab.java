@@ -21,6 +21,7 @@ public class ModCreativeModeTab {
             // CreativeModeTab Organization
             pItems.add(new ItemStack(ModBlocks.COPPER_CABLE.get()));
             pItems.add(new ItemStack(ModBlocks.COPPER_ROD.get()));
+            pItems.add(new ItemStack(ModBlocks.BRASS_ROD.get()));
             pItems.add(new ItemStack(ModCasingBlocks.ALUMINIUM_CASING.get()));
             pItems.add(new ItemStack(ModBlocks.ALUMINIUM_BLOCK.get()));
             pItems.add(new ItemStack(ModBlocks.ELECTRUM_BLOCK.get()));

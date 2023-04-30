@@ -1,9 +1,6 @@
 package com.timeshipmodding.createlectrified;
 
-import com.timeshipmodding.createlectrified.registries.ModBlocks;
-import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
-import com.timeshipmodding.createlectrified.registries.ModItems;
-import com.timeshipmodding.createlectrified.registries.ModTags;
+import com.timeshipmodding.createlectrified.registries.*;
 import com.timeshipmodding.createlectrified.setup.ClientSetup;
 import com.timeshipmodding.createlectrified.setup.ModSetup;
 import com.timeshipmodding.createlectrified.world.features.ModConfiguredFeatures;
@@ -21,7 +18,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod(CreateElectrified.MODID)
-public class CreateElectrified {
+public class    CreateElectrified {
 
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MODID = "createlectrified";
@@ -34,6 +31,10 @@ public class CreateElectrified {
         ModItems.init();
         ModBlocks.init();
         ModTags.init();
+        ModFluids.init();
+        ModFluidTypes.init();
+
+        ModCasingBlocks.register();
 
         // Register the setup method for modloading
         IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -44,7 +45,6 @@ public class CreateElectrified {
         // Register World Gen classes
         ModPlacedFeatures.register(modbus);
         ModConfiguredFeatures.register(modbus);
-        ModCasingBlocks.register();
 
     }
     public static ResourceLocation asResource(String path) {

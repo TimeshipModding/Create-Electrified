@@ -4,7 +4,7 @@
     "facing=east": {"model":  "createlectrified:block/copper_cable", "y":  90},
     "facing=south": {"model":  "createlectrified:block/copper_cable", "y":  180},
     "facing=west": {"model":  "createlectrified:block/copper_cable", "y":  270},
-    "facing=up": {"model":  "createlectrified:block/copper_cable_vertical"},
-    "facing=down": {"model": "createlectrified:block/copper_cable_vertical"}
+    "facing=up": {"model":  "createlectrified:block/copper_cable", "x":  90},
+    "facing=down": {"model": "createlectrified:block/copper_cable", "x":  90}
   }
 }

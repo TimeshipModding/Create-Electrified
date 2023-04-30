@@ -2,6 +2,7 @@
   "block.createlectrified.aluminium_block": "Block of Aluminium",
   "block.createlectrified.aluminium_casing": "Aluminium Casing",
   "block.createlectrified.bauxite_ore": "Bauxite Ore",
+  "block.createlectrified.brass_rod": "Brass Rod",
   "block.createlectrified.copper_cable": "Copper Cable",
   "block.createlectrified.copper_rod": "Copper Rod",
   "block.createlectrified.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
@@ -22,5 +23,6 @@
   "item.createlectrified.incomplete_copper_cable": "Incomplete Copper Cable",
   "item.createlectrified.incomplete_electric_mechanism": "Incomplete Electric Mechanism",
   "item.createlectrified.raw_aluminium": "Raw Aluminium",
+  "item.createlectrified.soap_water_bucket": "Soap Water Bucket",
   "itemGroup.electrifiedtab1": "Create: Electrified"
 }
