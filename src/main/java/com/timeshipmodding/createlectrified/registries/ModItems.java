@@ -39,7 +39,7 @@ public class ModItems {
     public static final RegistryObject<Item> ELECTRIC_MECHANISM = ITEMS.register("electric_mechanism", () -> new Item(ITEM_PROPERTIES));
 
     // Bucket Items
-    public static final RegistryObject<Item> MOLTEN_COPPER_BUCKET = ITEMS.register("molten_copper_bucket", () -> new BucketItem(ModFluids.MOLTEN_SOURCE, BUCKET_ITEM_PROPERTIES));
+    public static final RegistryObject<Item> MOLTEN_COPPER_BUCKET = ITEMS.register("molten_copper_bucket", () -> new BucketItem(ModFluids.MOLTEN_COPPER_SOURCE, BUCKET_ITEM_PROPERTIES));
 
     // Unseen Items
     public static final RegistryObject<Item> INCOMPLETE_COPPER_CABLE = ITEMS.register("incomplete_copper_cable", () -> new Item(UNSEEN_ITEM_PROPERTIES));

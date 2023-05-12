@@ -4,8 +4,6 @@ import com.mojang.math.Vector3f;
 import com.timeshipmodding.createlectrified.CreateElectrified;
 import com.timeshipmodding.createlectrified.content.fluid.BaseFluidType;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraftforge.common.SoundAction;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -19,19 +17,21 @@ public class ModFluidTypes {
         FLUID_TYPES.register(bus);
     }
 
-    public static final ResourceLocation COPPER_SOURCE = new ResourceLocation("createlectrified:block/molten_copper_source");
-    public static final ResourceLocation COPPER_FLOWING = new ResourceLocation("createlectrified:block/molten_copper_flow");
+    public static final ResourceLocation MOLTEN_SOURCE = new ResourceLocation(CreateElectrified.MODID,"block/molten_copper_source");
+    public static final ResourceLocation MOLTEN_FLOWING = new ResourceLocation(CreateElectrified.MODID,"block/molten_copper_flowing");
+    public static final ResourceLocation MOLTEN_OVERLAY = null;
 
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, CreateElectrified.MODID);
 
     public static final RegistryObject<FluidType> MOLTEN_FLUID_TYPE = register("molten_fluid",
-            FluidType.Properties.create().lightLevel(15).density(10).viscosity(30));
+            FluidType.Properties.create().lightLevel(15).density(3000).viscosity(6000).temperature(1300).canSwim(false).canDrown(false));
 
 
 
     private static RegistryObject<FluidType> register(String name, FluidType.Properties properties) {
-        return FLUID_TYPES.register(name, () -> new BaseFluidType(COPPER_SOURCE, COPPER_FLOWING,
-                new Vector3f(224f / 255f, 56f / 255f, 208f / 255f), properties));
+        return FLUID_TYPES.register(name, () -> new BaseFluidType(MOLTEN_SOURCE, MOLTEN_FLOWING, MOLTEN_OVERLAY,
+                0xffff6347, new Vector3f(224f / 255f, 56f / 255f, 208f / 255f), properties));
     }
+
 }

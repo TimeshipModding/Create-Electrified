@@ -18,23 +18,32 @@ import java.util.function.Consumer;
 public class BaseFluidType extends FluidType {
     private final ResourceLocation stillTexture;
     private final ResourceLocation flowingTexture;
+    private final ResourceLocation overlayTexture;
+    private final int tintColour;
     private final Vector3f fogColour;
 
-    public BaseFluidType(final ResourceLocation stillTexture, final ResourceLocation flowingTexture, final Vector3f fogColour, final Properties properties) {
+    public BaseFluidType(final ResourceLocation stillTexture, final ResourceLocation flowingTexture, final ResourceLocation overlayTexture,
+                         final int tintColour, final Vector3f fogColour, final Properties properties) {
         super(properties);
         this.stillTexture = stillTexture;
         this.flowingTexture = flowingTexture;
+        this.overlayTexture = overlayTexture;
+        this.tintColour = tintColour;
         this.fogColour = fogColour;
     }
 
     public ResourceLocation getStillTexture() {
         return stillTexture;
     }
-
     public ResourceLocation getFlowingTexture() {
         return flowingTexture;
     }
-
+    public int getTintColor() {
+        return tintColour;
+    }
+    public ResourceLocation getOverlayTexture() {
+        return overlayTexture;
+    }
     public Vector3f getFogColor() {
         return fogColour;
     }
@@ -53,6 +62,16 @@ public class BaseFluidType extends FluidType {
             }
 
             @Override
+            public @Nullable ResourceLocation getOverlayTexture() {
+                return overlayTexture;
+            }
+
+            @Override
+            public int getTintColor() {
+                return tintColour;
+            }
+
+            @Override
             public @NotNull Vector3f modifyFogColor(Camera camera, float partialTick, ClientLevel level,
                                                     int renderDistance, float darkenWorldAmount, Vector3f fluidFogColor) {
                 return fogColour;
@@ -61,7 +80,7 @@ public class BaseFluidType extends FluidType {
             @Override
             public void modifyFogRender(Camera camera, FogRenderer.FogMode mode, float renderDistance, float partialTick,
                                         float nearDistance, float farDistance, FogShape shape) {
-                RenderSystem.setShaderFogStart(0.25f);
+                RenderSystem.setShaderFogStart(0f);
                 RenderSystem.setShaderFogEnd(0.5f); // distance when the fog starts
             }
         });

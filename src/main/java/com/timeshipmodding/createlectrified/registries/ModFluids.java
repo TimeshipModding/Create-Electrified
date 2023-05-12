@@ -19,15 +19,15 @@ public class ModFluids {
     public static final DeferredRegister<Fluid> FLUIDS =
             DeferredRegister.create(ForgeRegistries.FLUIDS, CreateElectrified.MODID);
 
-    public static final RegistryObject<FlowingFluid> MOLTEN_SOURCE = FLUIDS.register("molten_source",
-            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_FLUID_PROPERTIES));
-    public static final RegistryObject<FlowingFluid> MOLTEN_FLOW = FLUIDS.register("molten_flow",
-            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_FLUID_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> MOLTEN_COPPER_SOURCE = FLUIDS.register("molten_copper_source",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_COPPER_FLUID_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> MOLTEN_COPPER_FLOWING = FLUIDS.register("molten_copper_flowing",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_COPPER_FLUID_PROPERTIES));
 
 
-    public static final ForgeFlowingFluid.Properties MOLTEN_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
-            ModFluidTypes.MOLTEN_FLUID_TYPE, MOLTEN_SOURCE, MOLTEN_FLOW)
-            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_COPPER_BLOCK)
+    public static final ForgeFlowingFluid.Properties MOLTEN_COPPER_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_FLUID_TYPE, MOLTEN_COPPER_SOURCE, MOLTEN_COPPER_FLOWING)
+            .slopeFindDistance(2).levelDecreasePerBlock(1).block(ModBlocks.MOLTEN_COPPER_BLOCK)
             .bucket(ModItems.MOLTEN_COPPER_BUCKET);
 }
 
