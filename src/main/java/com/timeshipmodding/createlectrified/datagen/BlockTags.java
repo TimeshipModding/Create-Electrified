@@ -26,9 +26,7 @@ public class BlockTags extends BlockTagsProvider {
                 .add(ModBlocks.RAW_ALUMINIUM_BLOCK.get())
                 .add(ModBlocks.ALUMINIUM_BLOCK.get())
                 .add(ModBlocks.ELECTRUM_BLOCK.get())
-                .add(ModCasingBlocks.ALUMINIUM_CASING.get())
-                .add(ModBlocks.COPPER_ROD.get())
-                .add(ModBlocks.BRASS_ROD.get());
+                .add(ModCasingBlocks.ALUMINIUM_CASING.get());
 
         tag(net.minecraft.tags.BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ELECTRUM_ORE.get())
@@ -37,11 +35,7 @@ public class BlockTags extends BlockTagsProvider {
                 .add(ModBlocks.DEEPSLATE_BAUXITE_ORE.get())
                 .add(ModBlocks.RAW_ALUMINIUM_BLOCK.get())
                 .add(ModBlocks.ALUMINIUM_BLOCK.get())
-                .add(ModBlocks.ELECTRUM_BLOCK.get())
-                .add(ModBlocks.BRASS_ROD.get());
-
-        tag(net.minecraft.tags.BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.COPPER_ROD.get());
+                .add(ModBlocks.ELECTRUM_BLOCK.get());
 
         // Create: Electrified Tags
         tag(ModTags.ELECTRUM_ORE_BLOCK)

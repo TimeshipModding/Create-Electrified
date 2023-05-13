@@ -1,10 +1,9 @@
 package com.timeshipmodding.createlectrified.datagen;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
-import com.timeshipmodding.createlectrified.registries.ModBlocks;
-import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
-import com.timeshipmodding.createlectrified.registries.ModItems;
+import com.timeshipmodding.createlectrified.registries.*;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.world.level.material.FlowingFluid;
 
 public class LanguageProvider extends net.minecraftforge.common.data.LanguageProvider {
     public LanguageProvider(DataGenerator gen, String locale) {
@@ -48,8 +47,9 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
 
         // Model Block Translations
         add(ModBlocks.COPPER_CABLE.get(), "Copper Cable");
-        add(ModBlocks.COPPER_ROD.get(), "Copper Rod");
-        add(ModBlocks.BRASS_ROD.get(), "Brass Rod");
+
+        // Fluid Translations
+        add(ModFluids.MOLTEN_COPPER.getId().toLanguageKey(), "Molten Copper");
 
         // SpriteShift Translations
         add(ModCasingBlocks.ALUMINIUM_CASING.get(), "Aluminium Casing");

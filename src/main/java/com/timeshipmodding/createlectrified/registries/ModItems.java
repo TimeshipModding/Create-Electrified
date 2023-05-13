@@ -39,7 +39,7 @@ public class ModItems {
     public static final RegistryObject<Item> ELECTRIC_MECHANISM = ITEMS.register("electric_mechanism", () -> new Item(ITEM_PROPERTIES));
 
     // Bucket Items
-    public static final RegistryObject<Item> MOLTEN_COPPER_BUCKET = ITEMS.register("molten_copper_bucket", () -> new BucketItem(ModFluids.MOLTEN_COPPER_SOURCE, BUCKET_ITEM_PROPERTIES));
+    public static final RegistryObject<Item> MOLTEN_COPPER_BUCKET = ITEMS.register("molten_copper_bucket", () -> new BucketItem(ModFluids.MOLTEN_COPPER, BUCKET_ITEM_PROPERTIES));
 
     // Unseen Items
     public static final RegistryObject<Item> INCOMPLETE_COPPER_CABLE = ITEMS.register("incomplete_copper_cable", () -> new Item(UNSEEN_ITEM_PROPERTIES));
@@ -58,8 +58,6 @@ public class ModItems {
 
     // Model BlockItems
     public static final RegistryObject<Item> COPPER_CABLE_BLOCK_ITEM = fromBlock(ModBlocks.COPPER_CABLE);
-    public static final RegistryObject<Item> COPPER_ROD_BLOCK_ITEM = fromBlock(ModBlocks.COPPER_ROD);
-    public static final RegistryObject<Item> BRASS_ROD_BLOCK_ITEM = fromBlock(ModBlocks.BRASS_ROD);
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

@@ -51,7 +51,5 @@ public class ItemModels extends ItemModelProvider {
 
         // Model Blocks
         withExistingParent(ModBlocks.COPPER_CABLE.getId().getPath(), modLoc("block/copper_cable"));
-        withExistingParent(ModBlocks.COPPER_ROD.getId().getPath(), modLoc("block/copper_rod"));
-        withExistingParent(ModBlocks.BRASS_ROD.getId().getPath(), modLoc("block/brass_rod"));
     }
 }

@@ -70,20 +70,6 @@ public class Recipes extends RecipeProvider {
                 .save(consumer);
 
         // Shaped Crafting for Items
-        ShapedRecipeBuilder.shaped(ModBlocks.COPPER_ROD.get())
-                .define('#', Items.COPPER_INGOT)
-                .pattern("#")
-                .pattern("#")
-                .group("createlectrified")
-                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(Items.COPPER_INGOT))
-                .save(consumer);
-        ShapedRecipeBuilder.shaped(ModBlocks.BRASS_ROD.get())
-                .define('#', AllItems.BRASS_INGOT.get())
-                .pattern("#")
-                .pattern("#")
-                .group("createlectrified")
-                .unlockedBy("criteria", InventoryChangeTrigger.TriggerInstance.hasItems(AllItems.BRASS_INGOT.get()))
-                .save(consumer);
 
         // Cooking for Furnaces
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModTags.ELECTRUM_ORE_ITEM), ModItems.ELECTRUM.get(), 1.0F, 200)

@@ -17,9 +17,9 @@ public class ModFluidTypes {
         FLUID_TYPES.register(bus);
     }
 
-    public static final ResourceLocation MOLTEN_SOURCE = new ResourceLocation(CreateElectrified.MODID,"block/molten_copper_source");
-    public static final ResourceLocation MOLTEN_FLOWING = new ResourceLocation(CreateElectrified.MODID,"block/molten_copper_flowing");
-    public static final ResourceLocation MOLTEN_OVERLAY = null;
+    public static final ResourceLocation MOLTEN_COPPER_SOURCE = new ResourceLocation(CreateElectrified.MODID,"block/molten_copper_source");
+    public static final ResourceLocation MOLTEN_COPPER_FLOWING = new ResourceLocation(CreateElectrified.MODID,"block/molten_copper_flowing");
+    public static final ResourceLocation MOLTEN_COPPER_OVERLAY = null;
 
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, CreateElectrified.MODID);
@@ -30,7 +30,7 @@ public class ModFluidTypes {
 
 
     private static RegistryObject<FluidType> register(String name, FluidType.Properties properties) {
-        return FLUID_TYPES.register(name, () -> new BaseFluidType(MOLTEN_SOURCE, MOLTEN_FLOWING, MOLTEN_OVERLAY,
+        return FLUID_TYPES.register(name, () -> new BaseFluidType(MOLTEN_COPPER_SOURCE, MOLTEN_COPPER_FLOWING, MOLTEN_COPPER_OVERLAY,
                 0xffff6347, new Vector3f(224f / 255f, 56f / 255f, 208f / 255f), properties));
     }
 

@@ -1,9 +1,7 @@
 package com.timeshipmodding.createlectrified.registries;
 
-import com.simibubi.create.AllBlocks;
 import com.timeshipmodding.createlectrified.CreateElectrified;
 import com.timeshipmodding.createlectrified.content.block.CopperCableBlock;
-import com.timeshipmodding.createlectrified.content.block.RodBlock;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -40,12 +38,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COPPER_CABLE
             = BLOCKS.register("copper_cable", () -> new CopperCableBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> COPPER_ROD
-            = BLOCKS.register("copper_rod", () -> new RodBlock(BlockBehaviour.Properties.copy(Blocks.LIGHTNING_ROD)));
-    public static final RegistryObject<Block> BRASS_ROD
-            = BLOCKS.register("brass_rod", () -> new RodBlock(BlockBehaviour.Properties.copy(Blocks.LIGHTNING_ROD)));
 
     public static final RegistryObject<LiquidBlock> MOLTEN_COPPER_BLOCK = BLOCKS.register("molten_copper_block",
-            () -> new LiquidBlock(ModFluids.MOLTEN_COPPER_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+            () -> new LiquidBlock(ModFluids.MOLTEN_COPPER, BlockBehaviour.Properties.copy(Blocks.LAVA)));
 }
 
