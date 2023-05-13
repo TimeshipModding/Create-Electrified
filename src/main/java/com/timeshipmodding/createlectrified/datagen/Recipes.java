@@ -1,6 +1,5 @@
 package com.timeshipmodding.createlectrified.datagen;
 
-import com.simibubi.create.AllItems;
 import com.timeshipmodding.createlectrified.registries.ModBlocks;
 import com.timeshipmodding.createlectrified.registries.ModItems;
 import com.timeshipmodding.createlectrified.registries.ModTags;

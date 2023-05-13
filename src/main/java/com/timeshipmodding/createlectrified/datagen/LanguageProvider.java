@@ -2,8 +2,10 @@ package com.timeshipmodding.createlectrified.datagen;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
 import com.timeshipmodding.createlectrified.registries.*;
+import com.timeshipmodding.createlectrified.registries.ModBlocks;
+import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
+import com.timeshipmodding.createlectrified.registries.ModItems;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.world.level.material.FlowingFluid;
 
 public class LanguageProvider extends net.minecraftforge.common.data.LanguageProvider {
     public LanguageProvider(DataGenerator gen, String locale) {

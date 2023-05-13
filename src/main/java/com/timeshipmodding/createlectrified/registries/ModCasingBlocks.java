@@ -1,6 +1,7 @@
 package com.timeshipmodding.createlectrified.registries;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
+import com.timeshipmodding.createlectrified.registries.ModSpriteShifts;
 import com.timeshipmodding.createlectrified.setup.ModCreativeModeTab;
 import com.simibubi.create.content.contraptions.base.CasingBlock;
 import com.simibubi.create.foundation.data.BuilderTransformers;

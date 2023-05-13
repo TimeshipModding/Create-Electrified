@@ -1,10 +1,13 @@
 package com.timeshipmodding.createlectrified;
 
 import com.timeshipmodding.createlectrified.registries.*;
+import com.timeshipmodding.createlectrified.registries.ModBlocks;
+import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
+import com.timeshipmodding.createlectrified.registries.ModItems;
 import com.timeshipmodding.createlectrified.setup.ClientSetup;
 import com.timeshipmodding.createlectrified.setup.ModSetup;
-import com.timeshipmodding.createlectrified.world.features.ModConfiguredFeatures;
-import com.timeshipmodding.createlectrified.world.features.ModPlacedFeatures;
+import com.timeshipmodding.createlectrified.registries.ModConfiguredFeatures;
+import com.timeshipmodding.createlectrified.registries.ModPlacedFeatures;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.nullness.NonNullSupplier;
 import net.minecraft.resources.ResourceLocation;
@@ -33,6 +36,8 @@ public class    CreateElectrified {
         ModTags.init();
         ModFluids.init();
         ModFluidTypes.init();
+        ModConfiguredFeatures.init();
+        ModPlacedFeatures.init();
 
         ModCasingBlocks.register();
 
@@ -42,10 +47,6 @@ public class    CreateElectrified {
         // Register ModSetup and ClientSetup
         modbus.addListener(ModSetup::init);
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> modbus.addListener(ClientSetup::init));
-        // Register World Gen classes
-        ModPlacedFeatures.register(modbus);
-        ModConfiguredFeatures.register(modbus);
-
     }
     public static ResourceLocation asResource(String path) {
         return new ResourceLocation(MODID, path);
