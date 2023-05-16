@@ -22,6 +22,7 @@ Work in progress!
     versionRange="[43,)"
     ordering="NONE"
     side="BOTH"
+
 # Dependency for Minecraft
 [[dependencies.createlectrified]]
     modId="minecraft"
@@ -29,6 +30,7 @@ Work in progress!
     versionRange="[1.19.2,1.20)"
     ordering="NONE"
    side="BOTH"
+
 # Dependency for Create
 [[dependencies.createlectrified]]
     modId="create"

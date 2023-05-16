@@ -1,3 +1,6 @@
+// TimeshipModding developers, Do Not Touch if you haven't been asked too.
+
+// Project Repository Links
 pluginManagement {
     repositories {
         gradlePluginPortal()

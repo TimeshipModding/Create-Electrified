@@ -21,7 +21,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod(CreateElectrified.MODID)
-public class    CreateElectrified {
+public class CreateElectrified {
 
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MODID = "createlectrified";

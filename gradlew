@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# TimeshipModding developers, Do Not Touch if you haven't been asked too.
+
 #
 # Copyright © 2015-2021 the original authors.
 #

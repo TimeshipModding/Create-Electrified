@@ -13,6 +13,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import static com.timeshipmodding.createlectrified.registries.ModBlocks.*;
+
 public class ModItems {
 
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CreateElectrified.MODID);
@@ -46,18 +48,18 @@ public class ModItems {
     public static final RegistryObject<Item> INCOMPLETE_ELECTRIC_MECHANISM = ITEMS.register("incomplete_electric_mechanism", () -> new Item(UNSEEN_ITEM_PROPERTIES));
 
     // Ore BlockItems
-    public static final RegistryObject<Item> ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.ELECTRUM_ORE);
-    public static final RegistryObject<Item> DEEPSLATE_ELECTRUM_ORE_BLOCKITEM = fromBlock(ModBlocks.DEEPSLATE_ELECTRUM_ORE);
-    public static final RegistryObject<Item> BAUXITE_ORE_BLOCKITEM = fromBlock(ModBlocks.BAUXITE_ORE);
-    public static final RegistryObject<Item> DEEPSLATE_BAUXITE_ORE_BLOCKITEM = fromBlock(ModBlocks.DEEPSLATE_BAUXITE_ORE);
+    public static final RegistryObject<Item> ELECTRUM_ORE_BLOCKITEM = fromBlock(ELECTRUM_ORE);
+    public static final RegistryObject<Item> DEEPSLATE_ELECTRUM_ORE_BLOCKITEM = fromBlock(DEEPSLATE_ELECTRUM_ORE);
+    public static final RegistryObject<Item> BAUXITE_ORE_BLOCKITEM = fromBlock(BAUXITE_ORE);
+    public static final RegistryObject<Item> DEEPSLATE_BAUXITE_ORE_BLOCKITEM = fromBlock(DEEPSLATE_BAUXITE_ORE);
 
     // BlockItems
-    public static final RegistryObject<Item> RAW_ALUMINIUM_BLOCKITEM = fromBlock(ModBlocks.RAW_ALUMINIUM_BLOCK);
-    public static final RegistryObject<Item> ALUMINIUM_BLOCKITEM = fromBlock(ModBlocks.ALUMINIUM_BLOCK);
-    public static final RegistryObject<Item> ELECTRUM_BLOCKITEM = fromBlock(ModBlocks.ELECTRUM_BLOCK);
+    public static final RegistryObject<Item> RAW_ALUMINIUM_BLOCKITEM = fromBlock(RAW_ALUMINIUM_BLOCK);
+    public static final RegistryObject<Item> ALUMINIUM_BLOCKITEM = fromBlock(ALUMINIUM_BLOCK);
+    public static final RegistryObject<Item> ELECTRUM_BLOCKITEM = fromBlock(ELECTRUM_BLOCK);
 
     // Model BlockItems
-    public static final RegistryObject<Item> COPPER_CABLE_BLOCK_ITEM = fromBlock(ModBlocks.COPPER_CABLE);
+    public static final RegistryObject<Item> COPPER_CABLE_BLOCKITEM = fromBlock(COPPER_CABLE);
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));
