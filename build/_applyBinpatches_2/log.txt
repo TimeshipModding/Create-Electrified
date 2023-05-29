@@ -1,5 +1,5 @@
 Java Launcher: C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin\java.exe
-Arguments: '--clean, C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar, --output, C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.47\forge-1.19.2-43.1.47-binpatched.jar, --apply, C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.47\forge-1.19.2-43.1.47-binpatches.lzma'
+Arguments: '--clean, C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar, --output, C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.11\forge-1.19.2-43.2.11-binpatched.jar, --apply, C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.11\forge-1.19.2-43.2.11-binpatches.lzma'
 Classpath:
  - C:\Users\User\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
 Working directory: C:\Users\User\Documents\GitHub\Create-Electrified\build\_applyBinpatches_2
@@ -7,12 +7,12 @@ Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar
-  Output:    C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.47\forge-1.19.2-43.1.47-binpatched.jar
+  Output:    C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.11\forge-1.19.2-43.2.11-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.47\forge-1.19.2-43.1.47-binpatches.lzma
+Loading patches file: C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.11\forge-1.19.2-43.2.11-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 19e6c00e Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -61,6 +61,10 @@ Loading patches file: C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_r
     Checksum: 4e3d6690 Exists: true
   Reading patch com.mojang.blaze3d.vertex.BufferBuilder.binpatch
     Checksum: 1013c3c6 Exists: true
+  Reading patch com.mojang.blaze3d.vertex.PoseStack$Pose.binpatch
+    Checksum: bf28f621 Exists: true
+  Reading patch com.mojang.blaze3d.vertex.PoseStack.binpatch
+    Checksum: 4b3337fd Exists: true
   Reading patch com.mojang.blaze3d.vertex.VertexConsumer.binpatch
     Checksum: 372faa85 Exists: true
   Reading patch com.mojang.blaze3d.vertex.VertexFormat$1.binpatch
@@ -1867,6 +1871,8 @@ Loading patches file: C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_r
     Checksum: 5cc7dc90 Exists: true
   Reading patch net.minecraft.world.item.BucketItem.binpatch
     Checksum: b7a655d7 Exists: true
+  Reading patch net.minecraft.world.item.BundleItem.binpatch
+    Checksum: d15e18eb Exists: true
   Reading patch net.minecraft.world.item.ChorusFruitItem.binpatch
     Checksum: 49436006 Exists: true
   Reading patch net.minecraft.world.item.CreativeModeTab$1.binpatch
@@ -1899,6 +1905,8 @@ Loading patches file: C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_r
     Checksum: 49637bb2 Exists: true
   Reading patch net.minecraft.world.item.DiggerItem.binpatch
     Checksum: 21e35a2d Exists: true
+  Reading patch net.minecraft.world.item.DispensibleContainerItem.binpatch
+    Checksum: 767b3bf1 Exists: true
   Reading patch net.minecraft.world.item.DyeColor.binpatch
     Checksum: 7c533189 Exists: true
   Reading patch net.minecraft.world.item.DyeableHorseArmorItem.binpatch
@@ -2229,6 +2237,8 @@ Loading patches file: C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_r
     Checksum: cff929ba Exists: true
   Reading patch net.minecraft.world.level.block.FireBlock.binpatch
     Checksum: b4f3cee8 Exists: true
+  Reading patch net.minecraft.world.level.block.FlowerBlock.binpatch
+    Checksum: 3e3a2725 Exists: true
   Reading patch net.minecraft.world.level.block.FlowerPotBlock.binpatch
     Checksum: dfc13dcd Exists: true
   Reading patch net.minecraft.world.level.block.FungusBlock.binpatch
@@ -2293,6 +2303,8 @@ Loading patches file: C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_r
     Checksum: 7b515cd8 Exists: true
   Reading patch net.minecraft.world.level.block.StemBlock.binpatch
     Checksum: f3150ba2 Exists: true
+  Reading patch net.minecraft.world.level.block.StemGrownBlock.binpatch
+    Checksum: de0d0158 Exists: true
   Reading patch net.minecraft.world.level.block.SugarCaneBlock.binpatch
     Checksum: fa3c7aeb Exists: true
   Reading patch net.minecraft.world.level.block.SweetBerryBushBlock.binpatch
@@ -2630,6 +2642,8 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching com/mojang/blaze3d/vertex/BufferBuilder$RenderedBuffer 1/1
   Patching com/mojang/blaze3d/vertex/BufferBuilder$SortState 1/1
   Patching com/mojang/blaze3d/vertex/BufferBuilder 1/1
+  Patching com/mojang/blaze3d/vertex/PoseStack$Pose 1/1
+  Patching com/mojang/blaze3d/vertex/PoseStack 1/1
   Patching com/mojang/blaze3d/vertex/VertexConsumer 1/1
   Patching com/mojang/blaze3d/vertex/VertexFormat$1 1/1
   Patching com/mojang/blaze3d/vertex/VertexFormat$IndexType 1/1
@@ -3531,6 +3545,7 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/item/BoneMealItem 1/1
   Patching net/minecraft/world/item/BowItem 1/1
   Patching net/minecraft/world/item/BucketItem 1/1
+  Patching net/minecraft/world/item/BundleItem 1/1
   Patching net/minecraft/world/item/ChorusFruitItem 1/1
   Patching net/minecraft/world/item/CreativeModeTab$1 1/1
   Patching net/minecraft/world/item/CreativeModeTab$10 1/1
@@ -3547,6 +3562,7 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/item/CreativeModeTab 1/1
   Patching net/minecraft/world/item/CrossbowItem 1/1
   Patching net/minecraft/world/item/DiggerItem 1/1
+  Patching net/minecraft/world/item/DispensibleContainerItem 1/1
   Patching net/minecraft/world/item/DyeColor 1/1
   Patching net/minecraft/world/item/DyeableHorseArmorItem 1/1
   Patching net/minecraft/world/item/ElytraItem 1/1
@@ -3709,6 +3725,7 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/level/block/EnchantmentTableBlock 1/1
   Patching net/minecraft/world/level/block/FarmBlock 1/1
   Patching net/minecraft/world/level/block/FireBlock 1/1
+  Patching net/minecraft/world/level/block/FlowerBlock 1/1
   Patching net/minecraft/world/level/block/FlowerPotBlock 1/1
   Patching net/minecraft/world/level/block/FungusBlock 1/1
   Patching net/minecraft/world/level/block/GrowingPlantHeadBlock 1/1
@@ -3741,6 +3758,7 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/level/block/StairBlock$1 1/1
   Patching net/minecraft/world/level/block/StairBlock 1/1
   Patching net/minecraft/world/level/block/StemBlock 1/1
+  Patching net/minecraft/world/level/block/StemGrownBlock 1/1
   Patching net/minecraft/world/level/block/SugarCaneBlock 1/1
   Patching net/minecraft/world/level/block/SweetBerryBushBlock 1/1
   Patching net/minecraft/world/level/block/TallGrassBlock 1/1

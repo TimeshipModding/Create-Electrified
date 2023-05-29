@@ -50,11 +50,11 @@ public class LanguageProvider extends net.minecraftforge.common.data.LanguagePro
         // Model Block Translations
         add(ModBlocks.COPPER_CABLE.get(), "Copper Cable");
 
+        // Casing Block Translations
+        add(ModCasingBlocks.ALUMINIUM_CASING.get(), "Aluminium Casing");
+
         // Fluid Translations
         add(ModFluids.MOLTEN_COPPER.getId().toLanguageKey(), "Molten Copper");
-
-        // SpriteShift Translations
-        add(ModCasingBlocks.ALUMINIUM_CASING.get(), "Aluminium Casing");
     }
 }
 

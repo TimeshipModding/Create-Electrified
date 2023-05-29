@@ -106,7 +106,7 @@ repositories {
 
 // Project Dependencies
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.2-43.1.47'
+    minecraft 'net.minecraftforge:forge:1.19.2-43.2.11'
 
     // Create Dependency
     implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
@@ -114,13 +114,14 @@ dependencies {
     // Flywheel Dependency
     implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
 
-    // Registrate Dependency (Create)
+    // Registrate Dependency (For Create)
     implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
 
     // JEI Dependencies
     compileOnly fg.deobf("mezz.jei:jei-1.19.2-common-api:${jei_version}")
     compileOnly fg.deobf("mezz.jei:jei-1.19.2-forge-api:${jei_version}")
     runtimeOnly fg.deobf("mezz.jei:jei-1.19.2-forge:${jei_version}")
+
 }
 
 jar {

@@ -5,15 +5,21 @@
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
+  "create:recipes/create.base/crafting/kinetics/portable_fluid_interface": {
     "criteria": {
-      "lava_bucket": "2023-05-01 10:03:10 +1000"
+      "has_item": "2023-05-29 17:31:26 +1000"
     },
     "done": true
   },
-  "create:root": {
+  "create:recipes/create.base/crafting/kinetics/mechanical_plough": {
     "criteria": {
-      "0": "2023-05-01 10:00:58 +1000"
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/clutch": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
     },
     "done": true
   },
@@ -23,9 +29,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
+  "createlectrified:aluminium_casing": {
     "criteria": {
-      "in_water": "2023-05-01 10:58:38 +1000"
+      "requirements": "2023-05-29 16:33:44 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_bearing": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_drill": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
     },
     "done": true
   },
@@ -35,15 +53,126 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/mangrove_boat": {
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-05-12 21:06:02 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/spout": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:26 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/millstone": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/gantry_carriage": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/gearshift": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/depot": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "createlectrified:recipes/electrifiedtab1/raw_aluminium": {
+    "criteria": {
+      "criteria": "2023-05-13 11:59:10 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_press": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2023-05-01 10:01:03 +1000",
+      "minecraft:dark_forest": "2023-05-01 10:00:50 +1000",
+      "minecraft:river": "2023-05-01 10:01:01 +1000",
+      "minecraft:forest": "2023-05-01 12:03:58 +1000"
+    },
+    "done": false
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_piston": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_harvester": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2023-05-01 10:03:10 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/crafting/kinetics/copper_door": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:26 +1000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2023-05-01 10:00:58 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/crafting/kinetics/andesite_door": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:12 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/portable_storage_interface": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2023-05-01 10:58:38 +1000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cake": {
+  "create:recipes/create.base/crafting/kinetics/encased_chain_drive": {
     "criteria": {
-      "has_egg": "2023-05-12 21:06:02 +1000"
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_roller": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-05-01 10:58:38 +1000"
     },
     "done": true
   },
@@ -65,15 +194,21 @@
     },
     "done": true
   },
-  "createlectrified:recipes/electrifiedtab1/raw_aluminium_block": {
+  "create:recipes/create.base/crafting/kinetics/weighted_ejector": {
     "criteria": {
-      "criteria": "2023-05-13 12:01:22 +1000"
+      "has_item": "2023-05-29 17:31:13 +1000"
     },
     "done": true
   },
-  "createlectrified:recipes/electrifiedtab1/raw_aluminium": {
+  "create:recipes/create.base/crafting/kinetics/item_drain": {
     "criteria": {
-      "criteria": "2023-05-13 11:59:10 +1000"
+      "has_item": "2023-05-29 17:31:26 +1000"
+    },
+    "done": true
+  },
+  "createlectrified:recipes/electrifiedtab1/raw_aluminium_block": {
+    "criteria": {
+      "criteria": "2023-05-13 12:01:22 +1000"
     },
     "done": true
   },
@@ -95,20 +230,17 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/mechanical_saw": {
+    "criteria": {
+      "has_item": "2023-05-29 17:31:13 +1000"
+    },
+    "done": true
+  },
   "minecraft:recipes/electrifiedtab1/raw_aluminium1": {
     "criteria": {
       "criteria": "2023-05-13 12:01:22 +1000"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:birch_forest": "2023-05-01 10:01:03 +1000",
-      "minecraft:dark_forest": "2023-05-01 10:00:50 +1000",
-      "minecraft:river": "2023-05-01 10:01:01 +1000",
-      "minecraft:forest": "2023-05-01 12:03:58 +1000"
-    },
-    "done": false
   },
   "DataVersion": 3120
 }

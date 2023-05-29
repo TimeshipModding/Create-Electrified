@@ -1,6 +1,6 @@
-// 1.19.2	2023-05-13T15:01:10.5699998	Create: Electrified LootTables
+// 1.19.2	2023-05-29T16:26:09.7517102	Create: Electrified LootTables
 bcb0df3668acb0f2873173344365ca60266e2be0 data/createlectrified/loot_tables/blocks/aluminium_block.json
-e5fc942ddd881a6b81e54107dc7f1b930641c9e4 data/createlectrified/loot_tables/blocks/aluminium_casing.json
+f1f8877ed3c7bf2742315e9c62e9e4ced5edb690 data/createlectrified/loot_tables/blocks/aluminium_casing.json
 64a9bb8b6cb923658c34369532dc11a0d78aa21b data/createlectrified/loot_tables/blocks/bauxite_ore.json
 595c80165f6c524492558445ce555802640ceca8 data/createlectrified/loot_tables/blocks/copper_cable.json
 e7c016aab4c4c615e66ca1eece10d09ce9e2e002 data/createlectrified/loot_tables/blocks/deepslate_bauxite_ore.json

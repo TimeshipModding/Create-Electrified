@@ -1,5 +1,6 @@
 package com.timeshipmodding.createlectrified.registries;
 
+import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.timeshipmodding.createlectrified.CreateElectrified;
 import com.timeshipmodding.createlectrified.content.block.CopperCableBlock;
 import net.minecraft.util.valueproviders.UniformInt;
