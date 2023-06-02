@@ -17,9 +17,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/electrifiedtab1/electrum1": {
     "criteria": {
-      "in_water": "2023-05-31 19:52:49 +1000"
+      "criteria": "2023-06-02 19:37:17 +1000"
     },
     "done": true
   },
@@ -29,9 +29,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/raw_iron": {
+  "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
-      "has_raw_iron_block": "2023-06-01 16:48:07 +1000"
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
     },
     "done": true
   },
@@ -41,39 +47,21 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/brass_ladder_from_ingots_brass_stonecutting": {
-    "criteria": {
-      "has_ingots_brass": "2023-05-31 19:51:10 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/raw_copper": {
-    "criteria": {
-      "has_raw_copper_block": "2023-06-01 16:48:09 +1000"
-    },
-    "done": true
-  },
   "create:recipes/create.base/crafting/kinetics/brass_hand": {
     "criteria": {
       "has_item": "2023-05-31 19:51:10 +1000"
     },
     "done": true
   },
-  "createlectrified:recipes/electrifiedtab1/raw_aluminium": {
+  "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
-      "criteria": "2023-06-01 16:47:48 +1000"
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
     },
     "done": true
   },
-  "create:brass": {
+  "minecraft:recipes/transportation/minecart": {
     "criteria": {
-      "0": "2023-05-31 19:51:10 +1000"
-    },
-    "done": true
-  },
-  "create:recipes/create.base/crafting/logistics/brass_tunnel": {
-    "criteria": {
-      "has_item": "2023-05-31 19:51:10 +1000"
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
     },
     "done": true
   },
@@ -86,21 +74,33 @@
     },
     "done": false
   },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:20 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2023-06-02 19:40:13 +1000"
+    },
+    "done": true
+  },
   "createlectrified:recipes/electrifiedtab1/aluminium_block": {
     "criteria": {
       "criteria": "2023-06-01 16:48:43 +1000"
     },
     "done": true
   },
-  "create:recipes/create.palettes/brass_scaffolding_from_ingots_brass_stonecutting": {
+  "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
-      "has_ingots_brass": "2023-05-31 19:51:10 +1000"
+      "has_iron_ingot": "2023-06-02 19:38:20 +1000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/raw_gold": {
+  "minecraft:story/lava_bucket": {
     "criteria": {
-      "has_raw_gold_block": "2023-06-01 16:48:10 +1000"
+      "lava_bucket": "2023-06-02 19:40:48 +1000"
     },
     "done": true
   },
@@ -110,15 +110,15 @@
     },
     "done": true
   },
-  "create:root": {
-    "criteria": {
-      "0": "2023-05-31 19:51:04 +1000"
-    },
-    "done": true
-  },
   "create:recipes/create.base/crafting/materials/raw_zinc": {
     "criteria": {
       "has_item": "2023-06-01 16:48:08 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:20 +1000"
     },
     "done": true
   },
@@ -134,9 +134,9 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/crafting/materials/brass_block_from_compacting": {
+  "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
-      "has_item": "2023-05-31 19:51:10 +1000"
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
     },
     "done": true
   },
@@ -152,9 +152,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
+  "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
-      "in_water": "2023-05-31 19:52:49 +1000"
+      "has_iron_ingot": "2023-06-02 19:38:20 +1000"
+    },
+    "done": true
+  },
+  "createlectrified:recipes/electrifiedtab1/electrum_block": {
+    "criteria": {
+      "criteria": "2023-06-02 19:37:44 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/electrifiedtab1/raw_aluminium2": {
+    "criteria": {
+      "criteria": "2023-06-02 19:37:50 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/industrial_iron_block_from_ingots_iron_stonecutting": {
+    "criteria": {
+      "has_ingots_iron": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
     },
     "done": true
   },
@@ -164,15 +194,9 @@
     },
     "done": true
   },
-  "createlectrified:aluminium": {
+  "minecraft:recipes/tools/shears": {
     "criteria": {
-      "requirements": "2023-06-01 16:48:43 +1000"
-    },
-    "done": true
-  },
-  "create:recipes/create.base/crafting/logistics/brass_funnel": {
-    "criteria": {
-      "has_item": "2023-05-31 19:51:10 +1000"
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
     },
     "done": true
   },
@@ -200,9 +224,219 @@
     },
     "done": true
   },
+  "minecraft:recipes/electrifiedtab1/raw_aluminium1": {
+    "criteria": {
+      "criteria": "2023-06-02 19:37:50 +1000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/elevator_pulley": {
     "criteria": {
       "has_item": "2023-05-31 19:51:10 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/andesite_alloy": {
+    "criteria": {
+      "has_item": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-05-31 19:52:49 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-06-02 20:27:05 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2023-06-01 16:48:07 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/brass_ladder_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2023-05-31 19:51:10 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2023-06-01 16:48:09 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "createlectrified:recipes/electrifiedtab1/raw_aluminium": {
+    "criteria": {
+      "criteria": "2023-06-01 16:47:48 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2023-05-31 19:51:10 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/brass_tunnel": {
+    "criteria": {
+      "has_item": "2023-05-31 19:51:10 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/brass_scaffolding_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2023-05-31 19:51:10 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2023-06-01 16:48:10 +1000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2023-05-31 19:51:04 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/crafting/materials/brass_block_from_compacting": {
+    "criteria": {
+      "has_item": "2023-05-31 19:51:10 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/electrifiedtab1/bauxite2": {
+    "criteria": {
+      "criteria": "2023-06-02 19:37:17 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/electrifiedtab1/bauxite1": {
+    "criteria": {
+      "criteria": "2023-06-02 19:37:17 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-05-31 19:52:49 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "createlectrified:recipes/electrifiedtab1/electrum": {
+    "criteria": {
+      "criteria": "2023-06-02 19:47:50 +1000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2023-06-02 19:38:19 +1000"
+    },
+    "done": true
+  },
+  "createlectrified:recipes/electrifiedtab1/raw_aluminium_block": {
+    "criteria": {
+      "criteria": "2023-06-02 19:37:50 +1000"
+    },
+    "done": true
+  },
+  "createlectrified:aluminium": {
+    "criteria": {
+      "requirements": "2023-06-01 16:48:43 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/brass_funnel": {
+    "criteria": {
+      "has_item": "2023-05-31 19:51:10 +1000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/empty_blaze_burner": {
+    "criteria": {
+      "has_item": "2023-06-02 19:38:20 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-06-02 19:38:20 +1000"
     },
     "done": true
   },

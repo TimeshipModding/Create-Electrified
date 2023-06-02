@@ -43,7 +43,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> COPPER_CABLE
             = BLOCKS.register("copper_cable", () -> new CopperCableBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> CASTING_TABLE
-            = BLOCKS.register("casting_table", () -> new CastingTableBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+            = BLOCKS.register("casting_table", () -> new CastingTableBlock(BlockBehaviour.Properties.of(Material.METAL).noOcclusion().requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
 
     // Fluid Blocks
     public static final RegistryObject<LiquidBlock> MOLTEN_COPPER_BLOCK
