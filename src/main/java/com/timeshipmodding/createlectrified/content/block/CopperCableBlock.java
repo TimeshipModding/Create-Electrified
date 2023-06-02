@@ -20,23 +20,20 @@ public class CopperCableBlock extends DirectionalBlock {
         super(properties);
     }
 
-    public static final VoxelShape X_AXIS =
+    private static final VoxelShape X_AXIS =
             Block.box(0, 6, 6, 16, 10, 10);
-    public static final VoxelShape Y_AXIS =
+    private static final VoxelShape Y_AXIS =
             Block.box(6, 0, 6, 10, 16, 10);
-    public static final VoxelShape Z_AXIS =
+    private static final VoxelShape Z_AXIS =
             Block.box(6, 6, 0, 10, 10, 16);
 
+    @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        switch (pState.getValue(FACING).getAxis()) {
-            case X:
-            default:
-                return X_AXIS;
-            case Y:
-                return Y_AXIS;
-            case Z:
-                return Z_AXIS;
-        }
+        return switch (pState.getValue(FACING).getAxis()) {
+            case X -> X_AXIS;
+            case Y -> Y_AXIS;
+            case Z -> Z_AXIS;
+        };
     }
 
     // Facing

@@ -37,6 +37,7 @@ public class CreateElectrified {
         // Register the registry classes
         ModItems.init();
         ModBlocks.init();
+        ModBlockItems.init();
         ModTags.init();
         ModFluids.init();
         ModFluidTypes.init();

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model":  "createlectrified:block/casting_table"},
+    "facing=east": {"model":  "createlectrified:block/casting_table", "y":  90},
+    "facing=south": {"model":  "createlectrified:block/casting_table", "y":  180},
+    "facing=west": {"model":  "createlectrified:block/casting_table", "y":  270}
+  }
+}

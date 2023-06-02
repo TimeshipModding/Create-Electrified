@@ -42,27 +42,10 @@ public class ModItems {
 
     // Bucket Items
     public static final RegistryObject<Item> MOLTEN_COPPER_BUCKET = ITEMS.register("molten_copper_bucket", () -> new BucketItem(ModFluids.MOLTEN_COPPER, BUCKET_ITEM_PROPERTIES));
+    public static final RegistryObject<Item> MOLTEN_BRASS_BUCKET = ITEMS.register("molten_brass_bucket", () -> new BucketItem(ModFluids.MOLTEN_BRASS, BUCKET_ITEM_PROPERTIES));
 
     // Unseen Items
     public static final RegistryObject<Item> INCOMPLETE_COPPER_CABLE = ITEMS.register("incomplete_copper_cable", () -> new Item(UNSEEN_ITEM_PROPERTIES));
     public static final RegistryObject<Item> INCOMPLETE_ELECTRIC_MECHANISM = ITEMS.register("incomplete_electric_mechanism", () -> new Item(UNSEEN_ITEM_PROPERTIES));
-
-    // Ore BlockItems
-    public static final RegistryObject<Item> ELECTRUM_ORE_BLOCKITEM = fromBlock(ELECTRUM_ORE);
-    public static final RegistryObject<Item> DEEPSLATE_ELECTRUM_ORE_BLOCKITEM = fromBlock(DEEPSLATE_ELECTRUM_ORE);
-    public static final RegistryObject<Item> BAUXITE_ORE_BLOCKITEM = fromBlock(BAUXITE_ORE);
-    public static final RegistryObject<Item> DEEPSLATE_BAUXITE_ORE_BLOCKITEM = fromBlock(DEEPSLATE_BAUXITE_ORE);
-
-    // BlockItems
-    public static final RegistryObject<Item> RAW_ALUMINIUM_BLOCKITEM = fromBlock(RAW_ALUMINIUM_BLOCK);
-    public static final RegistryObject<Item> ALUMINIUM_BLOCKITEM = fromBlock(ALUMINIUM_BLOCK);
-    public static final RegistryObject<Item> ELECTRUM_BLOCKITEM = fromBlock(ELECTRUM_BLOCK);
-
-    // Model BlockItems
-    public static final RegistryObject<Item> COPPER_CABLE_BLOCKITEM = fromBlock(COPPER_CABLE);
-
-    public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
-        return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));
-    }
 }
 

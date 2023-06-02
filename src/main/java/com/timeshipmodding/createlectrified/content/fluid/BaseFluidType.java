@@ -18,17 +18,12 @@ import java.util.function.Consumer;
 public class BaseFluidType extends FluidType {
     private final ResourceLocation stillTexture;
     private final ResourceLocation flowingTexture;
-    private final ResourceLocation overlayTexture;
-    private final int tintColour;
     private final Vector3f fogColour;
 
-    public BaseFluidType(final ResourceLocation stillTexture, final ResourceLocation flowingTexture, final ResourceLocation overlayTexture,
-                         final int tintColour, final Vector3f fogColour, final Properties properties) {
+    public BaseFluidType(final ResourceLocation stillTexture, final ResourceLocation flowingTexture, final Vector3f fogColour, final Properties properties) {
         super(properties);
         this.stillTexture = stillTexture;
         this.flowingTexture = flowingTexture;
-        this.overlayTexture = overlayTexture;
-        this.tintColour = tintColour;
         this.fogColour = fogColour;
     }
 
@@ -37,12 +32,6 @@ public class BaseFluidType extends FluidType {
     }
     public ResourceLocation getFlowingTexture() {
         return flowingTexture;
-    }
-    public int getTintColor() {
-        return tintColour;
-    }
-    public ResourceLocation getOverlayTexture() {
-        return overlayTexture;
     }
     public Vector3f getFogColor() {
         return fogColour;
@@ -59,16 +48,6 @@ public class BaseFluidType extends FluidType {
             @Override
             public ResourceLocation getFlowingTexture() {
                 return flowingTexture;
-            }
-
-            @Override
-            public @Nullable ResourceLocation getOverlayTexture() {
-                return overlayTexture;
-            }
-
-            @Override
-            public int getTintColor() {
-                return tintColour;
             }
 
             @Override

@@ -1,33 +1,33 @@
 package com.timeshipmodding.createlectrified.datagen;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
-import com.timeshipmodding.createlectrified.registries.ModBlocks;
-import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
+import static com.timeshipmodding.createlectrified.registries.ModBlocks.*;
+import static com.timeshipmodding.createlectrified.registries.ModCasingBlocks.*;
+
 public class BlockStates extends BlockStateProvider {
     public BlockStates(DataGenerator gen, ExistingFileHelper helper) {
         super(gen, CreateElectrified.MODID, helper);
     }
-    private static final CreateRegistrate REGISTRATE = CreateElectrified.registrate();
 
     @Override
     protected void registerStatesAndModels() {
         // Ore Simple Blocks
-        simpleBlock(ModBlocks.ELECTRUM_ORE.get());
-        simpleBlock(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
-        simpleBlock(ModBlocks.BAUXITE_ORE.get());
-        simpleBlock(ModBlocks.DEEPSLATE_BAUXITE_ORE.get());
+        simpleBlock(ELECTRUM_ORE.get());
+        simpleBlock(DEEPSLATE_ELECTRUM_ORE.get());
+        simpleBlock(BAUXITE_ORE.get());
+        simpleBlock(DEEPSLATE_BAUXITE_ORE.get());
 
         // Simple Blocks
-        simpleBlock(ModBlocks.RAW_ALUMINIUM_BLOCK.get());
-        simpleBlock(ModBlocks.ALUMINIUM_BLOCK.get());
-        simpleBlock(ModBlocks.ELECTRUM_BLOCK.get());
+        simpleBlock(RAW_ALUMINIUM_BLOCK.get());
+        simpleBlock(ALUMINIUM_BLOCK.get());
+        simpleBlock(ELECTRUM_BLOCK.get());
 
         // SpriteShift Blocks
-        simpleBlock(ModCasingBlocks.ALUMINIUM_CASING.get());
+        simpleBlock(ALUMINIUM_CASING.get());
     }
 }

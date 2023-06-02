@@ -2,6 +2,7 @@ package com.timeshipmodding.createlectrified.registries;
 
 import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.timeshipmodding.createlectrified.CreateElectrified;
+import com.timeshipmodding.createlectrified.content.block.CastingTableBlock;
 import com.timeshipmodding.createlectrified.content.block.CopperCableBlock;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.*;
@@ -22,6 +23,7 @@ public class ModBlocks {
         BLOCKS.register(bus);
     }
 
+    // Blocks
     public static final RegistryObject<Block> ELECTRUM_ORE
             = BLOCKS.register("electrum_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.0F, 3.0F), UniformInt.of(1, 3)));
     public static final RegistryObject<Block> DEEPSLATE_ELECTRUM_ORE
@@ -37,10 +39,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_BAUXITE_ORE
             = BLOCKS.register("deepslate_bauxite_ore", () -> new Block(BlockBehaviour.Properties.copy(ModBlocks.BAUXITE_ORE.get()).strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE)));
 
+    // Model Blocks
     public static final RegistryObject<Block> COPPER_CABLE
             = BLOCKS.register("copper_cable", () -> new CopperCableBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+    public static final RegistryObject<Block> CASTING_TABLE
+            = BLOCKS.register("casting_table", () -> new CastingTableBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
 
-    public static final RegistryObject<LiquidBlock> MOLTEN_COPPER_BLOCK = BLOCKS.register("molten_copper_block",
-            () -> new LiquidBlock(ModFluids.MOLTEN_COPPER, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    // Fluid Blocks
+    public static final RegistryObject<LiquidBlock> MOLTEN_COPPER_BLOCK
+            = BLOCKS.register("molten_copper_block", () -> new LiquidBlock(ModFluids.MOLTEN_COPPER, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+
+    public static final RegistryObject<LiquidBlock> MOLTEN_BRASS_BLOCK
+            = BLOCKS.register("molten_brass_block", () -> new LiquidBlock(ModFluids.MOLTEN_BRASS, BlockBehaviour.Properties.copy(Blocks.LAVA)));
 }
 

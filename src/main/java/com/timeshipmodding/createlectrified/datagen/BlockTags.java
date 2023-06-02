@@ -1,12 +1,15 @@
 package com.timeshipmodding.createlectrified.datagen;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
-import com.timeshipmodding.createlectrified.registries.ModBlocks;
-import com.timeshipmodding.createlectrified.registries.ModCasingBlocks;
-import com.timeshipmodding.createlectrified.registries.ModTags;
+import com.timeshipmodding.createlectrified.content.block.CastingTableBlock;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.common.data.ExistingFileHelper;
+
+import static com.timeshipmodding.createlectrified.registries.ModCasingBlocks.*;
+import static com.timeshipmodding.createlectrified.registries.ModBlocks.*;
+import static com.timeshipmodding.createlectrified.registries.ModTags.*;
 
 public class BlockTags extends BlockTagsProvider {
 
@@ -19,32 +22,34 @@ public class BlockTags extends BlockTagsProvider {
 
         // Minecraft Tags
         tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.ELECTRUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get())
-                .add(ModBlocks.BAUXITE_ORE.get())
-                .add(ModBlocks.DEEPSLATE_BAUXITE_ORE.get())
-                .add(ModBlocks.RAW_ALUMINIUM_BLOCK.get())
-                .add(ModBlocks.ALUMINIUM_BLOCK.get())
-                .add(ModBlocks.ELECTRUM_BLOCK.get())
-                .add(ModCasingBlocks.ALUMINIUM_CASING.get());
+                .add(ELECTRUM_ORE.get())
+                .add(DEEPSLATE_ELECTRUM_ORE.get())
+                .add(BAUXITE_ORE.get())
+                .add(DEEPSLATE_BAUXITE_ORE.get())
+                .add(RAW_ALUMINIUM_BLOCK.get())
+                .add(ALUMINIUM_BLOCK.get())
+                .add(ELECTRUM_BLOCK.get())
+                .add(CASTING_TABLE.get())
+                .add(ALUMINIUM_CASING.get());
 
         tag(net.minecraft.tags.BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.ELECTRUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get())
-                .add(ModBlocks.BAUXITE_ORE.get())
-                .add(ModBlocks.DEEPSLATE_BAUXITE_ORE.get())
-                .add(ModBlocks.RAW_ALUMINIUM_BLOCK.get())
-                .add(ModBlocks.ALUMINIUM_BLOCK.get())
-                .add(ModBlocks.ELECTRUM_BLOCK.get());
+                .add(ELECTRUM_ORE.get())
+                .add(DEEPSLATE_ELECTRUM_ORE.get())
+                .add(BAUXITE_ORE.get())
+                .add(DEEPSLATE_BAUXITE_ORE.get())
+                .add(RAW_ALUMINIUM_BLOCK.get())
+                .add(ALUMINIUM_BLOCK.get())
+                .add(CASTING_TABLE.get())
+                .add(ELECTRUM_BLOCK.get());
 
         // Create: Electrified Tags
-        tag(ModTags.ELECTRUM_ORE_BLOCK)
-                .add(ModBlocks.ELECTRUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
+        tag(ELECTRUM_ORE_BLOCK)
+                .add(ELECTRUM_ORE.get())
+                .add(DEEPSLATE_ELECTRUM_ORE.get());
 
-        tag(ModTags.BAUXITE_ORE_BLOCK)
-                .add(ModBlocks.BAUXITE_ORE.get())
-                .add(ModBlocks.DEEPSLATE_BAUXITE_ORE.get());
+        tag(BAUXITE_ORE_BLOCK)
+                .add(BAUXITE_ORE.get())
+                .add(DEEPSLATE_BAUXITE_ORE.get());
     }
 
     @Override

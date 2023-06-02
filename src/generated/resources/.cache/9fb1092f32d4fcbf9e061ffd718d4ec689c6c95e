@@ -1,4 +1,4 @@
-// 1.19.2	2023-05-13T15:01:10.5846241	Recipes
+// 1.19.2	2023-06-02T18:43:13.0461475	Recipes
 0ab92cb7968c5279e93bb151b0bba1b25b14b988 data/createlectrified/advancements/recipes/electrifiedtab1/aluminium_block.json
 8e58b18020c9848d345840d167e3959e23fe5117 data/createlectrified/advancements/recipes/electrifiedtab1/aluminium_nugget.json
 d95164a4f47a4055a3760911bbdf3ddd72e0be4e data/createlectrified/advancements/recipes/electrifiedtab1/cable_insulation.json
@@ -20,7 +20,7 @@ b9622df532e5119d5eb908696873cb15a4985798 data/minecraft/advancements/recipes/ele
 b64e75f30061b3ad12b49de256a45ef1342af558 data/minecraft/advancements/recipes/electrifiedtab1/crushedbauxite1.json
 c7dc6d451ca818b7265a8e6fe207ffc3ab00d1c6 data/minecraft/advancements/recipes/electrifiedtab1/crushedbauxite2.json
 ceb5f5c57bca2abbec946a9aefc79d0475b1c624 data/minecraft/advancements/recipes/electrifiedtab1/electrum1.json
-a1110d2092d0373ad134ea5e5fb0938cf2a520e6 data/minecraft/advancements/recipes/electrifiedtab1/electrum2.json
+513bf5f5b8e5e11521fc5cb47b695585f01f78f8 data/minecraft/advancements/recipes/electrifiedtab1/electrum2.json
 e45cb5e551769f84e2a9b145352e77813a360b99 data/minecraft/advancements/recipes/electrifiedtab1/raw_aluminium1.json
 2cea30e7d8fb40d9a85be62a92192d5d26424167 data/minecraft/advancements/recipes/electrifiedtab1/raw_aluminium2.json
 646fb04cad36a9fbdf6a7c48302d7a420a3edbe3 data/minecraft/recipes/aluminium1.json

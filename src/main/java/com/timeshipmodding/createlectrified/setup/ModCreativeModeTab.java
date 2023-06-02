@@ -20,6 +20,7 @@ public class ModCreativeModeTab {
         public void fillItemList(NonNullList<ItemStack> pItems) {
             // CreativeModeTab Organization
             pItems.add(new ItemStack(ModBlocks.COPPER_CABLE.get()));
+            pItems.add(new ItemStack(ModBlocks.CASTING_TABLE.get()));
             pItems.add(new ItemStack(ModCasingBlocks.ALUMINIUM_CASING.get()));
             pItems.add(new ItemStack(ModBlocks.ALUMINIUM_BLOCK.get()));
             pItems.add(new ItemStack(ModBlocks.ELECTRUM_BLOCK.get()));
@@ -40,6 +41,7 @@ public class ModCreativeModeTab {
             pItems.add(new ItemStack(ModItems.CHARGED_ELECTRUM.get()));
             pItems.add(new ItemStack(ModItems.CABLE_INSULATION.get()));
             pItems.add(new ItemStack(ModItems.MOLTEN_COPPER_BUCKET.get()));
+            pItems.add(new ItemStack(ModItems.MOLTEN_BRASS_BUCKET.get()));
         }
     };
 }

@@ -1,6 +1,6 @@
 {
   "type": "create:mixing",
-  "heatRequirement": "superheated",
+  "heatRequirement": "heated",
   "ingredients": [
     {
       "item": "minecraft:copper_ingot"
@@ -9,7 +9,7 @@
   "results": [
     {
       "amount": 1000,
-      "fluid": "createlectrified:molten_copper_source"
+      "fluid": "createlectrified:molten_copper"
     }
   ]
 }

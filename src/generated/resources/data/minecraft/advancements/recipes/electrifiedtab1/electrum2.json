@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "createlectrified:electrum_ore"
-            ]
+            "tag": "createlectrified:electrum_ore_item"
           }
         ]
       },

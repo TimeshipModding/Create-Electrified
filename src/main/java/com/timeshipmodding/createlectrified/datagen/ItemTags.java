@@ -1,12 +1,13 @@
 package com.timeshipmodding.createlectrified.datagen;
 
 import com.timeshipmodding.createlectrified.CreateElectrified;
-import com.timeshipmodding.createlectrified.registries.ModItems;
-import com.timeshipmodding.createlectrified.registries.ModTags;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+
+import static com.timeshipmodding.createlectrified.registries.ModBlockItems.*;
+import static com.timeshipmodding.createlectrified.registries.ModTags.*;
 
 public class ItemTags extends ItemTagsProvider {
 
@@ -17,13 +18,13 @@ public class ItemTags extends ItemTagsProvider {
     @Override
     protected void addTags() {
         // Create: Electrified Tags
-        tag(ModTags.ELECTRUM_ORE_ITEM)
-                .add(ModItems.ELECTRUM_ORE_BLOCKITEM.get())
-                .add(ModItems.DEEPSLATE_ELECTRUM_ORE_BLOCKITEM.get());
+        tag(ELECTRUM_ORE_ITEM)
+                .add(ELECTRUM_ORE_BLOCKITEM.get())
+                .add(DEEPSLATE_ELECTRUM_ORE_BLOCKITEM.get());
 
-        tag(ModTags.BAUXITE_ORE_ITEM)
-                .add(ModItems.BAUXITE_ORE_BLOCKITEM.get())
-                .add(ModItems.DEEPSLATE_BAUXITE_ORE_BLOCKITEM.get());
+        tag(BAUXITE_ORE_ITEM)
+                .add(BAUXITE_ORE_BLOCKITEM.get())
+                .add(DEEPSLATE_BAUXITE_ORE_BLOCKITEM.get());
 
     }
 
